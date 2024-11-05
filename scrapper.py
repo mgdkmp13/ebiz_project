@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from typing import List, Tuple
 from concurrent.futures import ThreadPoolExecutor
 from functools import partial
+import json
 
 # Base URL for the Warhammer merchandise website
 baseUrl = 'https://merch-eur.warhammer.com'
@@ -19,20 +20,23 @@ def get_products_data(page_url: str) -> List[Tuple[str, str, List[str]]]:
       return None
 
     products = soup.find_all('article', class_='c-gallery-item')
-    product_descripts, product_prices, product_img_src = [], [], []
+    product_data_list = []
 
     for product in products:
-        desc = product.find('h2', class_='c-product-listing__title')
+        name = product.find('h2', class_='c-product-listing__title')
         price = product.find('span', class_='price')
         img_tags = product.find_all('img', class_='image')
         img_src = [tag.get('data-src') for tag in img_tags if tag]
 
-        if desc and price:
-            product_descripts.append(desc.text.strip())
-            product_prices.append(price.text.strip())
-            product_img_src.append(img_src)
+        if name and price:
+            product_data = {
+                "name": name.text.strip(),
+                "price": price.text.strip(),
+                "images": img_src
+            }
+            product_data_list.append(product_data)
 
-    return list(zip(product_descripts, product_prices, product_img_src))
+    return product_data_list
 
 def fetch_all_pages_in_category(category_name: str, max_page_iters: int):
     page_number = 1
@@ -43,11 +47,9 @@ def fetch_all_pages_in_category(category_name: str, max_page_iters: int):
         print(f"Fetching data from: {page_url}")
         products = get_products_data(page_url)
 
-
         if products is None:
             print(f"No more products found in category '{category_name}' on page {page_number}.")
             break
-
         all_products.extend(products)
         page_number += 1
 
@@ -191,7 +193,7 @@ def main():
 
     # Prepare to fetch product data for dropdown categories
     cat_url_names = [subcat.replace(' ', '-').lower() for cat in dropdown_cats_info for subcat in cat[1]]
-    all_cats_prod_info = []
+    all_cats_prod_info = {}
 
     fetch_with_max_iters = partial(fetch_all_pages_in_category, max_page_iters=1)
 
@@ -200,16 +202,20 @@ def main():
       results = executor.map(fetch_with_max_iters, cat_url_names)
 
       for cat, prod_info in zip(cat_url_names, results):
-        all_cats_prod_info.append((cat, prod_info))
+        all_cats_prod_info[cat] = prod_info
 
 
     # Uncomment the next line to see all products info
     counter = 0
     for cat in all_cats_prod_info:
         counter += len(cat[1])
+        
     print(counter)
     print(no_subcat_cats)
     print(dropdown_cats_info)
+
+    with open('warhammer_products.json', 'w', encoding='utf-8') as json_file:
+        json.dump(all_cats_prod_info, json_file, ensure_ascii=False, indent=4)
 
 
 # Execute main function

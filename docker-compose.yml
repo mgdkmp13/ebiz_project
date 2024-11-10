@@ -1,7 +1,7 @@
 version: '3'
 services:
   mysql:
-    container_name: some-mysql
+    container_name: ebiz-mysql
     image: mysql:5.7
     restart: unless-stopped
     environment:
@@ -11,7 +11,7 @@ services:
       - prestashop_network
   prestashop:
     container_name: prestashop
-    image: prestashop/prestashop:latest
+    image: prestashop/prestashop:1.7.8-php7.3
     restart: unless-stopped
     depends_on:
       - mysql
@@ -20,7 +20,7 @@ services:
     environment:
       ADMIN_MAIL: admin@prestashop.com 
       ADMIN_PASSWD: admin123
-      DB_SERVER: some-mysql
+      DB_SERVER: ebiz-mysql
       DB_NAME: prestashop
       DB_USER: root
       DB_PASSWD: admin

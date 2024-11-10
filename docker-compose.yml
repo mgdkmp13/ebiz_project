@@ -8,10 +8,11 @@ services:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: prestashop
     networks:
-      - prestashop_network
+      - prestashop_network 
+
   prestashop:
     container_name: prestashop
-    image: prestashop/prestashop:1.7.8-php7.3
+    image: prestashop/prestashop:1.7.8
     restart: unless-stopped
     depends_on:
       - mysql
@@ -29,5 +30,11 @@ services:
       PS_FOLDER_ADMIN: admin123
     networks:
       - prestashop_network
+    volumes:
+      - ./prestashop_data:/var/www/html  
+
 networks:
-    prestashop_network:
+  prestashop_network:
+
+volumes:
+  prestashop_data:  

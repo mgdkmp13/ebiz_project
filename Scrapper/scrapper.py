@@ -31,7 +31,7 @@ def get_products_data(page_url: str) -> List[Tuple[str, str, List[str]]]:
         if name and price:
             product_data = {
                 "name": name.text.strip(),
-                "price": price.text.strip(),
+                "price": price.text.strip().replace('€', '').replace(',', '.').strip(),
                 "images": img_src
             }
             product_data_list.append(product_data)

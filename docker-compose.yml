@@ -8,7 +8,9 @@ services:
       MYSQL_ROOT_PASSWORD: admin
       MYSQL_DATABASE: prestashop
     networks:
-      - prestashop_network 
+      - prestashop_network
+    volumes:
+      - ./db_init:/docker-entrypoint-initdb.d # Mapowanie lokalnego katalogu ze skryptami inicjalizacyjnymi
 
   prestashop:
     container_name: prestashop
@@ -31,10 +33,10 @@ services:
     networks:
       - prestashop_network
     volumes:
-      - ./prestashop_data:/var/www/html  
+      - ./src:/var/www/html  # Dane PrestaShop, aby były trwałe
 
 networks:
   prestashop_network:
 
 volumes:
-  prestashop_data:  
+  src:  # Wolumen na dane PrestaShop

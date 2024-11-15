@@ -1,5 +1,4 @@
 /Lib/
 /Scripts/
 
-*env/
-prestashop_data/var/cache/*
+prestashop/var/cache/*

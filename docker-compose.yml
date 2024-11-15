@@ -1,42 +1,54 @@
-version: '3'
+version: '3.7'
+
 services:
-  mysql:
-    container_name: ebiz-mysql
-    image: mysql:5.7
-    restart: unless-stopped
+  mariadb:
+    image: mariadb
+    container_name: mariadb
     environment:
-      MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: prestashop
+      MYSQL_ROOT_PASSWORD: prestashop       # Hasło dla root
+      MYSQL_DATABASE: prestashop            # Tworzymy bazę danych o nazwie 'prestashop'
+    ports:
+      - "3307:3306"                          # Mapowanie portów, zewnętrzny 3307 na wewnętrzny 3306
     networks:
-      - prestashop_network
+      - prestashop-net
     volumes:
-      - ./db_init:/docker-entrypoint-initdb.d # Mapowanie lokalnego katalogu ze skryptami inicjalizacyjnymi
+      - ./db_data:/var/lib/mysql           # Wolumen bazy danych, zachowa dane nawet po zatrzymaniu kontenera
 
   prestashop:
+    image: prestashop/prestashop:1.7.8-7.3
     container_name: prestashop
-    image: prestashop/prestashop:1.7.8
-    restart: unless-stopped
-    depends_on:
-      - mysql
-    ports:
-      - 8080:80
     environment:
+      DB_SERVER: mariadb                    # Nazwa kontenera MariaDB (nie port)
+      DB_NAME: prestashop                   # Nazwa bazy danych, która ma być używana przez PrestaShop
+      DB_USER: root                         # Użytkownik bazy danych
+      DB_PASSWD: prestashop                 # Hasło dla użytkownika root w MariaDB (musisz ustawić takie samo jak w mariaDB)
+      PS_INSTALL_AUTO: 1                    # Automatyczna instalacja PrestaShop
+      PS_DOMAIN: localhost:8080            # Adres, pod którym jest dostępny PrestaShop
+      PS_FOLDER_ADMIN: admin123     
       ADMIN_MAIL: admin@prestashop.com 
-      ADMIN_PASSWD: admin123
-      DB_SERVER: ebiz-mysql
-      DB_NAME: prestashop
-      DB_USER: root
-      DB_PASSWD: admin
-      PS_INSTALL_AUTO: 1
-      PS_DOMAIN: localhost:8080
-      PS_FOLDER_ADMIN: admin123
+      ADMIN_PASSWD: admin123 # Folder administracyjny PrestaShop
+    ports:
+      - "8080:80"                           # Mapowanie portów, zewnętrzny 8080 na wewnętrzny 80
     networks:
-      - prestashop_network
+      - prestashop-net
+    depends_on:
+      - mariadb
     volumes:
-      - ./src:/var/www/html  # Dane PrestaShop, aby były trwałe
+      - ./prestashop:/var/www/html         # Wolumen z plikami PrestaShop
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    environment:
+      PMA_HOST: mariadb                    # Kontener MariaDB, z którym PHPMyAdmin ma się połączyć
+      PMA_PORT: 3306                       # Port MariaDB
+    ports:
+      - "8081:80"                           # Mapowanie portów, zewnętrzny 8081 na wewnętrzny 80
+    networks:
+      - prestashop-net
 
 networks:
-  prestashop_network:
+  prestashop-net:  # Definicja sieci, w której działają kontenery
 
 volumes:
-  src:  # Wolumen na dane PrestaShop
+  db_data:           # Wolumen do przechowywania danych bazy danych MariaDB

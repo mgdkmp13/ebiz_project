@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-16 00:44:40
+/* Smarty version 3.1.48, created on 2024-11-16 17:52:03
   from '/var/www/html/modules/welcome/views/templates/lost.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6737dce8868420_91451503',
+  'unifunc' => 'content_6738cdb3a29e99_85767163',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f4936326b9d2a210328fbefd3e69a119705f0b49' => 
     array (
       0 => '/var/www/html/modules/welcome/views/templates/lost.tpl',
-      1 => 1731714157,
+      1 => 1676360366,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6737dce8868420_91451503 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6738cdb3a29e99_85767163 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="onboarding onboarding-popup bootstrap">
   <div class="content">

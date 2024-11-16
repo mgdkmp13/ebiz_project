@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-16 00:53:35
+/* Smarty version 3.1.48, created on 2024-11-16 17:51:38
   from '/var/www/html/themes/classic/templates/catalog/_partials/productlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6737deffcbd7d2_81161243',
+  'unifunc' => 'content_6738cd9acc95f2_45552876',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '86a4d354f725902b1405db749b93834da03807f6' => 
     array (
       0 => '/var/www/html/themes/classic/templates/catalog/_partials/productlist.tpl',
-      1 => 1731714157,
+      1 => 1702485415,
       2 => 'file',
     ),
   ),
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 1,
   ),
 ),false)) {
-function content_6737deffcbd7d2_81161243 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '12654889276737deffcb9e24_93132363';
+function content_6738cd9acc95f2_45552876 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '16369212976738cd9acc64d9_29644295';
 ?>
 
 <?php $_smarty_tpl->smarty->ext->_capture->open($_smarty_tpl, 'default', "productClasses", null);

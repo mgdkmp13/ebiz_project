@@ -60,7 +60,7 @@ def get_products_data(page_url: str) -> List[dict]:
         if name_element and price_element:
             product_data = {
                 "name": name_element.text.strip(),
-                "price": price_element.text.strip(),
+                "price": price_element.text.strip().replace('€', '').replace(',', '.').strip(),
                 "images": img_src,
                 "detailed_images": prod_info_from_page[0],
                 "description": prod_info_from_page[1],
@@ -121,7 +121,6 @@ def save_to_json(data):
     print(f"Data saved to 'scraping_results/warhammer_products.json'.")
     print(f"Absolute path: {os.path.join(results_folder, 'warhammer_products.json')}")
     
-# Main function
 def main():
     page = requests.get(baseUrl)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -132,19 +131,25 @@ def main():
     print("Categories with no subcategories:", no_subcat_cats)
     print("\nDropdown Categories:", dropdown_cats_info)
 
-    # Prepare to fetch product data for dropdown categories
-    cat_url_names = [subcat.replace(' ', '-').lower() for cat in dropdown_cats_info for subcat in cat[1]]
-    all_cats_prod_info = {}
+    categorized_data = {}
+
+    cat_url_names = {
+        **{cat: [subcat.replace(' ', '-').lower() for subcat in subcats] for cat, subcats in dropdown_cats_info},
+        "OTHERS": [cat.replace(' ', '-').lower() for cat in no_subcat_cats]
+    }
 
     fetch_with_max_iters = partial(fetch_all_pages_in_category, max_page_iters=6)
-    product_count = 0
+
     with ThreadPoolExecutor() as executor:
-        results = executor.map(fetch_with_max_iters, cat_url_names)
-        product_count += sum([len(products) for products in results])
-        for cat, prod_info in zip(cat_url_names, results):
-            all_cats_prod_info[cat] = prod_info
-    print(f"Total products fetched: {product_count}")
-    save_to_json(all_cats_prod_info)
+        for cat, subcat_urls in cat_url_names.items():
+            results = executor.map(fetch_with_max_iters, subcat_urls)
+            for subcat, products in zip(subcat_urls, results):
+                if cat not in categorized_data:
+                    categorized_data[cat] = {}
+                categorized_data[cat][subcat] = products
+
+    print(f"Categorized data structure built successfully.")
+    save_to_json(categorized_data)
 
 # Execute main function
 if __name__ == "__main__":

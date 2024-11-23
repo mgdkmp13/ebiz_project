@@ -4,7 +4,7 @@ import os
 import copy
 
 # Configure constants
-product_file_path = "../Scrapper/warhammer_products.json"
+product_file_path = "../Scrapper/scrapping_results/warhammer_products.json"
 API_URL = "http://localhost:8080/api"
 API_KEY = "9GZ3CMM492N2YWCMDBNDTRZXE5TW14EG"
 

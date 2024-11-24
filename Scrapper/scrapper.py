@@ -8,10 +8,14 @@ import os
 
 # Base URL for the Warhammer merchandise website
 baseUrl = 'https://merch-eur.warhammer.com'
+cookies = {
+    'localization': 'PL',
+    'cart_currency': 'PLN',
+}
 
 # Function to extract product details from the product page
 def get_info_from_product_page(product_page_url: str) -> Tuple[List[str], Optional[str], Optional[str], List[str], List[str], List[str]]:
-    page = requests.get(product_page_url)
+    page = requests.get(product_page_url, cookies=cookies)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     big_product_images = ['https:' + image_link.get('href') for image_link in soup.find_all('a', class_='c-gallery__modal')]
@@ -37,7 +41,7 @@ def get_info_from_product_page(product_page_url: str) -> Tuple[List[str], Option
 
 # Function to scrape product data from a category page
 def get_products_data(page_url: str) -> List[dict]:
-    page = requests.get(page_url)
+    page = requests.get(page_url, cookies=cookies)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     no_products_message = soup.find('p', class_='c-collections__message')
@@ -60,7 +64,7 @@ def get_products_data(page_url: str) -> List[dict]:
         if name_element and price_element:
             product_data = {
                 "name": name_element.text.strip(),
-                "price": price_element.text.strip().replace('€', '').replace(',', '.').strip(),
+                "price": price_element.text.strip().replace(' zł', '').replace(',', '.').strip(),
                 "images": img_src,
                 "detailed_images": prod_info_from_page[0],
                 "description": prod_info_from_page[1],
@@ -122,7 +126,7 @@ def save_to_json(data):
     print(f"Absolute path: {os.path.join(results_folder, 'warhammer_products.json')}")
     
 def main():
-    page = requests.get(baseUrl)
+    page = requests.get(baseUrl, cookies=cookies)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     no_subcat_cats = get_categories(soup)

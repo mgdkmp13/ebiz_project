@@ -4,6 +4,7 @@ import os
 import copy
 import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
+import requests
 
 # Configure constants
 product_file_path = "../Scrapper/scraping_results/warhammer_products.json"
@@ -160,8 +161,33 @@ def send_product(product_data, product_schema):
 
         print(f"Stock for product '{product_data['name']}' updated to {product_data['quantity']}")
 
+        for image_url in product_data["detailed_images"]:
+            upload_image_to_prestashop(image_url, product_id)
+
     except Exception as e:
         print(f"Error creating product '{product_data['name']}': {e}")
+
+def download_image(image_url: str) -> bytes:
+    try:
+        response = requests.get(image_url)
+        response.raise_for_status()
+        return response.content
+    except requests.exceptions.RequestException as e:
+        print(f"Błąd podczas pobierania obrazu: {e}")
+        return None
+
+def upload_image_to_prestashop(image_url: str, product_id: str):
+    image_content = download_image(image_url)
+    
+    if image_content:
+        image_name = image_url.split('/')[-1].split('?')[0]
+        try:
+            prestashop.add(f"images/products/{product_id}", files=[("image", image_name, image_content)])
+            print(f"Obraz {image_name} został pomyślnie przesłany dla produktu {product_id}.")
+        except Exception as e:
+            print(f"Nie udało się przesłać obrazu: {e}")
+    else:
+        print("Nie udało się pobrać obrazu.")
 
 def main():
     delete_all_products()

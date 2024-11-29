@@ -111,6 +111,33 @@ def get_dropdown_categories(soup):
 
     return dropdown_cats_info
 
+def get_mega_panel_categories(soup):
+    mega_cats_info = []
+    category_with_subcategories_mega = soup.find_all('div', class_='main-menu__item -has-mega-panel')
+
+    for cat in category_with_subcategories_mega:
+        main_cat = cat.find('button', class_='main-menu__button').text.strip()
+        subcats_info = []
+
+        for subcat in cat.find_all("div", class_="c-mega-image-panel__menu"):
+            subcat_name = subcat.find("span", class_="title").text.strip()
+            sub_sub_cats_info = [
+                (
+                    sub_sub_cat.find("h3", class_="title").text.strip(),
+                    sub_sub_cat.find("img", class_="image").get("src")
+                )
+                for sub_sub_cat in subcat.find_all("li")
+            ]
+            mega_cats_info.append((subcat_name, sub_sub_cats_info))
+
+        #ega_cats_info.append((main_cat, subcats_info))
+
+    return mega_cats_info
+
+
+
+
+
 def save_to_json(data):
     scrapper_folder = os.path.dirname(os.path.abspath(__file__))
     results_folder = os.path.join(scrapper_folder, 'scraping_results')
@@ -127,18 +154,22 @@ def main():
 
     no_subcat_cats = get_categories(soup)
     dropdown_cats_info = get_dropdown_categories(soup)
+    mega_cats_info = get_mega_panel_categories(soup)
+
 
     print("Categories with no subcategories:", no_subcat_cats)
     print("\nDropdown Categories:", dropdown_cats_info)
+    print("\nMega Panel Categories:", mega_cats_info)
 
     categorized_data = {}
 
     cat_url_names = {
         **{cat: [subcat.replace(' ', '-').lower() for subcat in subcats] for cat, subcats in dropdown_cats_info},
+        **{cat: [subcat[0].replace(' ', '-').lower() for subcat in subcats] for cat, subcats in mega_cats_info},
         "OTHERS": [cat.replace(' ', '-').lower() for cat in no_subcat_cats]
     }
 
-    fetch_with_max_iters = partial(fetch_all_pages_in_category, max_page_iters=6)
+    fetch_with_max_iters = partial(fetch_all_pages_in_category, max_page_iters=1)
 
     with ThreadPoolExecutor() as executor:
         for cat, subcat_urls in cat_url_names.items():

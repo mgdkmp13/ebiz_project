@@ -128,9 +128,9 @@ def get_mega_panel_categories(soup):
                 )
                 for sub_sub_cat in subcat.find_all("li")
             ]
-            mega_cats_info.append((subcat_name, sub_sub_cats_info))
+            subcats_info.append((subcat_name, sub_sub_cats_info))
 
-        #ega_cats_info.append((main_cat, subcats_info))
+        mega_cats_info.append((main_cat, subcats_info))
 
     return mega_cats_info
 
@@ -156,7 +156,6 @@ def main():
     dropdown_cats_info = get_dropdown_categories(soup)
     mega_cats_info = get_mega_panel_categories(soup)
 
-
     print("Categories with no subcategories:", no_subcat_cats)
     print("\nDropdown Categories:", dropdown_cats_info)
     print("\nMega Panel Categories:", mega_cats_info)
@@ -165,22 +164,44 @@ def main():
 
     cat_url_names = {
         **{cat: [subcat.replace(' ', '-').lower() for subcat in subcats] for cat, subcats in dropdown_cats_info},
-        **{cat: [subcat[0].replace(' ', '-').lower() for subcat in subcats] for cat, subcats in mega_cats_info},
         "OTHERS": [cat.replace(' ', '-').lower() for cat in no_subcat_cats]
     }
 
     fetch_with_max_iters = partial(fetch_all_pages_in_category, max_page_iters=1)
 
     with ThreadPoolExecutor() as executor:
+        # Przetwarzanie mega panel kategorii
+        for main_cat, subcats_info in mega_cats_info:
+            categorized_data[main_cat] = {}
+            for subcat_name, sub_subcats_info in subcats_info:
+                subcat_key = subcat_name.replace(' ', '-').lower()
+                categorized_data[main_cat][subcat_name] = []
+
+                for sub_subcat_name, sub_subcat_image in sub_subcats_info:
+                    sub_subcat_key = sub_subcat_name.replace(' ', '-').lower()
+                    print(f"Fetching products for sub-subcategory: {sub_subcat_name}")
+                    
+                    # Pobieranie produktów dla pod-podkategorii
+                    products = fetch_with_max_iters(sub_subcat_key)
+                    categorized_data[main_cat][subcat_name].append({
+                        "name": sub_subcat_name,
+                        "image": f"https:{sub_subcat_image}",
+                        "products": products
+                    })
+
+        # Przetwarzanie pozostałych kategorii
         for cat, subcat_urls in cat_url_names.items():
+            if cat not in categorized_data:
+                categorized_data[cat] = {}
+
             results = executor.map(fetch_with_max_iters, subcat_urls)
             for subcat, products in zip(subcat_urls, results):
-                if cat not in categorized_data:
-                    categorized_data[cat] = {}
                 categorized_data[cat][subcat] = products
 
     print(f"Categorized data structure built successfully.")
     save_to_json(categorized_data)
+
+
 
 # Execute main function
 if __name__ == "__main__":

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-16 19:11:39
+/* Smarty version 3.1.48, created on 2024-11-24 21:16:59
   from '/var/www/html/admin123/themes/default/template/helpers/list/list_action_enable.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6738e05bcf61c8_58116853',
+  'unifunc' => 'content_674389bb10ca50_24902877',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd5e46c1063685036cfc7d3d1d3230208af2b20a8' => 
     array (
       0 => '/var/www/html/admin123/themes/default/template/helpers/list/list_action_enable.tpl',
-      1 => 1702485415,
+      1 => 1732466708,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6738e05bcf61c8_58116853 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674389bb10ca50_24902877 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['migrated_url_enable']->value))) {?>
   <?php $_smarty_tpl->_assignInScope('url_enable', $_smarty_tpl->tpl_vars['migrated_url_enable']->value);
 }?>

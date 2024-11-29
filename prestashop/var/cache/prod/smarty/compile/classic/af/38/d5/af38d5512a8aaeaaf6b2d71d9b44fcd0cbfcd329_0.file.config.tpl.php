@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2024-11-16 17:51:52
+/* Smarty version 3.1.48, created on 2024-11-24 21:15:45
   from '/var/www/html/modules/dashgoals/views/templates/hook/config.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6738cda8dd0894_11632677',
+  'unifunc' => 'content_674389713a2a35_87906609',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'af38d5512a8aaeaaf6b2d71d9b44fcd0cbfcd329' => 
     array (
       0 => '/var/www/html/modules/dashgoals/views/templates/hook/config.tpl',
-      1 => 1679501772,
+      1 => 1732466709,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6738cda8dd0894_11632677 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674389713a2a35_87906609 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section id="dashgoals_config" class="dash_config hide">
 	<header><i class="icon-wrench"></i> <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Configuration','d'=>'Admin.Global'),$_smarty_tpl ) );?>
 </header>
@@ -47,7 +47,7 @@ $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->t
 $_smarty_tpl->tpl_vars['month']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['month']->key => $_smarty_tpl->tpl_vars['month']->value) {
 $_smarty_tpl->tpl_vars['month']->do_else = false;
-$__foreach_month_29_saved = $_smarty_tpl->tpl_vars['month'];
+$__foreach_month_0_saved = $_smarty_tpl->tpl_vars['month'];
 ?>
 				<tr>
 					<td>
@@ -89,7 +89,7 @@ $__foreach_month_29_saved = $_smarty_tpl->tpl_vars['month'];
 					</td>
 				</tr>
 				<?php
-$_smarty_tpl->tpl_vars['month'] = $__foreach_month_29_saved;
+$_smarty_tpl->tpl_vars['month'] = $__foreach_month_0_saved;
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 			</tbody>

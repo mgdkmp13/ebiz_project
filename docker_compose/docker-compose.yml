@@ -10,7 +10,7 @@ services:
     networks:
       - prestashop_network
     volumes:
-      - ./db_init:/docker-entrypoint-initdb.d # Mapowanie lokalnego katalogu ze skryptami inicjalizacyjnymi
+      - ../db_init:/docker-entrypoint-initdb.d # Mapowanie lokalnego katalogu ze skryptami inicjalizacyjnymi
 
   prestashop:
     container_name: prestashop
@@ -33,7 +33,7 @@ services:
     networks:
       - prestashop_network
     volumes:
-      - ./prestashop:/var/www/html  # Dane PrestaShop, aby były trwałe
+      - ../prestashop:/var/www/html  # Dane PrestaShop, aby były trwałe
 
 networks:
   prestashop_network:

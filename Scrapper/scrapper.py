@@ -8,10 +8,13 @@ import os
 
 # Base URL for the Warhammer merchandise website
 baseUrl = 'https://merch-eur.warhammer.com'
-
+cookies = {
+    'localization': 'PL',
+    'cart_currency': 'PLN',
+}
 # Function to extract product details from the product page
 def get_info_from_product_page(product_page_url: str) -> Tuple[List[str], Optional[str], Optional[str], List[str], List[str], List[str]]:
-    page = requests.get(product_page_url)
+    page = requests.get(product_page_url, cookies=cookies)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     big_product_images = ['https:' + image_link.get('href') for image_link in soup.find_all('a', class_='c-gallery__modal')]
@@ -37,7 +40,7 @@ def get_info_from_product_page(product_page_url: str) -> Tuple[List[str], Option
 
 # Function to scrape product data from a category page
 def get_products_data(page_url: str) -> List[dict]:
-    page = requests.get(page_url)
+    page = requests.get(page_url, cookies=cookies)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     no_products_message = soup.find('p', class_='c-collections__message')
@@ -60,7 +63,7 @@ def get_products_data(page_url: str) -> List[dict]:
         if name_element and price_element:
             product_data = {
                 "name": name_element.text.strip(),
-                "price": price_element.text.strip().replace('€', '').replace(',', '.').strip(),
+                "price": price_element.text.strip().replace(' zł', '').replace(',', '.').strip(),
                 "images": img_src,
                 "detailed_images": prod_info_from_page[0],
                 "description": prod_info_from_page[1],
@@ -134,10 +137,6 @@ def get_mega_panel_categories(soup):
 
     return mega_cats_info
 
-
-
-
-
 def save_to_json(data):
     scrapper_folder = os.path.dirname(os.path.abspath(__file__))
     results_folder = os.path.join(scrapper_folder, 'scraping_results')
@@ -149,7 +148,7 @@ def save_to_json(data):
     print(f"Absolute path: {os.path.join(results_folder, 'warhammer_products.json')}")
     
 def main():
-    page = requests.get(baseUrl)
+    page = requests.get(baseUrl, cookies=cookies)
     soup = BeautifulSoup(page.content, 'html.parser')
 
     no_subcat_cats = get_categories(soup)
@@ -163,40 +162,76 @@ def main():
     categorized_data = {}
 
     cat_url_names = {
-        **{cat: [subcat.replace(' ', '-').lower() for subcat in subcats] for cat, subcats in dropdown_cats_info},
-        "OTHERS": [cat.replace(' ', '-').lower() for cat in no_subcat_cats]
+        **{cat: [subcat for subcat in subcats] for cat, subcats in dropdown_cats_info},
+        "OTHERS": [cat for cat in no_subcat_cats]
     }
 
+    cat_url_names = {
+        key: [
+            {
+                "original": value,
+                "modified": value
+                    .replace(' ', '-').lower()
+                    .replace("2025-calendars", "calendars")
+                    .replace("space-marine-2", "warhammer-40-000-space-marine-2")
+                    .replace("latest", "latest-releases")
+                    .replace("gifts", "gifts-2024")
+            }
+            for value in values
+        ]
+        for key, values in cat_url_names.items()
+    }
     fetch_with_max_iters = partial(fetch_all_pages_in_category, max_page_iters=1)
 
     with ThreadPoolExecutor() as executor:
-        # Przetwarzanie mega panel kategorii
+    # Przetwarzanie mega panel kategorii z współbieżnością
         for main_cat, subcats_info in mega_cats_info:
             categorized_data[main_cat] = {}
+            
             for subcat_name, sub_subcats_info in subcats_info:
                 subcat_key = subcat_name.replace(' ', '-').lower()
                 categorized_data[main_cat][subcat_name] = []
 
-                for sub_subcat_name, sub_subcat_image in sub_subcats_info:
+                # Zadania dla pod-podkategorii
+                future_to_sub_subcat = {
+                    executor.submit(
+                        fetch_with_max_iters, 
+                        sub_subcat_name.replace(' ', '-').lower()
+                    ): sub_subcat_name
+                    for sub_subcat_name, sub_subcat_image in sub_subcats_info
+                }
+
+                for future in future_to_sub_subcat:
+                    sub_subcat_name = future_to_sub_subcat[future]
                     sub_subcat_key = sub_subcat_name.replace(' ', '-').lower()
-                    print(f"Fetching products for sub-subcategory: {sub_subcat_name}")
-                    
-                    # Pobieranie produktów dla pod-podkategorii
-                    products = fetch_with_max_iters(sub_subcat_key)
-                    categorized_data[main_cat][subcat_name].append({
-                        "name": sub_subcat_name,
-                        "image": f"https:{sub_subcat_image}",
-                        "products": products
-                    })
+                    sub_subcat_image = next(
+                        img for name, img in sub_subcats_info if name == sub_subcat_name
+                    )
+                    try:
+                        products = future.result()
+                        categorized_data[main_cat][subcat_name].append({
+                            sub_subcat_name : {
+                            "image": f"https:{sub_subcat_image}",
+                            "products": products
+                            }
+                        })
+                    except Exception as e:
+                        print(f"Error fetching products for {sub_subcat_name}: {e}")
 
         # Przetwarzanie pozostałych kategorii
         for cat, subcat_urls in cat_url_names.items():
             if cat not in categorized_data:
                 categorized_data[cat] = {}
 
-            results = executor.map(fetch_with_max_iters, subcat_urls)
+            # Użyj `modified`, jeśli istnieje, w przeciwnym razie `original`
+            results = executor.map(
+                fetch_with_max_iters,
+                [subcat["modified"] if subcat.get("modified") else subcat["original"] for subcat in subcat_urls]
+            )
             for subcat, products in zip(subcat_urls, results):
-                categorized_data[cat][subcat] = products
+                # Zapisuj dane w kategorii
+                subcat_key = subcat["original"]
+                categorized_data[cat][subcat_key] = products
 
     print(f"Categorized data structure built successfully.")
     save_to_json(categorized_data)

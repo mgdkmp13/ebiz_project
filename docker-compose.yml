@@ -13,6 +13,9 @@ services:
       - ./db_init:/docker-entrypoint-initdb.d # Mapowanie lokalnego katalogu ze skryptami inicjalizacyjnymi
 
   prestashop:
+    build:
+      context: ./ssl
+      dockerfile: Dockerfile
     container_name: prestashop
     image: prestashop/prestashop:1.7.8
     restart: unless-stopped
@@ -20,6 +23,7 @@ services:
       - mysql
     ports:
       - 8080:80
+      - 8443:443
     environment:
       ADMIN_MAIL: admin@prestashop.com 
       ADMIN_PASSWD: admin123
@@ -28,7 +32,6 @@ services:
       DB_USER: root
       DB_PASSWD: admin
       PS_INSTALL_AUTO: 1
-      PS_DOMAIN: localhost:8080
       PS_FOLDER_ADMIN: admin123
     networks:
       - prestashop_network

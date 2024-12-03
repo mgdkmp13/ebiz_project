@@ -14,7 +14,7 @@ services:
 
   prestashop:
     build:
-      context: ./ssl
+      context: ../ssl
       dockerfile: Dockerfile
     container_name: prestashop
     image: prestashop/prestashop:1.7.8

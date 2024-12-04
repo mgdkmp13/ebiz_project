@@ -23,7 +23,20 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
+
+
 {if $homeslider.slides}
+ <div class="info">
+    <a href=".">
+      <h2>INFORMACJE O DOSTAWIE!</h2>
+    </a>
+  </div>
+   <div class="info2">
+    <a href=".">
+      <h2>NOWE ZESTAWY PREZENTOWE JUŻ DOSTĘPNE!</h2>
+    </a>
+  </div>
+
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="{$homeslider.speed}" data-wrap="{(string)$homeslider.wrap}" data-pause="{$homeslider.pause}" data-touch="true">
     <ol class="carousel-indicators">
       {foreach from=$homeslider.slides item=slide key=idxSlide name='homeslider'}
@@ -61,3 +74,10 @@
     </div>
   </div>
 {/if}
+
+
+<div class="info">
+  <a href=".">
+    <h1>Informacje o dostawie!</h1>
+  </a>
+</div>

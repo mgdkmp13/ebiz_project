@@ -35,3 +35,8 @@
         {/block}
       </section>
     {/block}
+
+    <div class="custom-text-block">
+  <h2>Welcome to Our Store!</h2>
+  <p>Check out our amazing products and offers.</p>
+</div>

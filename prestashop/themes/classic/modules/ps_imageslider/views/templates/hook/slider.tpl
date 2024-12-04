@@ -74,10 +74,3 @@
     </div>
   </div>
 {/if}
-
-
-<div class="info">
-  <a href=".">
-    <h1>Informacje o dostawie!</h1>
-  </a>
-</div>

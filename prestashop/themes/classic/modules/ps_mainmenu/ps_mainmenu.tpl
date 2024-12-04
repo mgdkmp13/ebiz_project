@@ -19,9 +19,6 @@
                   {if $depth == 0 && $node.children|count} <!-- Strzałka tylko dla głównych kategorii -->
                     <i class="fas fa-chevron-down"></i> <!-- Ikona strzałki -->
                   {/if}
-                  {if $depth == 1 && $node_key != count($nodes)-1} <!-- Separator tylko dla podkategorii -->
-                        |<!-- Separator tylko w podkategoriach -->
-                  {/if}
                 </span>
               </a>
 
@@ -32,7 +29,11 @@
               {/if}
             </li>
 
-            
+            {if $depth == 1 && $node_key != count($nodes)-1} <!-- Separator tylko dla podkategorii i nie na końcu -->
+              <li class="dropdown-separator">
+                <span>|</span>
+              </li>
+            {/if}
 
             {assign var=_counter value=$_counter+1} <!-- Zwiększenie licznika dla unikalnych ID -->
         {/foreach}

@@ -5,6 +5,7 @@
 # !/cache/*/
 # /cache/*/*
 /var/cache/prod/*
+/var/cache/*
 /var/logs/*
 !/cache/cachefs/index.php
 !/cache/purifier/index.php

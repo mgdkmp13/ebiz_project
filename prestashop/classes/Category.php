@@ -1996,22 +1996,35 @@ class CategoryCore extends ObjectModel
      * @since 1.5.0
      */
     public static function inShopStatic($idCategory, Shop $shop = null)
-    {
-        if (!$shop || !is_object($shop)) {
-            $shop = Context::getContext()->shop;
-        }
-
-        if (!$interval = Category::getInterval($shop->getCategory())) {
-            return false;
-        }
-        $sql = new DbQuery();
-        $sql->select('c.`nleft`, c.`nright`');
-        $sql->from('category', 'c');
-        $sql->where('c.`id_category` = ' . (int) $idCategory);
-        $row = Db::getInstance(_PS_USE_SQL_SLAVE_)->getRow($sql);
-
-        return $row['nleft'] >= $interval['nleft'] && $row['nright'] <= $interval['nright'];
+{
+    if (!$shop || !is_object($shop)) {
+        $shop = Context::getContext()->shop;
     }
+
+    // Upewnij się, że getInterval() nie zwróci pustej wartości
+    $interval = Category::getInterval($shop->getCategory());
+    if (!$interval || !isset($interval['nleft']) || !isset($interval['nright'])) {
+        return false;  // Zwróć false, jeśli dane są niepoprawne
+    }
+
+    // Przygotowanie zapytania SQL
+    $sql = new DbQuery();
+    $sql->select('c.`nleft`, c.`nright`');
+    $sql->from('category', 'c');
+    $sql->where('c.`id_category` = ' . (int) $idCategory);
+    
+    // Pobierz wynik zapytania
+    $row = Db::getInstance(_PS_USE_SQL_SLAVE_)->getRow($sql);
+
+    // Jeśli brak wyniku, zwróć false
+    if (!$row) {
+        return false;
+    }
+
+    // Sprawdź, czy kategorie są w odpowiednim zakresie
+    return $row['nleft'] >= $interval['nleft'] && $row['nright'] <= $interval['nright'];
+}
+
 
     /**
      * Get Children for the webservice.

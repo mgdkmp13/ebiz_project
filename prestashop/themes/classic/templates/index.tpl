@@ -40,3 +40,6 @@
   <h2>Welcome to Our Store!</h2>
   <p>Check out our amazing products and offers.</p>
 </div>
+
+{hook h='displayHome'}
+{hook h='displayHome' mod='ps_imageslider2'}

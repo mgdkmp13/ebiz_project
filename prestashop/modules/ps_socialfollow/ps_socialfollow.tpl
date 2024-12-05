@@ -25,5 +25,7 @@
         <li class="{$social_link.class}"><a href="{$social_link.url}">{$social_link.label}</a></li>
       {/foreach}
     </ul>
+     <img src="https://localhost:8443/modules/ps_socialfollow/footer-logo.png">
+
   </div>
 {/block}

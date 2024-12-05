@@ -252,11 +252,17 @@ class Ps_FeaturedProducts extends Module implements WidgetInterface
 
     public function getWidgetVariables($hookName = null, array $configuration = [])
     {
-        $products = $this->getProducts();
+        $products = $this->getProducts(392); //nr kategorii 392
+        $products2 = $this->getProducts(393);  //nr kategorii 393
+        $products3 = $this->getProducts(395);  //nr kategorii 393
+        $products4 = $this->getProducts(377);  //nr kategorii 393
 
         if (!empty($products)) {
             return [
                 'products' => $products,
+                'products2' => $products2,
+                'products3' => $products3,
+                'products4' => $products4,
                 'allProductsLink' => Context::getContext()->link->getCategoryLink($this->getConfigFieldsValues()['HOME_FEATURED_CAT']),
             ];
         }
@@ -264,9 +270,14 @@ class Ps_FeaturedProducts extends Module implements WidgetInterface
         return false;
     }
 
-    protected function getProducts()
+    protected function getProducts(int $id = -1)
     {
-        $category = new Category((int) Configuration::get('HOME_FEATURED_CAT'));
+        if($id == -1) {
+            $category = new Category((int) Configuration::get('HOME_FEATURED_CAT'));
+        }
+        else{
+            $category = new Category($id);
+        }
 
         $searchProvider = new CategoryProductSearchProvider(
             $this->context->getTranslator(),
@@ -326,7 +337,7 @@ class Ps_FeaturedProducts extends Module implements WidgetInterface
 
         $products_for_template = [];
 
-        foreach ($result->getProducts() as $rawProduct) {
+        foreach ($result->getProducts($id) as $rawProduct) {
             $products_for_template[] = $presenter->present(
                 $presentationSettings,
                 $assembler->assembleProduct($rawProduct),

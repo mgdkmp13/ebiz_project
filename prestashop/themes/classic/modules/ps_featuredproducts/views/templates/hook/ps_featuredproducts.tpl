@@ -24,25 +24,33 @@
  *}
 <section class="featured-products clearfix">
   <h2 class="h2 products-section-title text-uppercase">
-    {l s='Popular Products' d='Shop.Theme.Catalog'}
+      OSTATNIO DODANE
   </h2>
   {include file="catalog/_partials/productlist.tpl" products=$products cssClass="row" productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
   <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
     {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
   </a>
 
-   <h2 class="h2 products-section-title text-uppercase">
-    {l s='Popular Products' d='Shop.Theme.Catalog'}
+  <h2 class="h2 products-section-title text-uppercase">
+     KALENDARZE 2025
   </h2>
-  {include file="catalog/_partials/productlist.tpl" products=$products cssClass="row" productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
+  {include file="catalog/_partials/productlist.tpl" products=$products2 cssClass="row" productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
   <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
     {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
   </a>
 
-   <h2 class="h2 products-section-title text-uppercase">
-    {l s='Popular Products' d='Shop.Theme.Catalog'}
+  <h2 class="h2 products-section-title text-uppercase">
+    NIEDŁUGO ZNIKNĄ
   </h2>
-  {include file="catalog/_partials/productlist.tpl" products=$products cssClass="row" productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
+  {include file="catalog/_partials/productlist.tpl" products=$products3 cssClass="row" productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
+  <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
+    {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
+  </a>
+
+  <h2 class="h2 products-section-title text-uppercase">
+    LOGO MERCH
+  </h2>
+  {include file="catalog/_partials/productlist.tpl" products=$products4 cssClass="row" productClass="col-xs-12 col-sm-6 col-lg-4 col-xl-3"}
   <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
     {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
   </a>

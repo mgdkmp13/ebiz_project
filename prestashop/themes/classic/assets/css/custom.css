@@ -521,3 +521,7 @@ span.dropdown-arrow {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.featured-products .products-section-title {
+    color: black !important;
+}

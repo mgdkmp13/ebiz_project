@@ -179,7 +179,7 @@
                         },
                         {
                             "name": "Blood Angels Long Sleeved T Shirt",
-                            "price": "158.00",
+                            "price": "157.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-BLK-POWH1486__285_150x.jpg?v=1606495177",
                                 "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-BLK-POWH1486__285_sleeve-print-left-sleeve_150x.jpg?v=1606495177"
@@ -269,7 +269,7 @@
                         },
                         {
                             "name": "Dark Angels Deathwing T Shirt",
-                            "price": "167.00",
+                            "price": "166.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/files/f5fd9c94b903f7ac8af3ad92c502fa0e07de4e50f80b4cc0_150x.png?v=1727968725"
                             ],
@@ -699,7 +699,7 @@
                         },
                         {
                             "name": "Blood Angels By The Blood White T Shirt",
-                            "price": "167.00",
+                            "price": "166.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/files/110801e1d4f9d2588af2e5649e56f5fbbeba7afe3c7d05eb_150x.png?v=1727967021"
                             ],
@@ -1314,30 +1314,6 @@
                             ]
                         },
                         {
-                            "name": "Death Guard - Mortarion T Shirt",
-                            "price": "144.00",
-                            "images": [
-                                "https://merch-eur.warhammer.com/cdn/shop/files/a7fa8865ab915357851af9854352b75067e2e1b6d60c035c_150x.png?v=1728042145"
-                            ],
-                            "detailed_images": [
-                                "https://merch-eur.warhammer.com/cdn/shop/files/a7fa8865ab915357851af9854352b75067e2e1b6d60c035c_1400x.png?v=1728042145"
-                            ],
-                            "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                            "details": "This Official Premium Death Guard - Mortarion T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
-                            "sizes": [
-                                "S",
-                                "M",
-                                "L",
-                                "XL",
-                                "XXL",
-                                "XXXL",
-                                "XXXXL",
-                                "XXXXXL"
-                            ],
-                            "colours_button": [],
-                            "colours_dropdown": []
-                        },
-                        {
                             "name": "Alpha Legion Battleworn Insignia T Shirt",
                             "price": "144.00",
                             "images": [
@@ -1385,6 +1361,30 @@
                                 "Rust",
                                 "Moss Green"
                             ]
+                        },
+                        {
+                            "name": "Death Guard - Mortarion T Shirt",
+                            "price": "144.00",
+                            "images": [
+                                "https://merch-eur.warhammer.com/cdn/shop/files/a7fa8865ab915357851af9854352b75067e2e1b6d60c035c_150x.png?v=1728042145"
+                            ],
+                            "detailed_images": [
+                                "https://merch-eur.warhammer.com/cdn/shop/files/a7fa8865ab915357851af9854352b75067e2e1b6d60c035c_1400x.png?v=1728042145"
+                            ],
+                            "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
+                            "details": "This Official Premium Death Guard - Mortarion T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
+                            "sizes": [
+                                "S",
+                                "M",
+                                "L",
+                                "XL",
+                                "XXL",
+                                "XXXL",
+                                "XXXXL",
+                                "XXXXXL"
+                            ],
+                            "colours_button": [],
+                            "colours_dropdown": []
                         },
                         {
                             "name": "Slaanesh Infernal Enrapturess T-Shirt",
@@ -1502,46 +1502,6 @@
                             "colours_dropdown": []
                         },
                         {
-                            "name": "Orks Graffiti Insignia T Shirt",
-                            "price": "144.00",
-                            "images": [
-                                "https://merch-eur.warhammer.com/cdn/shop/files/e130ed08f65a8d17a82b33706ef2e88d94a4f653c2b86515_150x.png?v=1728391300",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/974444a96c2f920cd546f65e1e9ad1fd664adefa5d4c4843_150x.png?v=1728391306"
-                            ],
-                            "detailed_images": [
-                                "https://merch-eur.warhammer.com/cdn/shop/files/e130ed08f65a8d17a82b33706ef2e88d94a4f653c2b86515_1400x.png?v=1728391300",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/974444a96c2f920cd546f65e1e9ad1fd664adefa5d4c4843_1400x.png?v=1728391306",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/f12d2c812a059f8b36e51804f8ae284e9b88aa2369de6111_1400x.png?v=1728391311",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/8cb9d2759407a2ee2f64c28aae345db3cda8856e17b7af91_1400x.png?v=1728391316",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/87f622f90190d322392309c0542e34b9d37718d08e8567c1_1400x.png?v=1728391320",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/868a638149e0be31a37c70d05d98bcea55eb98615766e0e6_1400x.png?v=1728391325",
-                                "https://merch-eur.warhammer.com/cdn/shop/files/1fc886120efa90cc8fd88b632832644339e592b04fd2142c_1400x.png?v=1728391330"
-                            ],
-                            "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                            "details": "This Official Premium Orks Graffiti Insignia T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
-                            "sizes": [
-                                "XS",
-                                "S",
-                                "M",
-                                "L",
-                                "XL",
-                                "XXL",
-                                "XXXL",
-                                "XXXXL",
-                                "XXXXXL"
-                            ],
-                            "colours_button": [],
-                            "colours_dropdown": [
-                                "Navy Blue",
-                                "Slate Grey",
-                                "Chocolate",
-                                "Moss Green",
-                                "Black",
-                                "Oat",
-                                "Rust"
-                            ]
-                        },
-                        {
                             "name": "Orks Battleworn Insignia T Shirt",
                             "price": "144.00",
                             "images": [
@@ -1589,6 +1549,46 @@
                                 "Mustard",
                                 "Moss Green",
                                 "Pink"
+                            ]
+                        },
+                        {
+                            "name": "Orks Graffiti Insignia T Shirt",
+                            "price": "144.00",
+                            "images": [
+                                "https://merch-eur.warhammer.com/cdn/shop/files/e130ed08f65a8d17a82b33706ef2e88d94a4f653c2b86515_150x.png?v=1728391300",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/974444a96c2f920cd546f65e1e9ad1fd664adefa5d4c4843_150x.png?v=1728391306"
+                            ],
+                            "detailed_images": [
+                                "https://merch-eur.warhammer.com/cdn/shop/files/e130ed08f65a8d17a82b33706ef2e88d94a4f653c2b86515_1400x.png?v=1728391300",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/974444a96c2f920cd546f65e1e9ad1fd664adefa5d4c4843_1400x.png?v=1728391306",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/f12d2c812a059f8b36e51804f8ae284e9b88aa2369de6111_1400x.png?v=1728391311",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/8cb9d2759407a2ee2f64c28aae345db3cda8856e17b7af91_1400x.png?v=1728391316",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/87f622f90190d322392309c0542e34b9d37718d08e8567c1_1400x.png?v=1728391320",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/868a638149e0be31a37c70d05d98bcea55eb98615766e0e6_1400x.png?v=1728391325",
+                                "https://merch-eur.warhammer.com/cdn/shop/files/1fc886120efa90cc8fd88b632832644339e592b04fd2142c_1400x.png?v=1728391330"
+                            ],
+                            "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
+                            "details": "This Official Premium Orks Graffiti Insignia T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
+                            "sizes": [
+                                "XS",
+                                "S",
+                                "M",
+                                "L",
+                                "XL",
+                                "XXL",
+                                "XXXL",
+                                "XXXXL",
+                                "XXXXXL"
+                            ],
+                            "colours_button": [],
+                            "colours_dropdown": [
+                                "Navy Blue",
+                                "Slate Grey",
+                                "Chocolate",
+                                "Moss Green",
+                                "Black",
+                                "Oat",
+                                "Rust"
                             ]
                         },
                         {
@@ -1876,6 +1876,23 @@
                             ]
                         },
                         {
+                            "name": "Necrons Poster",
+                            "price": "68.00",
+                            "images": [
+                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-PO-_---POWH979__0_150x.jpg?v=1601637330",
+                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-_---POWH979__0-zoomed_150x.jpg?v=1601637330"
+                            ],
+                            "detailed_images": [
+                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-PO-_---POWH979__0_1400x.jpg?v=1601637330",
+                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-_---POWH979__0-zoomed_1400x.jpg?v=1601637330"
+                            ],
+                            "description": "Printed on 190g glossy paper Shipped in a super durable cardboard tube",
+                            "details": "Official Necrons poster.",
+                            "sizes": [],
+                            "colours_button": [],
+                            "colours_dropdown": []
+                        },
+                        {
                             "name": "Leagues of Votann Grafitti T Shirt",
                             "price": "144.00",
                             "images": [
@@ -1896,23 +1913,6 @@
                                 "XXXXL",
                                 "XXXXXL"
                             ],
-                            "colours_button": [],
-                            "colours_dropdown": []
-                        },
-                        {
-                            "name": "Necrons Poster",
-                            "price": "68.00",
-                            "images": [
-                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-PO-_---POWH979__0_150x.jpg?v=1601637330",
-                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-_---POWH979__0-zoomed_150x.jpg?v=1601637330"
-                            ],
-                            "detailed_images": [
-                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-PO-_---POWH979__0_1400x.jpg?v=1601637330",
-                                "https://merch-eur.warhammer.com/cdn/shop/products/WA-_---POWH979__0-zoomed_1400x.jpg?v=1601637330"
-                            ],
-                            "description": "Printed on 190g glossy paper Shipped in a super durable cardboard tube",
-                            "details": "Official Necrons poster.",
-                            "sizes": [],
                             "colours_button": [],
                             "colours_dropdown": []
                         },
@@ -2862,7 +2862,7 @@
                         },
                         {
                             "name": "Mannfred von Carstein T Shirt",
-                            "price": "167.00",
+                            "price": "166.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/files/a1a380fce66101ca19f1312fa015a3b22c729185db1cd6df_150x.png?v=1729785298",
                                 "https://merch-eur.warhammer.com/cdn/shop/files/eee82821aed7bad86e91654dcb0ab26bbfa861cab001c158_150x.png?v=1729785302"
@@ -3071,7 +3071,7 @@
                         },
                         {
                             "name": "Flesh-eater Courts Logo T Shirt",
-                            "price": "167.00",
+                            "price": "166.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/files/cad842c8be6c7954ef9668278848db064777f6546bb0a9b6_150x.png?v=1728490880",
                                 "https://merch-eur.warhammer.com/cdn/shop/files/60842984ca7a54a87b1a60d31656b1f2a4e4f83d2920e3ca_150x.png?v=1728490885"
@@ -3848,7 +3848,7 @@
                         },
                         {
                             "name": "Gloomspite Gitz Backpack",
-                            "price": "158.00",
+                            "price": "157.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-GOL-POWH1529__0_150x.jpg?v=1599990091"
                             ],
@@ -4041,7 +4041,7 @@
                         },
                         {
                             "name": "Stormcast Eternals Logo White T Shirt",
-                            "price": "167.00",
+                            "price": "166.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/files/ccb7954c7bbbbf66ee004cc14cc2fe04188cc865ecf07be5_150x.png?v=1728894112",
                                 "https://merch-eur.warhammer.com/cdn/shop/files/7d2f5b90b5e541367419180989b64fb56e98c5188de65611_150x.png?v=1728894117"
@@ -4180,7 +4180,7 @@
                         },
                         {
                             "name": "Stormcast Eternals Logo T Shirt",
-                            "price": "167.00",
+                            "price": "166.00",
                             "images": [
                                 "https://merch-eur.warhammer.com/cdn/shop/files/c1dc2682d012896efc67ccb839c2075f4e48b0a2892f80d5_150x.png?v=1729785012",
                                 "https://merch-eur.warhammer.com/cdn/shop/files/63b4641b12c6b2964e6a9ffe24d0abf6d6e30f06f736b483_150x.png?v=1729785017"
@@ -4783,7 +4783,7 @@
             },
             {
                 "name": "Blood Angels Long Sleeved T Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-BLK-POWH1486__285_150x.jpg?v=1606495177",
                     "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-BLK-POWH1486__285_sleeve-print-left-sleeve_150x.jpg?v=1606495177"
@@ -4842,7 +4842,7 @@
             },
             {
                 "name": "Dark Angels Deathwing T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/f5fd9c94b903f7ac8af3ad92c502fa0e07de4e50f80b4cc0_150x.png?v=1727968725"
                 ],
@@ -5096,7 +5096,7 @@
             },
             {
                 "name": "Vermintide II 'The Ubersreik Five' T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/f60c7d5b0f167ebc66813d48f704555f4c933f4b3463cdd0_150x.png?v=1727967860"
                 ],
@@ -5147,6 +5147,56 @@
                     "Black",
                     "Athletic Grey",
                     "Navy Blue"
+                ]
+            },
+            {
+                "name": "Orks Battleworn Insignia T Shirt",
+                "price": "144.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2bf05afba00cf5a45f5ffe2383edd47b6fd541a48bbb8913_150x.png?v=1727990717",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/cc677e077ac0ec9bde7eb19a47d7dc78dae76fc16f57d50e_150x.png?v=1727990722"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2bf05afba00cf5a45f5ffe2383edd47b6fd541a48bbb8913_1400x.png?v=1727990717",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/cc677e077ac0ec9bde7eb19a47d7dc78dae76fc16f57d50e_1400x.png?v=1727990722",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/bb71ac2ec7b826c027bcf22207f46aa29527e1c1fa50701e_1400x.png?v=1727990726",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/f510c071ffa0d1bfe92a00bd539806f0131f3499269a21e6_1400x.png?v=1727990730",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/81f1d15ac55fd2001a4dd3b1c2227ae5b525543609ffa9f6_1400x.png?v=1727990735",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/91540d1546164adee8f1380659fd60ab53889a6dce01a52f_1400x.png?v=1727990739",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/b7822ebae374fb1c3473d85423ff8cbf60d7cc5d58e057d4_1400x.png?v=1727990744",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/0199f0b3de560c40ea1b0c02e50a1fc1305df7d2a8e8efcc_1400x.png?v=1727990749",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7f6dd9a356e876459fe36d496fb29ef01e7854eecca037c4_1400x.png?v=1727990754",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/75379bdc60a7f81f05ced6569e3939894cb8be7abf2cfb8f_1400x.png?v=1727990760",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8ada0d32abb60a5f000ee44a225e6b52612c932cc279a3d5_1400x.png?v=1727990764",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/f74b5c8e39f6f50982d62d014c33820f070ac3e242621872_1400x.png?v=1727990768"
+                ],
+                "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
+                "details": "This Official Premium Orks Battleworn Insignia T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
+                "sizes": [
+                    "XS",
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL",
+                    "XXXL",
+                    "XXXXL",
+                    "XXXXXL"
+                ],
+                "colours_button": [],
+                "colours_dropdown": [
+                    "Stone Blue",
+                    "Navy Blue",
+                    "Black",
+                    "Chocolate",
+                    "Evergreen",
+                    "Slate Grey",
+                    "Bright Blue",
+                    "Red",
+                    "Oat",
+                    "Mustard",
+                    "Moss Green",
+                    "Pink"
                 ]
             },
             {
@@ -5218,56 +5268,6 @@
                     "Black",
                     "Athletic Grey",
                     "Navy Blue"
-                ]
-            },
-            {
-                "name": "Orks Battleworn Insignia T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/2bf05afba00cf5a45f5ffe2383edd47b6fd541a48bbb8913_150x.png?v=1727990717",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/cc677e077ac0ec9bde7eb19a47d7dc78dae76fc16f57d50e_150x.png?v=1727990722"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/2bf05afba00cf5a45f5ffe2383edd47b6fd541a48bbb8913_1400x.png?v=1727990717",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/cc677e077ac0ec9bde7eb19a47d7dc78dae76fc16f57d50e_1400x.png?v=1727990722",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/bb71ac2ec7b826c027bcf22207f46aa29527e1c1fa50701e_1400x.png?v=1727990726",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/f510c071ffa0d1bfe92a00bd539806f0131f3499269a21e6_1400x.png?v=1727990730",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/81f1d15ac55fd2001a4dd3b1c2227ae5b525543609ffa9f6_1400x.png?v=1727990735",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/91540d1546164adee8f1380659fd60ab53889a6dce01a52f_1400x.png?v=1727990739",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/b7822ebae374fb1c3473d85423ff8cbf60d7cc5d58e057d4_1400x.png?v=1727990744",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/0199f0b3de560c40ea1b0c02e50a1fc1305df7d2a8e8efcc_1400x.png?v=1727990749",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/7f6dd9a356e876459fe36d496fb29ef01e7854eecca037c4_1400x.png?v=1727990754",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/75379bdc60a7f81f05ced6569e3939894cb8be7abf2cfb8f_1400x.png?v=1727990760",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/8ada0d32abb60a5f000ee44a225e6b52612c932cc279a3d5_1400x.png?v=1727990764",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/f74b5c8e39f6f50982d62d014c33820f070ac3e242621872_1400x.png?v=1727990768"
-                ],
-                "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": "This Official Premium Orks Battleworn Insignia T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": [
-                    "Stone Blue",
-                    "Navy Blue",
-                    "Black",
-                    "Chocolate",
-                    "Evergreen",
-                    "Slate Grey",
-                    "Bright Blue",
-                    "Red",
-                    "Oat",
-                    "Mustard",
-                    "Moss Green",
-                    "Pink"
                 ]
             },
             {
@@ -5343,6 +5343,30 @@
                 ]
             },
             {
+                "name": "Necrons Arise T Shirt",
+                "price": "144.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8f8b981d7441cd7a9cc3feebb66d989db1f69138c66a6e80_150x.png?v=1727967937"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8f8b981d7441cd7a9cc3feebb66d989db1f69138c66a6e80_1400x.png?v=1727967937"
+                ],
+                "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
+                "details": "This Official Premium Necrons Arise T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "XXL",
+                    "XXXL",
+                    "XXXXL",
+                    "XXXXXL"
+                ],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "Blood Angels Graffiti Insignia T Shirt",
                 "price": "144.00",
                 "images": [
@@ -5386,36 +5410,12 @@
                     "Stone Blue",
                     "Mustard"
                 ]
-            },
-            {
-                "name": "Necrons Arise T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/8f8b981d7441cd7a9cc3feebb66d989db1f69138c66a6e80_150x.png?v=1727967937"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/8f8b981d7441cd7a9cc3feebb66d989db1f69138c66a6e80_1400x.png?v=1727967937"
-                ],
-                "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": "This Official Premium Necrons Arise T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
-                "sizes": [
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
             }
         ],
         "PREMIUM HOODIES": [
             {
                 "name": "Premium Skaven Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/1d97b7e8824f5ddd1fd5da7123e1d61ce6424f400cb290e1_19236a62-84ae-43dd-9a65-1614afec7170_150x.png?v=1726589484",
                     "https://merch-eur.warhammer.com/cdn/shop/files/4f60a9d54880e95322d25dc8055117a66abf3719f0688a2c_a7316f5c-bc8a-447b-95ff-ff4ee4242e6b_150x.png?v=1726589484"
@@ -5443,7 +5443,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Warriors of Chaos Crest Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/5y9vigedgj1jaotcjuv35azbqjv4xcnoahbyqmjdiwxuxfza_150x.png?v=1727428036",
                     "https://merch-eur.warhammer.com/cdn/shop/files/wypggjmotrdb6nrlurjxv3gniewx9oq5sozuoux1adaviuwg_150x.png?v=1727428034"
@@ -5473,7 +5473,7 @@
             },
             {
                 "name": "Premium Blood Angels Death Company Hoodie",
-                "price": "394.00",
+                "price": "393.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/15c020dcac24829c4a033b487fe823896a27988bc84c3900_7576dbe1-fabb-4da8-aebb-ed0c25d220f8_150x.png?v=1725275141",
                     "https://merch-eur.warhammer.com/cdn/shop/files/2331484244ede60fbe71ea6c3579df5b9908bed229b4acd1_4ad3e60a-fedb-483a-b1b5-992871f46ae6_150x.png?v=1725275141"
@@ -5501,7 +5501,7 @@
             },
             {
                 "name": "Premium Blood Angels The Flaw Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/ee489097219b0002d20ff669a52209cfa22be79e6a98d180_61f6e8c2-3b6a-4ffb-90b5-adff5354ac00_150x.png?v=1725275140",
                     "https://merch-eur.warhammer.com/cdn/shop/files/1f3b3524451d938fdf864ec668dfa6823892828461299ffd_477a1a0b-3423-4177-a97a-7c1f12482204_150x.png?v=1725275141"
@@ -5529,7 +5529,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Skull Halo Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/smpybexmfjluyj95afay3mpn4ggf0arpu522ymaduytckdpj_150x.png?v=1724333466",
                     "https://merch-eur.warhammer.com/cdn/shop/files/8wbgzvjkaw29ibhqegzrc9kr6acgkr3ntkqmgifpvzgkkg3x_150x.png?v=1724333461"
@@ -5577,7 +5577,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Skull Halo Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/4vglmrwvaoi6hhb7kb3hbddkgku4tcv4ahmrofdkfgasivlz_150x.png?v=1724333434",
                     "https://merch-eur.warhammer.com/cdn/shop/files/7n5vnojbwx0q5ojhovrljb6vblaqyndxkv79cwryyznwmrax_150x.png?v=1724333429"
@@ -5625,7 +5625,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Skull Halo Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/grey_hood_front_150x.png?v=1723558317",
                     "https://merch-eur.warhammer.com/cdn/shop/files/grey_hood_back_150x.png?v=1723558318"
@@ -5658,7 +5658,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Titus' Helm Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/fd34baad8e51a16b818f87292e5f0c200174834d52d80bc7_e8a38f70-928e-4a81-90d8-40449a8d3c93_150x.png?v=1721998069",
                     "https://merch-eur.warhammer.com/cdn/shop/files/419067212edc7084ce4ab46e90045f83e7a2d86f5b04ba06_4a5279d4-7b0a-4da3-93c5-1c1555e4030f_150x.png?v=1721998069"
@@ -5684,7 +5684,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Only War Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7hamzcozghzd4tahpgypldsk9halr7a2qxjh353dixsnjfaa_150x.png?v=1727427291",
                     "https://merch-eur.warhammer.com/cdn/shop/files/sp29w4w1e4dfvcqibnzgbha7eetmls0zps9bz1ef5kdhbay7_150x.png?v=1727427286"
@@ -5712,7 +5712,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Eternal Service White Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7b7bbd3547e108fc70b40f9c6a85586f20d90e64aa9e4cb0_a3796f03-e930-401f-bb1b-7627b17996b8_150x.png?v=1721998066",
                     "https://merch-eur.warhammer.com/cdn/shop/files/fac7dd40b266f26c96804b50b30306ad884daab126ccecd0_bbfadf7b-1dd4-465e-bfc3-42158a289fad_150x.png?v=1721998069"
@@ -5742,7 +5742,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Space Marine 2 Eternal Service Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/fd34baad8e51a16b818f87292e5f0c200174834d52d80bc7_e8a38f70-928e-4a81-90d8-40449a8d3c93_150x.png?v=1721998069",
                     "https://merch-eur.warhammer.com/cdn/shop/files/f4eeffacdcdc7193b09bd42095d36994752bb48c55dbab71_b085ce1b-c688-4844-bda5-69f131115eb6_150x.png?v=1721998070"
@@ -5770,7 +5770,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Dwarfen Mountain Holds Collage Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/hmo205nsesonxpouucpyatu3gof5jp7aacnkwj5z54ksmhjg_150x.png?v=1721922444",
                     "https://merch-eur.warhammer.com/cdn/shop/files/e8cafba48cdeffa23b00e2d0109e069a82ee4ec3bd5f209b_1_150x.png?v=1721979611"
@@ -5800,7 +5800,7 @@
             },
             {
                 "name": "Premium T'au Kroot Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Premium-T_au-Kroot-Hoodie_150x.jpg?v=1715089393"
                 ],
@@ -5826,7 +5826,7 @@
             },
             {
                 "name": "Premium White Dwarf 500 Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/rshnuuvlx5lgtnxlsxg5sdabvupoeduf62qrcmlousnmsqr4_b418a375-fb61-47d8-8f3b-2a6a3c9197a0_150x.png?v=1714123564"
                 ],
@@ -5852,7 +5852,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Orc & Goblin Tribes Crest Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/sjwilwlpujzneh10lqpsn9d0widz9npd5keijoal65cng8dw_d22b325f-1827-4b40-8c8a-eabb6e8a0bb7_150x.png?v=1712653258"
                 ],
@@ -5878,7 +5878,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Orc & Goblin Tribes Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/j3fo3xqvb4loaxnismzhpefdvifotqtpk4r2kyod6roenn82_bde9276b-f60d-4eea-af6d-51e4ce23bad0_150x.png?v=1712653222",
                     "https://merch-eur.warhammer.com/cdn/shop/files/dyqmmkmd8fagnvne4a2p4pxncfrewl5c2xfxndawco2wrkem_1ff33526-aaa1-4610-89b1-70ba440c683a_150x.png?v=1712653228"
@@ -5906,7 +5906,7 @@
             },
             {
                 "name": "Premium Necromunda Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5049__285_150x.jpg?v=1712584478",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5044__285-zoomed_2016e6be-0fc0-4420-b8fb-1e9707e7590b_150x.jpg?v=1712584486"
@@ -5934,7 +5934,7 @@
             },
             {
                 "name": "Premium Warhammer The Horus Heresy Logo Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5047__285_150x.jpg?v=1712584187",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5042__285-zoomed_a71e8780-d62a-4e33-8fbf-6a4f3556f3ca_150x.jpg?v=1712584195"
@@ -5962,7 +5962,7 @@
             },
             {
                 "name": "Premium Warhammer Age of Sigmar Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5046__285_150x.jpg?v=1712583772",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5041__285-zoomed_3bc88960-4133-40f9-a194-3d0386e101d6_150x.jpg?v=1712583778"
@@ -5990,7 +5990,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000 Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5045__285_150x.jpg?v=1712583461",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5040__285-zoomed_150x.jpg?v=1712583468"
@@ -6018,7 +6018,7 @@
             },
             {
                 "name": "Premium Blood Bowl Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5048__285_150x.jpg?v=1712244240"
                 ],
@@ -6044,7 +6044,7 @@
             },
             {
                 "name": "Premium Flesh-eater Courts Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5037__285_150x.jpg?v=1708076303",
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5037__285-back_150x.jpg?v=1708076303"
@@ -6071,7 +6071,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Map Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5001__285-back_150x.jpg?v=1704801665",
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5001__285_150x.jpg?v=1704801665"
@@ -6097,7 +6097,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Tomb Kings of Khemri Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5000__285-back_150x.jpg?v=1704801607",
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5000__285_150x.jpg?v=1704801607"
@@ -6571,7 +6571,7 @@
             },
             {
                 "name": "Premium Blood Angels Death Company Hoodie",
-                "price": "394.00",
+                "price": "393.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/15c020dcac24829c4a033b487fe823896a27988bc84c3900_7576dbe1-fabb-4da8-aebb-ed0c25d220f8_150x.png?v=1725275141",
                     "https://merch-eur.warhammer.com/cdn/shop/files/2331484244ede60fbe71ea6c3579df5b9908bed229b4acd1_4ad3e60a-fedb-483a-b1b5-992871f46ae6_150x.png?v=1725275141"
@@ -6621,6 +6621,43 @@
                     "5XL"
                 ],
                 "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "The Emperor Protects Hoodie",
+                "price": "238.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285_150x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285-back_150x.jpg?v=1632388949"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285-back_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-BLK-POWH3070__285-zoomed_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-NAV-POWH3070__285_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-NAV-POWH3070__285-back_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-NAV-POWH3070__285-zoomed_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-RBL-POWH3070__285_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-RBL-POWH3070__285-back_1400x.jpg?v=1632388949",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-RBL-POWH3070__285-zoomed_1400x.jpg?v=1632388949"
+                ],
+                "description": "100% Cotton. 145 gsm. Machine wash cold, with like colours. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
+                "details": "Official Warhammer the Emperor Protects Hoodie. Available on Black, Navy and Royal Blue in sizes S-5XL",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "2XL",
+                    "3XL",
+                    "4XL",
+                    "5XL"
+                ],
+                "colours_button": [
+                    "Black",
+                    "Navy Blue",
+                    "Royal Blue"
+                ],
                 "colours_dropdown": []
             },
             {
@@ -6685,43 +6722,6 @@
                 "colours_dropdown": []
             },
             {
-                "name": "The Emperor Protects Hoodie",
-                "price": "238.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285_150x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285-back_150x.jpg?v=1632388949"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH3070__285-back_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-BLK-POWH3070__285-zoomed_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-NAV-POWH3070__285_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-NAV-POWH3070__285-back_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-NAV-POWH3070__285-zoomed_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-RBL-POWH3070__285_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-RBL-POWH3070__285-back_1400x.jpg?v=1632388949",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-RBL-POWH3070__285-zoomed_1400x.jpg?v=1632388949"
-                ],
-                "description": "100% Cotton. 145 gsm. Machine wash cold, with like colours. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
-                "details": "Official Warhammer the Emperor Protects Hoodie. Available on Black, Navy and Royal Blue in sizes S-5XL",
-                "sizes": [
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "2XL",
-                    "3XL",
-                    "4XL",
-                    "5XL"
-                ],
-                "colours_button": [
-                    "Black",
-                    "Navy Blue",
-                    "Royal Blue"
-                ],
-                "colours_dropdown": []
-            },
-            {
                 "name": "Vermintide II 'The Ubersreik Five' Hoodie",
                 "price": "238.00",
                 "images": [
@@ -6745,107 +6745,6 @@
                     "5XL"
                 ],
                 "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Barrel of a Gun Hoodie",
-                "price": "238.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285_150x.jpg?v=1622825085",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285-back_150x.jpg?v=1622825085"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285_1400x.jpg?v=1622825085",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285-back_1400x.jpg?v=1622825085",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-BLK-POWH2802__285-zoomed_1400x.jpg?v=1622825085",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285-lifestyle_1_1400x.jpg?v=1622825085"
-                ],
-                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
-                "details": "Official Adepta Sororitas Barrel of a Gun Hoodie available in sizes Small to 5XL on Black.",
-                "sizes": [
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "2XL",
-                    "3XL",
-                    "4XL",
-                    "5XL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Cypher Hoodie",
-                "price": "238.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285_3d2f42ea-5cb6-4418-8a02-cf2720a46de9_150x.jpg?v=1611920025",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285-back_150x.jpg?v=1611920025"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285_3d2f42ea-5cb6-4418-8a02-cf2720a46de9_1400x.jpg?v=1611920025",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285-back_1400x.jpg?v=1611920025"
-                ],
-                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
-                "details": "Official Cypher Hoodie available on Black in sizes S-5XL.",
-                "sizes": [
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "2XL",
-                    "3XL",
-                    "4XL",
-                    "5XL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Orks Graffiti Insignia Hoodie",
-                "price": "225.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-OLI-POWH4516__285_150x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-OLI-POWH4516__285-zoomed_150x.jpg?v=1678993527"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-OLI-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-OLI-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-BLK-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-CHA-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-CHA-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-DRE-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-DRE-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-HCO-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-NAV-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-NAV-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-SAN-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-SKY-POWH4516__285_1400x.jpg?v=1678993527",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-SKY-POWH4516__285-zoomed_1400x.jpg?v=1678993527"
-                ],
-                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
-                "details": "Official Orks Graffiti Insignia Hoodie available on multiple colours in sizes S - 5XL.",
-                "sizes": [
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "2XL",
-                    "3XL",
-                    "4XL",
-                    "5XL"
-                ],
-                "colours_button": [
-                    "Olive Green",
-                    "Black",
-                    "Charcoal",
-                    "Dark Red",
-                    "Hot Chocolate",
-                    "Navy Blue",
-                    "Sand",
-                    "Sky Blue"
-                ],
                 "colours_dropdown": []
             },
             {
@@ -6910,6 +6809,60 @@
                 "colours_dropdown": []
             },
             {
+                "name": "Barrel of a Gun Hoodie",
+                "price": "238.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285_150x.jpg?v=1622825085",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285-back_150x.jpg?v=1622825085"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285_1400x.jpg?v=1622825085",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285-back_1400x.jpg?v=1622825085",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-BLK-POWH2802__285-zoomed_1400x.jpg?v=1622825085",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2802__285-lifestyle_1_1400x.jpg?v=1622825085"
+                ],
+                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
+                "details": "Official Adepta Sororitas Barrel of a Gun Hoodie available in sizes Small to 5XL on Black.",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "2XL",
+                    "3XL",
+                    "4XL",
+                    "5XL"
+                ],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "Cypher Hoodie",
+                "price": "238.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285_3d2f42ea-5cb6-4418-8a02-cf2720a46de9_150x.jpg?v=1611920025",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285-back_150x.jpg?v=1611920025"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285_3d2f42ea-5cb6-4418-8a02-cf2720a46de9_1400x.jpg?v=1611920025",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH2358__285-back_1400x.jpg?v=1611920025"
+                ],
+                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
+                "details": "Official Cypher Hoodie available on Black in sizes S-5XL.",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "2XL",
+                    "3XL",
+                    "4XL",
+                    "5XL"
+                ],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "Blood Angels Graffiti Insignia Hoodie",
                 "price": "225.00",
                 "images": [
@@ -6961,6 +6914,53 @@
                     "Sand",
                     "Sky Blue",
                     "Yellow"
+                ],
+                "colours_dropdown": []
+            },
+            {
+                "name": "Orks Graffiti Insignia Hoodie",
+                "price": "225.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-OLI-POWH4516__285_150x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-OLI-POWH4516__285-zoomed_150x.jpg?v=1678993527"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-OLI-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-OLI-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-BLK-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-BLK-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-CHA-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-CHA-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-DRE-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-DRE-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-HCO-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-NAV-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-NAV-POWH4516__285-zoomed_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-SAN-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-M-_-SKY-POWH4516__285_1400x.jpg?v=1678993527",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/HO-_-SKY-POWH4516__285-zoomed_1400x.jpg?v=1678993527"
+                ],
+                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
+                "details": "Official Orks Graffiti Insignia Hoodie available on multiple colours in sizes S - 5XL.",
+                "sizes": [
+                    "S",
+                    "M",
+                    "L",
+                    "XL",
+                    "2XL",
+                    "3XL",
+                    "4XL",
+                    "5XL"
+                ],
+                "colours_button": [
+                    "Olive Green",
+                    "Black",
+                    "Charcoal",
+                    "Dark Red",
+                    "Hot Chocolate",
+                    "Navy Blue",
+                    "Sand",
+                    "Sky Blue"
                 ],
                 "colours_dropdown": []
             }
@@ -7508,7 +7508,7 @@
             },
             {
                 "name": "Keep Kalm Kids Hoodie",
-                "price": "194.00",
+                "price": "193.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/KH-K-_-BLK-POWH2382__285_150x.jpg?v=1614792037",
                     "https://merch-eur.warhammer.com/cdn/shop/products/KH-K-_-BLK-POWH2382__285_sleeve-print-left-sleeve_150x.jpg?v=1614792037"
@@ -8368,7 +8368,7 @@
         "FITTED T SHIRTS": [
             {
                 "name": "Adepta Sororitas Icon Fitted T Shirt",
-                "price": "113.00",
+                "price": "112.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/ef3250f64489f943a8d798d18e8fa1940bfe423ffcc6279b_150x.png?v=1729759992"
                 ],
@@ -8778,6 +8778,28 @@
                 ]
             },
             {
+                "name": "Primaris Black Templar Fitted T Shirt",
+                "price": "144.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/c44ced9d465ba1869b11fcf7bbe02fbe48e0d5ccf320426e_150x.png?v=1727966959"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/c44ced9d465ba1869b11fcf7bbe02fbe48e0d5ccf320426e_1400x.png?v=1727966959"
+                ],
+                "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
+                "details": "This Official Premium Primaris Black Templar Fitted T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
+                "sizes": [
+                    "10",
+                    "12",
+                    "14",
+                    "16",
+                    "18",
+                    "20"
+                ],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "Necrons Warrior Fitted T Shirt",
                 "price": "144.00",
                 "images": [
@@ -8859,28 +8881,6 @@
                 ],
                 "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
                 "details": "This Official Premium Talisman Artwork Fitted T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
-                "sizes": [
-                    "10",
-                    "12",
-                    "14",
-                    "16",
-                    "18",
-                    "20"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Primaris Black Templar Fitted T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/c44ced9d465ba1869b11fcf7bbe02fbe48e0d5ccf320426e_150x.png?v=1727966959"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/c44ced9d465ba1869b11fcf7bbe02fbe48e0d5ccf320426e_1400x.png?v=1727966959"
-                ],
-                "description": "Certified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": "This Official Premium Primaris Black Templar Fitted T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.\n\nKey Features:\n\n100% organic cotton\nOfficial Warhammer T-shirt\nPremium t-shirt with high quality design application",
                 "sizes": [
                     "10",
                     "12",
@@ -9736,21 +9736,6 @@
                 "colours_dropdown": []
             },
             {
-                "name": "Nurgle Embroidered Dice Bag",
-                "price": "68.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-NAT-POWH3041__0_150x.jpg?v=1631176338"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-NAT-POWH3041__0_1400x.jpg?v=1631176338"
-                ],
-                "description": "Holds up to 80 dice. 100% Cotton.  140gsm14 x 20cm with a 1 Litre capacity. Rope draw cord closure. Sponge clean only.",
-                "details": "Official Dice Bag with embroidered Nurgle icon.",
-                "sizes": [],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
                 "name": "Warhammer Age of Sigmar Chaos Embroidered Dice Bag",
                 "price": "68.00",
                 "images": [
@@ -9761,6 +9746,21 @@
                 ],
                 "description": "Holds up to 80 dice. 100% Cotton.  140gsm14 x 20cm with a 1 Litre capacity. Rope draw cord closure. Sponge clean only.",
                 "details": "Official Dice Bag with embroidered Chaos icon.",
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "Nurgle Embroidered Dice Bag",
+                "price": "68.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-NAT-POWH3041__0_150x.jpg?v=1631176338"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-NAT-POWH3041__0_1400x.jpg?v=1631176338"
+                ],
+                "description": "Holds up to 80 dice. 100% Cotton.  140gsm14 x 20cm with a 1 Litre capacity. Rope draw cord closure. Sponge clean only.",
+                "details": "Official Dice Bag with embroidered Nurgle icon.",
                 "sizes": [],
                 "colours_button": [],
                 "colours_dropdown": []
@@ -10467,8 +10467,27 @@
         ],
         "GIFT SETS": [
             {
+                "name": "Genestealer Cults Gift Set",
+                "price": "262.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/Genestealers_150x.jpg?v=1733316047",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1lojd7pqvywztudzhli8lw54v41bbt46clqfryr4pz9qxkkd_150x.jpg?v=1733313853"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/Genestealers_1400x.jpg?v=1733316047",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1lojd7pqvywztudzhli8lw54v41bbt46clqfryr4pz9qxkkd_1400x.jpg?v=1733313853",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/vojqewa8t7oz5wrls5jhlpdo5kychh5s65cc7efyih6uevmx_1400x.jpg?v=1733313855",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/cd73beda40b4ea6a2a8a21511b239cd7657c201187d0bc97_1400x.png?v=1732626275"
+                ],
+                "description": "Official Genestealer Cults Gift Set.\nThe perfect gift set for any Ultramarines super-fan. Featuring our best-selling T Shirt on our amazing black garment, plus the best-selling notebook and coffee mug from the faction range.\nThis item is excluded from all promotional offers.\nGift Set Premium T ShirtCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.\nGift Set MugMade of ceramic. 10 oz capacity. Dishwasher-safe. Microwave-safe.Gift Set NotebookSoft finish 80 page lined A5 notepad with book mark. Pocket at back for securing business cards and loose notes. Pen loop and an elastic closure to keep contents securely in place.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "World Eaters Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/WorldEaters_150x.jpg?v=1732891740",
                     "https://merch-eur.warhammer.com/cdn/shop/files/WORLD-EATERS_2_VIS-1_150x.jpg?v=1732886930"
@@ -10487,7 +10506,7 @@
             },
             {
                 "name": "Black Legion Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Black_Legion_150x.jpg?v=1732893931",
                     "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH027__0-preview_150x.jpg?v=1590759398"
@@ -10506,7 +10525,7 @@
             },
             {
                 "name": "Thousand Sons Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Thousand_Sons_150x.jpg?v=1732894668",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SONS_2_VIS-1_150x.jpg?v=1732887354"
@@ -10525,7 +10544,7 @@
             },
             {
                 "name": "T'au Empire Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/T_au_Empire_150x.jpg?v=1732894669",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TAU_2_VIS-1_150x.jpg?v=1732887016"
@@ -10544,7 +10563,7 @@
             },
             {
                 "name": "Orks Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Orks_150x.jpg?v=1732894669",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Orks_2_VIS-1_150x.jpg?v=1732887394"
@@ -10563,7 +10582,7 @@
             },
             {
                 "name": "Necrons Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Necrons_150x.jpg?v=1732894668",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Necrons_2_VIS-1_150x.jpg?v=1732887425"
@@ -10582,7 +10601,7 @@
             },
             {
                 "name": "Leagues of Votann Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Leagues_of_Votan_150x.jpg?v=1732894669",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Leagues-of-Votan_2_Vis-2_150x.jpg?v=1732887454"
@@ -10601,7 +10620,7 @@
             },
             {
                 "name": "Drukhari Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Drukhari_150x.jpg?v=1732894669",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Drukhari_2_VIS-1_150x.jpg?v=1732887492"
@@ -10620,7 +10639,7 @@
             },
             {
                 "name": "Death Guard Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Death_Guard_150x.jpg?v=1732894306",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Death-Gaurd_2_VIS-2_150x.jpg?v=1732887534"
@@ -10639,7 +10658,7 @@
             },
             {
                 "name": "Dark Angels Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Dark_Angels_150x.jpg?v=1732893661",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Dark-Angels_VIS-1_150x.jpg?v=1732887563"
@@ -10658,7 +10677,7 @@
             },
             {
                 "name": "Blood Angels Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/BloodAngels_150x.jpg?v=1732893423",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Blood-Angels_2_VIS-1_150x.jpg?v=1732887563"
@@ -10677,7 +10696,7 @@
             },
             {
                 "name": "Aeldari Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Aledari_150x.jpg?v=1732893068",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Aledari_2_VIS-1_150x.jpg?v=1732887564"
@@ -10696,7 +10715,7 @@
             },
             {
                 "name": "Ultramarines Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Ultramarines_150x.jpg?v=1732891019",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Ultra-Marines_2_Vis-1_150x.jpg?v=1732886970"
@@ -10715,7 +10734,7 @@
             },
             {
                 "name": "Tyranids Gift Set",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Tyranids_150x.jpg?v=1732888130",
                     "https://merch-eur.warhammer.com/cdn/shop/products/NB-SC-_-BLK-POWH4775__0_150x.jpg?v=1691509037"
@@ -10907,16 +10926,16 @@
                 "colours_dropdown": []
             },
             {
-                "name": "Chaos Dark Tongue Joggers",
+                "name": "T'au Empire Joggers",
                 "price": "180.00",
                 "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH002__279_150x.jpg?v=1584982196"
+                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH284__279_150x.jpg?v=1587140671"
                 ],
                 "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH002__279_1400x.jpg?v=1584982196"
+                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH284__279_1400x.jpg?v=1587140671"
                 ],
-                "description": "80% Ringspun Cotton, 20% Polyester 280 gsm. Machine wash cold, with like colours Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
-                "details": "Official Chaos Joggers featuring 'For The Dark Gods' slogan in Dark Tongue.",
+                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
+                "details": "Official T'au Empire Joggers.",
                 "sizes": [
                     "S",
                     "M",
@@ -10928,16 +10947,16 @@
                 "colours_dropdown": []
             },
             {
-                "name": "T'au Empire Joggers",
+                "name": "Chaos Dark Tongue Joggers",
                 "price": "180.00",
                 "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH284__279_150x.jpg?v=1587140671"
+                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH002__279_150x.jpg?v=1584982196"
                 ],
                 "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH284__279_1400x.jpg?v=1587140671"
+                    "https://merch-eur.warhammer.com/cdn/shop/products/JO-M-_-BLK-POWH002__279_1400x.jpg?v=1584982196"
                 ],
-                "description": "80% ringspun cotton, 20% polyester. 280gsm. Wash On Low Temperature. Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
-                "details": "Official T'au Empire Joggers.",
+                "description": "80% Ringspun Cotton, 20% Polyester 280 gsm. Machine wash cold, with like colours Do not bleach. Do not dry clean. Iron inside out, on medium heat. Do not tumble dry.",
+                "details": "Official Chaos Joggers featuring 'For The Dark Gods' slogan in Dark Tongue.",
                 "sizes": [
                     "S",
                     "M",
@@ -11256,7 +11275,7 @@
         "POLO SHIRTS": [
             {
                 "name": "Imperium Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/orvt2nuahq5wpmf03tlkifcxnvisovqwjfa7q05cgmk166fy_150x.jpg?v=1721733553",
                     "https://merch-eur.warhammer.com/cdn/shop/files/fyvqiimf2me99go4pxugaj2nnk1yyrkrkl6s7cgzr58cb1vt_150x.jpg?v=1721733555"
@@ -11285,7 +11304,7 @@
             },
             {
                 "name": "Inquisition Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/dljhv5uqgw9g5vkznwmvtzjq5bfvxdf9kq0z95oqn0ycsxmb_150x.jpg?v=1721732236",
                     "https://merch-eur.warhammer.com/cdn/shop/files/dwpwixdnmfdhzxteydzmikfrr1zyyqpvytl2ubb0hy5u1lei_150x.jpg?v=1721732238"
@@ -11314,7 +11333,7 @@
             },
             {
                 "name": "Space Wolves Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/w1nce3ozsqbn9y93kxw7dxzy2prtk6jcgxx9ssvyfzk0krx9_150x.jpg?v=1721732150",
                     "https://merch-eur.warhammer.com/cdn/shop/files/45a0803dac1e35fec3274c07c80961066de84819ff85cefa_150x.png?v=1721732146"
@@ -11338,7 +11357,7 @@
             },
             {
                 "name": "Adeptus Mechanicus Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/y2sohnxagecgsfgkhxyudycfksdhpuz9efo73uzlqf05pxjd_150x.jpg?v=1721730545",
                     "https://merch-eur.warhammer.com/cdn/shop/files/ab56a024c0cfbf0aab3ddfdb8ed040822e4a5d915e85c6d1_150x.png?v=1721730542"
@@ -11362,7 +11381,7 @@
             },
             {
                 "name": "Blood Angels Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/46k6mzk5nxkihetvlaxb1j4s8iq2kz0p2ibnp2hboruqypgx_150x.jpg?v=1721730632"
                 ],
@@ -11384,7 +11403,7 @@
             },
             {
                 "name": "Ultramarines Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/gdf4sicpmmm54yk8901s2uriy43eipykodfbel3bqwvbttzd_150x.jpg?v=1721732063",
                     "https://merch-eur.warhammer.com/cdn/shop/files/tpzcxoiitpqvmqtnzaywyqp2a7z4q5ni5253gz3kxo1yzoo2_150x.jpg?v=1721732066"
@@ -11414,7 +11433,7 @@
             },
             {
                 "name": "Thousand Sons Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/3823fc72c833280db5c57618cda6ef19d328300276ad384b_150x.png?v=1721730726",
                     "https://merch-eur.warhammer.com/cdn/shop/files/62fb64debe4f88c6eb1bbb5a5c18757630847426daffa534_150x.png?v=1721730731"
@@ -11441,7 +11460,7 @@
             },
             {
                 "name": "Orks Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/utu9ivrswfkuougiccw68s40fgm1pj3df6fgbasosjfla9e9_150x.jpg?v=1721732287",
                     "https://merch-eur.warhammer.com/cdn/shop/files/maqnk1ictaghmdqqoqnnrxesqa1dw4qwcogdlclbtxyuapcm_150x.jpg?v=1721732291"
@@ -11470,7 +11489,7 @@
             },
             {
                 "name": "Necron Green Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/grk6al9efsccnhkrgdqvmvqhfhlhq1ztmjpcntholnhwu119_150x.jpg?v=1721731311",
                     "https://merch-eur.warhammer.com/cdn/shop/files/fd75967998c8d812c1879af8e68bd8359b3b3148a2fa2985_150x.png?v=1721731265"
@@ -11498,7 +11517,7 @@
             },
             {
                 "name": "Genestealer Cults Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/znc7ehvtf7unvs7zwr0sfccrhpdzb80iivak8q3o5e6sjbo6_150x.jpg?v=1721734237",
                     "https://merch-eur.warhammer.com/cdn/shop/files/pgsrf2uztupatpuqsyzyrhy1fgzblhrwtlzhmvelkphykfyw_150x.jpg?v=1721734240"
@@ -11527,7 +11546,7 @@
             },
             {
                 "name": "Grey Knights Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/xu6tbmxgmav0wjs3bsfh8m97mesy9x5xggv6h8qomncsw4rx_150x.jpg?v=1721732283",
                     "https://merch-eur.warhammer.com/cdn/shop/files/98kkecqck7rnfrgyfpb9zfcnzbqf9bc9gizn0hvzhbhphfva_150x.jpg?v=1721732285"
@@ -11556,7 +11575,7 @@
             },
             {
                 "name": "Emperor's Children Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/yvofk65zohuotfiam5jcfgbfmyn1mtki36ryruy7coa7dv8b_150x.jpg?v=1721730628",
                     "https://merch-eur.warhammer.com/cdn/shop/files/qudpnqusqrek0anhlxfiuwdk1tdrhzobfaln9bys5tgtbi7u_150x.jpg?v=1721730631"
@@ -11585,7 +11604,7 @@
             },
             {
                 "name": "Tyranids Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/6v0qihp5hpnrtxicod5s3f3ylbn3w2rim2ajh6c5vnulckr8_150x.jpg?v=1721734166",
                     "https://merch-eur.warhammer.com/cdn/shop/files/t1unhjflg31hyguwpmatobvyianrouqfau2z932dze2vwcmy_150x.jpg?v=1721734168"
@@ -11614,7 +11633,7 @@
             },
             {
                 "name": "Skaven Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/3janmxz9nl1tv8oxsljgdc3heopcd53juywi5yulwsibaq07_150x.jpg?v=1721731338",
                     "https://merch-eur.warhammer.com/cdn/shop/files/5669af40e7c6687922b618563e055fb47cbca72cf1bd71f7_150x.png?v=1721731335"
@@ -11638,7 +11657,7 @@
             },
             {
                 "name": "T'au Empire Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/qrrjt9swusj8rr8rjm1siwixxobfwueieugjxxilis9suvzr_150x.jpg?v=1721732323",
                     "https://merch-eur.warhammer.com/cdn/shop/files/8di73capv71ruw9y9ii9wbleu9oo7p6ky5k9uiorfklt4jbd_150x.jpg?v=1721732325"
@@ -11667,7 +11686,7 @@
             },
             {
                 "name": "Adeptus Custodes Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/zxrqeskxzgnodbdsmjmojlqdaxtzjoce2dacrbkr71ripul8_150x.jpg?v=1721733189",
                     "https://merch-eur.warhammer.com/cdn/shop/files/8003c22818fc11fdb9f23e81d268cceeb95cd3b3edbb34dd_150x.png?v=1721733186"
@@ -11691,7 +11710,7 @@
             },
             {
                 "name": "Adepta Sororitas Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/kdt3yshziouivm5qdhlpkyby2a37pncgideslrqjoq144ztt_150x.jpg?v=1721732148",
                     "https://merch-eur.warhammer.com/cdn/shop/files/f685438173ea394e50e0a70539fa9d8b0896d29906b180b2_150x.png?v=1721732146"
@@ -11715,7 +11734,7 @@
             },
             {
                 "name": "Khorne Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/9w1gunwvqxfnpmg8n6gqdlcqjtrhlxysamiom01afd3cqaj2_150x.jpg?v=1721730833",
                     "https://merch-eur.warhammer.com/cdn/shop/files/b34b2db29212acb0c3ae79d9086b87851349b8375b25daaa_150x.png?v=1721730830"
@@ -11739,7 +11758,7 @@
             },
             {
                 "name": "Chaos Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/udlvexuc9pmaud6yumenujze1x4okavrrq0iqcxgyfnuaxxz_150x.jpg?v=1721730481",
                     "https://merch-eur.warhammer.com/cdn/shop/files/slxlwgxxj8gaaxndxfzfiwznwqiugxaqevivvq9t03nj89f5_150x.jpg?v=1721730483"
@@ -11768,7 +11787,7 @@
             },
             {
                 "name": "Blades Of Khorne Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/4hqoyzmjvr4ypp8f4nkivtiqvvalnrtzsslnsa2tgwwesf1b_150x.jpg?v=1721734496",
                     "https://merch-eur.warhammer.com/cdn/shop/files/ced191e216cccdc29bde9694e7f71c4bb4a8ce3c3820907a_150x.png?v=1721734493"
@@ -11792,7 +11811,7 @@
             },
             {
                 "name": "Craftworlds Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/kgry73bac0jhkvcdihabietywmshzgwc4zziwtshpfhsibyv_150x.jpg?v=1721733645",
                     "https://merch-eur.warhammer.com/cdn/shop/files/12527d6a0c67577d6a1ab40ea1f720172c59ded4d03ecb51_150x.png?v=1721733642"
@@ -11816,7 +11835,7 @@
             },
             {
                 "name": "Necron Grey Icon Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/v7pcmlj2kg7sqqqwhpwoepgcyyxsrgvxhrgxumhoxdsswyhb_150x.jpg?v=1721732017",
                     "https://merch-eur.warhammer.com/cdn/shop/files/0015e6f9157c4fb3ebf2443e534437f5c3488cc64e0e6451_150x.png?v=1721732013"
@@ -11840,7 +11859,7 @@
             },
             {
                 "name": "Slaanesh Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/yrbhnokfdyw8cmlrlkcxwy1qmjwphknb4jbm4a7augd2kvkm_150x.jpg?v=1721730793",
                     "https://merch-eur.warhammer.com/cdn/shop/files/wvgkkvjfvgmf2vid6rx9hscxlpmwdbl2tthbokdjona6xgt3_150x.jpg?v=1721730796"
@@ -11869,7 +11888,7 @@
             },
             {
                 "name": "Black Legion Polo Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/bwrf0zckj5mxtmcdnnd0pe6exyx1omrpscydhbeuhvbsvbpy_150x.jpg?v=1721730512",
                     "https://merch-eur.warhammer.com/cdn/shop/files/ige1zsdzpc6nq3phsex5yd0jdtsjrjwbyya1ejnnkptgsqyo_150x.jpg?v=1721730515"
@@ -12330,7 +12349,7 @@
             },
             {
                 "name": "Astra Militarum Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH324__0_150x.jpg?v=1695759834",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BUR-POWH324__0_150x.jpg?v=1695759834"
@@ -12358,7 +12377,7 @@
             },
             {
                 "name": "Blood Angels Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH095__0_150x.jpg?v=1590760288",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-CHA-POWH095__0_150x.jpg?v=1590760288"
@@ -12457,7 +12476,7 @@
             },
             {
                 "name": "Ultramarines Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-RBL-POWH199__0_150x.jpg?v=1588326571",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH199__0_150x.jpg?v=1588326571"
@@ -12511,7 +12530,7 @@
             },
             {
                 "name": "Necron Green Icon Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH157__0_150x.jpg?v=1586184300",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-CHA-POWH157__0_150x.jpg?v=1586184300"
@@ -12581,7 +12600,7 @@
             },
             {
                 "name": "Adeptus Mechanicus Icon Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-WHI-POWH062__0_150x.jpg?v=1590760007",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH062__0_150x.jpg?v=1590760007"
@@ -12632,6 +12651,21 @@
                 "colours_dropdown": []
             },
             {
+                "name": "Warhammer Age of Sigmar Chaos Embroidered Dice Bag",
+                "price": "68.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-BLK-POWH3051__0_150x.jpg?v=1631176682"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-BLK-POWH3051__0_1400x.jpg?v=1631176682"
+                ],
+                "description": "Holds up to 80 dice. 100% Cotton.  140gsm14 x 20cm with a 1 Litre capacity. Rope draw cord closure. Sponge clean only.",
+                "details": "Official Dice Bag with embroidered Chaos icon.",
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "Nurgle Embroidered Dice Bag",
                 "price": "68.00",
                 "images": [
@@ -12648,7 +12682,7 @@
             },
             {
                 "name": "Adepta Sororitas Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-RED-POWH231__0_150x.jpg?v=1590760076",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH231__0_150x.jpg?v=1590760076"
@@ -12669,23 +12703,30 @@
                 "colours_dropdown": []
             },
             {
-                "name": "Warhammer Age of Sigmar Chaos Embroidered Dice Bag",
-                "price": "68.00",
+                "name": "Tyranids Icon Backpack",
+                "price": "157.00",
                 "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-BLK-POWH3051__0_150x.jpg?v=1631176682"
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-CHA-POWH426__0_150x.jpg?v=1589979449",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH426__0_150x.jpg?v=1589979449"
                 ],
                 "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-DB-_-BLK-POWH3051__0_1400x.jpg?v=1631176682"
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-CHA-POWH426__0_1400x.jpg?v=1589979449",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH426__0_1400x.jpg?v=1589979449",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BUR-POWH426__0_1400x.jpg?v=1589979449"
                 ],
-                "description": "Holds up to 80 dice. 100% Cotton.  140gsm14 x 20cm with a 1 Litre capacity. Rope draw cord closure. Sponge clean only.",
-                "details": "Official Dice Bag with embroidered Chaos icon.",
+                "description": "600D Polyester. Zippered front pocket. Padded back panel. Grab handle. Padded adjustable shoulder straps. Dimensions: 31 x 42 x 21 cm. Capacity: 18 litres.",
+                "details": "Official Tyranids Backpack, featuring embroidered icon.",
                 "sizes": [],
-                "colours_button": [],
+                "colours_button": [
+                    "Black",
+                    "Burgandy",
+                    "Charcoal"
+                ],
                 "colours_dropdown": []
             },
             {
                 "name": "T'au Empire Icon Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-WHI-POWH268__0_150x.jpg?v=1695759779",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH268__0_150x.jpg?v=1695759779"
@@ -12715,7 +12756,7 @@
             },
             {
                 "name": "Orks Icon Backpack",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-WHI-POWH249__0_150x.jpg?v=1590760091",
                     "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH249__0_150x.jpg?v=1590760091"
@@ -12733,21 +12774,6 @@
                     "White",
                     "Charcoal"
                 ],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Death Guard Backpack",
-                "price": "158.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH052__0_150x.jpg?v=1695759790"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/BG-BP-_-BLK-POWH052__0_1400x.jpg?v=1695759790"
-                ],
-                "description": "600D Polyester. Zippered front pocket. Padded back panel. Grab handle. Padded adjustable shoulder straps. Dimensions: 31 x 42 x 21 cm. Capacity: 18 litres.",
-                "details": "Official Death Guard Backpack featuring embroidered icon.",
-                "sizes": [],
-                "colours_button": [],
                 "colours_dropdown": []
             }
         ],
@@ -12898,24 +12924,6 @@
                 "colours_dropdown": []
             },
             {
-                "name": "Necrons Mug",
-                "price": "59.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0_150x.jpg?v=1601637049",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0-preview_150x.jpg?v=1601637049"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0_1400x.jpg?v=1601637049",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0-preview_1400x.jpg?v=1601637049",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU-_-WHI-POWH967__0-zoomed_1400x.jpg?v=1601637049"
-                ],
-                "description": "Made of ceramic 10 oz capacity Dishwasher-safe Microwave-safe",
-                "details": "Official Necrons Mug.",
-                "sizes": [],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
                 "name": "World Eaters Mug",
                 "price": "59.00",
                 "images": [
@@ -12929,6 +12937,24 @@
                 ],
                 "description": "Made of ceramic 10 oz capacity Dishwasher-safe Microwave-safe",
                 "details": "Official World Eaters Mug featuring 'Kill Maim Burn' slogan.",
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "Necrons Mug",
+                "price": "59.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0_150x.jpg?v=1601637049",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0-preview_150x.jpg?v=1601637049"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0_1400x.jpg?v=1601637049",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH967__0-preview_1400x.jpg?v=1601637049",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU-_-WHI-POWH967__0-zoomed_1400x.jpg?v=1601637049"
+                ],
+                "description": "Made of ceramic 10 oz capacity Dishwasher-safe Microwave-safe",
+                "details": "Official Necrons Mug.",
                 "sizes": [],
                 "colours_button": [],
                 "colours_dropdown": []
@@ -13024,24 +13050,6 @@
                 "colours_dropdown": []
             },
             {
-                "name": "Black Templars Mug",
-                "price": "59.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0_150x.jpg?v=1591624013",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0-preview_150x.jpg?v=1591624013"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0_1400x.jpg?v=1591624013",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0-preview_1400x.jpg?v=1591624013",
-                    "https://merch-eur.warhammer.com/cdn/shop/products/MU-_-WHI-POWH493__0-zoomed_1400x.jpg?v=1591624013"
-                ],
-                "description": "Made of ceramic 10 oz capacity Dishwasher-safe Microwave-safe",
-                "details": "Official Black Templars Mug.",
-                "sizes": [],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
                 "name": "Adeptus Custodes Warden Mug",
                 "price": "59.00",
                 "images": [
@@ -13055,6 +13063,24 @@
                 ],
                 "description": "Made of ceramic 10 oz capacity Dishwasher-safe Microwave-safe",
                 "details": "Official Adeptus Custodes Warden mug.",
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "Black Templars Mug",
+                "price": "59.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0_150x.jpg?v=1591624013",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0-preview_150x.jpg?v=1591624013"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0_1400x.jpg?v=1591624013",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU---_-WHI-POWH493__0-preview_1400x.jpg?v=1591624013",
+                    "https://merch-eur.warhammer.com/cdn/shop/products/MU-_-WHI-POWH493__0-zoomed_1400x.jpg?v=1591624013"
+                ],
+                "description": "Made of ceramic 10 oz capacity Dishwasher-safe Microwave-safe",
+                "details": "Official Black Templars Mug.",
                 "sizes": [],
                 "colours_button": [],
                 "colours_dropdown": []
@@ -13444,6 +13470,21 @@
                 "colours_dropdown": []
             },
             {
+                "name": "Orks Notebook",
+                "price": "72.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/NB-SC-_-BLK-POWH628__0_150x.jpg?v=1596114674"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/products/NB-SC-_-BLK-POWH628__0_1400x.jpg?v=1596114674"
+                ],
+                "description": "Polyurethane leather soft finish cover\n80 page lined A5 (148x210mm) notepad with bookmark.\nPocket at back for securing business cards and loose notes.\nPen loop and an elastic closure to keep contents securely in place.",
+                "details": "Official Orks Notebook.",
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "Adeptus Mechanicus The Great Work Notebook",
                 "price": "72.00",
                 "images": [
@@ -13469,21 +13510,6 @@
                 ],
                 "description": "Polyurethane leather soft finish cover. 80 page lined A5 (148x210mm) notepad with bookmark. Pocket at back for securing business cards and loose notes. Pen loop and an elastic closure to keep contents securly in place.",
                 "details": "Official Nighthaunt Lady Olynder Notebook.",
-                "sizes": [],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Orks Notebook",
-                "price": "72.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/NB-SC-_-BLK-POWH628__0_150x.jpg?v=1596114674"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/products/NB-SC-_-BLK-POWH628__0_1400x.jpg?v=1596114674"
-                ],
-                "description": "Polyurethane leather soft finish cover\n80 page lined A5 (148x210mm) notepad with bookmark.\nPocket at back for securing business cards and loose notes.\nPen loop and an elastic closure to keep contents securely in place.",
-                "details": "Official Orks Notebook.",
                 "sizes": [],
                 "colours_button": [],
                 "colours_dropdown": []
@@ -13553,7 +13579,7 @@
         "JACKETS": [
             {
                 "name": "Warhammer 40,000: Space Marine 2 Ultramarines Varsity Jacket Preorder",
-                "price": "569.00",
+                "price": "568.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/WH04_2_150x.jpg?v=1725015845",
                     "https://merch-eur.warhammer.com/cdn/shop/files/WH02_2_150x.jpg?v=1725015845"
@@ -13584,7 +13610,7 @@
         "GIFTS": [
             {
                 "name": "Warhammer 40,000: The Ultimate Guide",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/phkzptdtlxp08xwosx3ysuaw7bvpkyt64x1dmytcyfuho8zg_150x.jpg?v=1729863406",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Spread_1_150x.jpg?v=1729864210"
@@ -13968,7 +13994,7 @@
             },
             {
                 "name": "Warhammer 40,000: Red Gobbo Knitted Blanket",
-                "price": "270.00",
+                "price": "269.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/aihywg8wss7s2eymgkf1knjgdwukkp64pgughnpp4dt9ny5w_150x.jpg?v=1728297505",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Gobbo_Blanket_Samp_2_16_1716301400_150x.jpg?v=1729241700"
@@ -14032,7 +14058,7 @@
         "BOOKS": [
             {
                 "name": "Warhammer 40,000: The Ultimate Guide",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/phkzptdtlxp08xwosx3ysuaw7bvpkyt64x1dmytcyfuho8zg_150x.jpg?v=1729863406",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Spread_1_150x.jpg?v=1729864210"
@@ -14195,7 +14221,7 @@
             },
             {
                 "name": "Nighthaunt Double Print Hoodie",
-                "price": "360.00",
+                "price": "359.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/e077588f75eb9ebe0c62b78ceeb3184c100e38fe6c426189_150x.png?v=1730111527",
                     "https://merch-eur.warhammer.com/cdn/shop/files/57227fb9f35ab54b41ccfb4fc3b10f067f9337a92e26cd9e_150x.png?v=1730111531"
@@ -14298,7 +14324,7 @@
             },
             {
                 "name": "Nighthaunt Double Print T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7d880468c3f5aa7cc3553563680a0230dafc5edf98d79da2_150x.png?v=1730110408",
                     "https://merch-eur.warhammer.com/cdn/shop/files/9eff2512f389d48523f2522973c2f94c70fb58e0e1416479_150x.png?v=1730110404"
@@ -14401,7 +14427,7 @@
             },
             {
                 "name": "Stormcast Eternals Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/39773a5d3923f2f382eff0692b17c39c65157b04579d5fd6_150x.png?v=1729686841",
                     "https://merch-eur.warhammer.com/cdn/shop/files/7354e6cc891febcf1757d32df87384a9d79871da9e60db99_150x.png?v=1729686845"
@@ -14763,7 +14789,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Warriors of Chaos Crest Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/5y9vigedgj1jaotcjuv35azbqjv4xcnoahbyqmjdiwxuxfza_150x.png?v=1727428036",
                     "https://merch-eur.warhammer.com/cdn/shop/files/wypggjmotrdb6nrlurjxv3gniewx9oq5sozuoux1adaviuwg_150x.png?v=1727428034"
@@ -14892,7 +14918,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Map Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5001__285-back_150x.jpg?v=1704801665",
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5001__285_150x.jpg?v=1704801665"
@@ -14918,7 +14944,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Kingdom of Bretonnia Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH4999__285-back_150x.jpg?v=1704801631",
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH4999__285_150x.jpg?v=1704801631"
@@ -14944,7 +14970,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Tomb Kings of Khemri Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5000__285-back_150x.jpg?v=1704801607",
                     "https://merch-eur.warhammer.com/cdn/shop/products/HO-U-_-BLK-POWH5000__285_150x.jpg?v=1704801607"
@@ -15124,7 +15150,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Orc & Goblin Tribes Double Print Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/j3fo3xqvb4loaxnismzhpefdvifotqtpk4r2kyod6roenn82_bde9276b-f60d-4eea-af6d-51e4ce23bad0_150x.png?v=1712653222",
                     "https://merch-eur.warhammer.com/cdn/shop/files/dyqmmkmd8fagnvne4a2p4pxncfrewl5c2xfxndawco2wrkem_1ff33526-aaa1-4610-89b1-70ba440c683a_150x.png?v=1712653228"
@@ -15152,7 +15178,7 @@
             },
             {
                 "name": "Premium Warhammer The Old World Orc & Goblin Tribes Crest Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/sjwilwlpujzneh10lqpsn9d0widz9npd5keijoal65cng8dw_d22b325f-1827-4b40-8c8a-eabb6e8a0bb7_150x.png?v=1712653258"
                 ],
@@ -15386,7 +15412,7 @@
             },
             {
                 "name": "Premium Blood Bowl Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5048__285_150x.jpg?v=1712244240"
                 ],
@@ -15412,7 +15438,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000 Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5045__285_150x.jpg?v=1712583461",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5040__285-zoomed_150x.jpg?v=1712583468"
@@ -15440,7 +15466,7 @@
             },
             {
                 "name": "Premium Warhammer Age of Sigmar Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5046__285_150x.jpg?v=1712583772",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5041__285-zoomed_3bc88960-4133-40f9-a194-3d0386e101d6_150x.jpg?v=1712583778"
@@ -15468,7 +15494,7 @@
             },
             {
                 "name": "Premium Warhammer The Horus Heresy Logo Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5047__285_150x.jpg?v=1712584187",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5042__285-zoomed_a71e8780-d62a-4e33-8fbf-6a4f3556f3ca_150x.jpg?v=1712584195"
@@ -15496,7 +15522,7 @@
             },
             {
                 "name": "Premium Necromunda Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5049__285_150x.jpg?v=1712584478",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5044__285-zoomed_2016e6be-0fc0-4420-b8fb-1e9707e7590b_150x.jpg?v=1712584486"
@@ -15527,7 +15553,7 @@
         "GRIMDARK": [
             {
                 "name": "GRIMDARK - Ultramarines Icon Snapback Cap Preorder",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/grimdark_cap___ultra___1_150x.jpg?v=1727788422",
                     "https://merch-eur.warhammer.com/cdn/shop/files/real_grimdarkcap2copy_76_150x.jpg?v=1725523911"
@@ -15546,7 +15572,7 @@
             },
             {
                 "name": "GRIMDARK - Space Wolves Icon Snapback Cap Preorder",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/grimdarkcap_spacewolves_1_150x.jpg?v=1727698930",
                     "https://merch-eur.warhammer.com/cdn/shop/files/real___grimdark_cap_2_copy_1_150x.jpg?v=1727698969"
@@ -15565,7 +15591,7 @@
             },
             {
                 "name": "GRIMDARK - Chaos Icon Snapback Cap Preorder",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/grimdarkcap_chaos_1_150x.jpg?v=1727698930",
                     "https://merch-eur.warhammer.com/cdn/shop/files/real___grimdark_cap_2_copy_1_150x.jpg?v=1727698969"
@@ -16251,7 +16277,7 @@
         "BLOOD BOWL": [
             {
                 "name": "Blood Bowl III - Wolfenburg Crypt-Stealers T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/91bbfa1c08949227eddcc48865ee2e3eba78ace6c45d5a51_150x.png?v=1728318613",
                     "https://merch-eur.warhammer.com/cdn/shop/files/b534412f4564aacc5322e346eb5c3a7ac26a52d17efcc631_150x.png?v=1728318622"
@@ -16278,7 +16304,7 @@
             },
             {
                 "name": "Blood Bowl III - Skavenblight Scramblers T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/5ca497b038d4cbdcfb4ed5143bf21769114142bc99ff64ac_150x.png?v=1728312651",
                     "https://merch-eur.warhammer.com/cdn/shop/files/9fb13d13b3def1485949099d54f196c24bedbb65d57f2604_150x.png?v=1728312660"
@@ -16305,7 +16331,7 @@
             },
             {
                 "name": "Blood Bowl III - Reikland Reavers T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/313679c2705e23b33fc385862c2e82bc8b151c77cb8a71c1_150x.png?v=1728312643",
                     "https://merch-eur.warhammer.com/cdn/shop/files/4d9384d0f7053e2b445b5571639733f97d7851ede092b8d6_150x.png?v=1728312651"
@@ -16332,7 +16358,7 @@
             },
             {
                 "name": "Blood Bowl III - Naggaroth Nightmares T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/8e7deebf6091fdeaf93fecf6df498692392a7643da978505_150x.png?v=1728312575",
                     "https://merch-eur.warhammer.com/cdn/shop/files/00fbec16e2c8fa6c628dd48f55b598c6b81449418f979123_150x.png?v=1728312583"
@@ -16359,7 +16385,7 @@
             },
             {
                 "name": "Blood Bowl III - Gwaka'Moki Crater Raiders T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/0d312d9a7e1d4c67320339a245b1fdfc4dcb9699db6041fc_150x.png?v=1728312561",
                     "https://merch-eur.warhammer.com/cdn/shop/files/3e0c297a89f0331e569bee02f3ab5499909e1413f9acab97_150x.png?v=1728312571"
@@ -16386,7 +16412,7 @@
             },
             {
                 "name": "Blood Bowl III - Doom Lords T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/ee65ea7b64cce7949e830ee1b896e54694d88366677594fc_150x.png?v=1728318830",
                     "https://merch-eur.warhammer.com/cdn/shop/files/d04ed3cafcd8a21a31748317bb543f1b4597b682f9db14ba_150x.png?v=1728318838"
@@ -16413,7 +16439,7 @@
             },
             {
                 "name": "Blood Bowl III - Champions of Death T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/04966b7be99973534422ed2c4efdc8e78c097cac8a280d96_150x.png?v=1728318822",
                     "https://merch-eur.warhammer.com/cdn/shop/files/957b0c9537c39e50d1cadb91cf31d612ad99470731d09d38_150x.png?v=1728318830"
@@ -16440,7 +16466,7 @@
             },
             {
                 "name": "Blood Bowl III - Bogenhafen Barons T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/609d4dbcb3d565843e16473798b8955be20623ae6050086d_150x.png?v=1728318601",
                     "https://merch-eur.warhammer.com/cdn/shop/files/b911ff26da8d4f4be43c601c4390c75f61160b79ab4853a2_150x.png?v=1728318610"
@@ -17183,7 +17209,7 @@
         "NECROMUNDA": [
             {
                 "name": "Premium Necromunda Logo Hoodie",
-                "price": "346.00",
+                "price": "345.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/HO-U-_-BLK-POWH5049__285_150x.jpg?v=1712584478",
                     "https://merch-eur.warhammer.com/cdn/shop/files/TS-_-BLK-POWH5044__285-zoomed_2016e6be-0fc0-4420-b8fb-1e9707e7590b_150x.jpg?v=1712584486"
@@ -17285,7 +17311,7 @@
             },
             {
                 "name": "Necromunda: Ash Wastes Unsanctioned T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/6112cb432b01185cbb803fb0fc738bdb4ad2c8e86dd49e6f_150x.png?v=1727969189"
                 ],
@@ -18538,7 +18564,7 @@
             },
             {
                 "name": "Radukar The Wolf Long Sleeve T Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-BLK-POWH2618__285_150x.jpg?v=1661172481",
                     "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-BLK-POWH2618__285-back_150x.jpg?v=1661172481"
@@ -18690,7 +18716,7 @@
             },
             {
                 "name": "Ulfenkarn City Crest Long Sleeve T Shirt",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-WHI-POWH2622__285_150x.jpg?v=1617266580",
                     "https://merch-eur.warhammer.com/cdn/shop/products/LS-M-_-WHI-POWH2622__285-back_150x.jpg?v=1617266580"
@@ -19533,7 +19559,7 @@
             },
             {
                 "name": "Talisman Icon T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/1105eab8bb5bfb2d22a1b600030b343b689b8eb3add9415d_150x.png?v=1727967506"
                 ],
@@ -20636,7 +20662,7 @@
         "DK BOOKS": [
             {
                 "name": "Warhammer 40,000: The Ultimate Guide",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/phkzptdtlxp08xwosx3ysuaw7bvpkyt64x1dmytcyfuho8zg_150x.jpg?v=1729863406",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Spread_1_150x.jpg?v=1729864210"
@@ -20684,7 +20710,7 @@
             },
             {
                 "name": "Warhammer 40,000: The Ultimate Guide",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/phkzptdtlxp08xwosx3ysuaw7bvpkyt64x1dmytcyfuho8zg_150x.jpg?v=1729863406",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Spread_1_150x.jpg?v=1729864210"
@@ -20704,8 +20730,190 @@
                 "colours_dropdown": []
             },
             {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Aquilon Terminator Squad Collection Preorder",
+                "price": "830.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-1-Logo_150x.jpg?v=1733232393",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_150x.jpg?v=1733231939"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-1-Logo_1400x.jpg?v=1733232393",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_1400x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_0f24d466-0b72-4e7f-b928-ab1ed44ba3a5_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_40fde934-3567-4b30-8b4b-b592c42e3fe8_1400x.jpg?v=1733232044",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-2-Logo_1400x.jpg?v=1733232393"
+                ],
+                "description": "This is a new product preorder bundle sale.The expected shipping time for the (Legio Custodes, Aquilon Terminator Squad Collection Preorder) is from February 2025. Any other Warhammer Merch items ordered in the same transaction will also ship at that time.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nWithin the ranks of the Legio Custodes, Aquilon Terminator Sodalities were employed rarely but as need dictated, particularly on those rare occasions where the Legio Custodes were required to operate under conditions designated as ‘Zone Mortalis’ or required to storm a breach. In such operations, the Legio was loathe to risk unwarranted loss of life, and the superior defences of the Aquilon Terminator armour was relied upon to mitigate the risk as much as possible as well as provide a platform of mobile heavy firepower.\nThis collection comprises of three Legio Custodes, Aquilon Terminators:\n- Legio Custodes, Aquilon Terminator Squad, Aquilon with Lastrum Storm Bolter (1/18 Scale) Preorder- Legio Custodes, Aquilon Terminator Squad, Aquilon with twin-linked Adrathic Destructor (1/18 Scale) Preorder- Legio Custodes, Aquilon Terminator Squad, Aquilon with Infernus Firepike (1/18 Scale) PreorderThese highly detailed 1/18 scale Warhammer The Horus Heresy action figures feature 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n- 13.7cm Tall  (h13.7cm, w9.6cm, d6.8cm)- 1/18 Scale- Made of plastic- Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\nThe manufacturers recommended age for this product is 15+.Warning! Not suitable for children under 12 years. This is not a toy.\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Aquilon Terminator Squad, Aquilon Terminator with Lastrum Storm Bolter (1/18 Scale) Preorder",
+                "price": "310.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_150x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_5f43ae98-e251-42f8-a7fa-b109f15c1ae3_150x.jpg?v=1733231940"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_1400x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_5f43ae98-e251-42f8-a7fa-b109f15c1ae3_1400x.jpg?v=1733231940",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_1400x.jpg?v=1733231940",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_1400x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_1400x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_1400x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1-Logo_e0651f71-8142-430f-a3e6-3bc293d90703_1400x.jpg?v=1733231939",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_1400x.jpg?v=1733231940"
+                ],
+                "description": "The expected shipping time for the Legio Custodes, Aquilon Terminator Squad, Aquilon Terminator with Lastrum Storm Bolter JoyToy figure is from February 2025. Any other Warhammer Merch items ordered in the same transaction will ship as normal.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nWithin the ranks of the Legio Custodes, Aquilon Terminator Sodalities were employed rarely but as need dictated, particularly on those rare occasions where the Legio Custodes were required to operate under conditions designated as ‘Zone Mortalis’ or required to storm a breach. In such operations, the Legio was loathe to risk unwarranted loss of life, and the superior defences of the Aquilon Terminator armour was relied upon to mitigate the risk as much as possible as well as provide a platform of mobile heavy firepower.\nThis highly detailed 1/18 scale Warhammer The Horus Heresy Legio Custodes action figure features 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n\n- 13.7cm Tall  (h13.7cm, w9.6cm, d6.8cm)\n- 1/18 Scale- Made of plastic- Based on Warhammer The Horus Heresy - Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\n\n\nThe manufacturers recommended age for this product is 15+.\n\n\n Warning! Not suitable for children under 12 years. This is not a toy.\n\n\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Aquilon Terminator Squad, Aquilon Terminator with Adrathic Destructor (1/18 Scale) Preorder",
+                "price": "310.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_303baf13-9202-45b4-aa6c-539c00747c2a_150x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_7e09f85c-8957-429e-a57a-d0bdec0e8c7a_150x.jpg?v=1733231989"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_303baf13-9202-45b4-aa6c-539c00747c2a_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_7e09f85c-8957-429e-a57a-d0bdec0e8c7a_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_5d620e56-f1bd-41d0-b1f4-d51aefd3e3c9_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_0f24d466-0b72-4e7f-b928-ab1ed44ba3a5_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_25d35392-8255-4c59-bc66-a0cdb7d12dfc_1400x.jpg?v=1733231990",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_f2567d8d-52df-4f1d-a69f-1855e34c21c7_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1-Logo_c16fc149-1dbd-42d3-bb8b-4e629f78eee6_1400x.jpg?v=1733231989",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_b15736c2-841e-46a0-8284-f6f41cfbb180_1400x.jpg?v=1733231989"
+                ],
+                "description": "The expected shipping time for the Legio Custodes, Aquilon Terminator Squad, Aquilon Terminator with Adrathic Destructor JoyToy figure is from February 2025. Any other Warhammer Merch items ordered in the same transaction will ship as normal.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nWithin the ranks of the Legio Custodes, Aquilon Terminator Sodalities were employed rarely but as need dictated, particularly on those rare occasions where the Legio Custodes were required to operate under conditions designated as ‘Zone Mortalis’ or required to storm a breach. In such operations, the Legio was loathe to risk unwarranted loss of life, and the superior defences of the Aquilon Terminator armour was relied upon to mitigate the risk as much as possible as well as provide a platform of mobile heavy firepower.\nThis highly detailed 1/18 scale Warhammer The Horus Heresy Legio Custodes action figure features 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n\n- 13.7cm Tall  (h13.7cm, w9.6cm, d6.8cm)\n- 1/18 Scale- Made of plastic- Based on Warhammer The Horus Heresy - Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\n\n\nThe manufacturers recommended age for this product is 15+.\n\n\n Warning! Not suitable for children under 12 years. This is not a toy.\n\n\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Aquilon Terminator Squad, Aquilon Terminator with Infernus Firepike (1/18 Scale) Preorder",
+                "price": "323.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_7114cf87-5944-4031-b2c3-41671a6c49cc_150x.jpg?v=1733232043",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_4eb3038f-a64c-45d0-9da3-e860f4c31a64_150x.jpg?v=1733232043"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_7114cf87-5944-4031-b2c3-41671a6c49cc_1400x.jpg?v=1733232043",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_4eb3038f-a64c-45d0-9da3-e860f4c31a64_1400x.jpg?v=1733232043",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_40fde934-3567-4b30-8b4b-b592c42e3fe8_1400x.jpg?v=1733232044",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_00f2d084-eed8-4afb-bc56-5ce5d86ecb32_1400x.jpg?v=1733232044",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_e6a3eb36-db0e-4880-95f0-b71ed8601841_1400x.jpg?v=1733232043",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_e992f8b9-17b7-4104-b004-739fec525af1_1400x.jpg?v=1733232043",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1-Logo_a5ff4ceb-1cda-49af-a2ce-2e655b64c9d0_1400x.jpg?v=1733232043",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_b71fcf0b-bf6a-4098-a0ac-841edf95f829_1400x.jpg?v=1733232043"
+                ],
+                "description": "The expected shipping time for the Legio Custodes, Aquilon Terminator Squad, Aquilon Terminator with Infernus Firepike JoyToy figure is from February 2025. Any other Warhammer Merch items ordered in the same transaction will ship as normal.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nWithin the ranks of the Legio Custodes, Aquilon Terminator Sodalities were employed rarely but as need dictated, particularly on those rare occasions where the Legio Custodes were required to operate under conditions designated as ‘Zone Mortalis’ or required to storm a breach. In such operations, the Legio was loathe to risk unwarranted loss of life, and the superior defences of the Aquilon Terminator armour was relied upon to mitigate the risk as much as possible as well as provide a platform of mobile heavy firepower.\nThis highly detailed 1/18 scale Warhammer The Horus Heresy Legio Custodes action figure features 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n\n- 13.7cm Tall  (h13.7cm, w9.6cm, d6.8cm)\n- 1/18 Scale- Made of plastic- Based on Warhammer The Horus Heresy - Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 250g\n\n\nThe manufacturers recommended age for this product is 15+.\n\n\n Warning! Not suitable for children under 12 years. This is not a toy.\n\n\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Custodian Venatari Squad Collection Preorder",
+                "price": "760.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-1-Logo_9462fdfa-bed7-4862-9741-22d187712011_150x.jpg?v=1733232443",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_fb692c43-79f0-40c9-868b-3af3541ae9e2_150x.jpg?v=1733232121"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-1-Logo_9462fdfa-bed7-4862-9741-22d187712011_1400x.jpg?v=1733232443",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_fb692c43-79f0-40c9-868b-3af3541ae9e2_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_b377f26f-ecb0-46b4-aafb-aa1fe69625d1_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_ca62da5a-a702-41db-a485-99db96aaee88_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-2-Logo_b7562a1c-0746-4598-8662-566447af4357_1400x.jpg?v=1733232443",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/All-4-Logo_1400x.jpg?v=1733232444"
+                ],
+                "description": "This is a new product preorder bundle sale.The expected shipping time for the (Legio Custodes, Custodian Venatari Squad Collection Preorder) is from February 2025. Any other Warhammer Merch items ordered in the same transaction will also ship at that time.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nVaunted as a high honour among the Legio Custodes, the role of Custodian Venatari is reserved for a scant few – those with proven skill and mastery of the rare, sophisticated flight system and archeotech weapons they wield. The Venatari are specialists in hunting direct threats to the Emperor amidst the sprawl of the Palace walls and its spire-tops. While shield companies patrol the vast hallways and cavernous rooms of the Imperial Palace, the Venatari are elevated above, making their domain among the rooftops and spires, overseeing and assessing the threat of all who enter or leave. Their predatory instincts have earned the Venatari the nickname of ‘the Emperor’s Hunting Eagles’, standing as immobile and vigilant as the birds of prey of Old Earth atop the mountain peaks before swooping into a killing dive.\nThis collection comprises of three Legio Custodes, Custodian Venataris:\n- Legio Custodes, Custodian Venatari Squad, Venatari with Kenetic Destroyer 1 (1/18 Scale) Preorder- Legio Custodes, Custodian Venatari Squad, Venatari with Kenetic Destroyer 2 (1/18 Scale) Preorder- Legio Custodes, Custodian Venatart Squad, Venatari with Venatari Lance (1/18 Scale) PreorderThese highly detailed 1/18 scale Warhammer The Horus Heresy action figures feature 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n- 12.6cm Tall  (h12.6cm, w7.2cm, d6.4cm)- 1/18 Scale- Made of plastic- Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\nThe manufacturers recommended age for this product is 15+.Warning! Not suitable for children under 12 years. This is not a toy.\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Custodian Venatari Squad, Venatari with Kenetic Destroyer 1 (1/18 Scale) Preorder",
+                "price": "288.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_1aca1fc9-c016-4136-a8f9-2e887441a91c_150x.jpg?v=1733232122",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_fb692c43-79f0-40c9-868b-3af3541ae9e2_150x.jpg?v=1733232121"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_1aca1fc9-c016-4136-a8f9-2e887441a91c_1400x.jpg?v=1733232122",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_fb692c43-79f0-40c9-868b-3af3541ae9e2_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_088df5bc-dd6a-4d4f-ad93-a0b361b1af97_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_0ea78d3d-ffec-46db-b271-16eed763c1e1_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_957cd754-4425-471d-ac0e-dd79b2b8305f_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_8ef6ebba-0fa4-47a6-bffc-651f83a5c8d8_1400x.jpg?v=1733232122",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_175bf1a2-5c92-4851-a72a-7570e49c33ab_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1-Logo_0071d376-6623-4e4c-acc7-beed4d1dcb08_1400x.jpg?v=1733232121",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/9-Logo_1400x.jpg?v=1733232122"
+                ],
+                "description": "The expected shipping time for the Legio Custodes, Custodian Venatari Squad, Venatari with Kenetic Destroyer 1 JoyToy figure is from February 2025. Any other Warhammer Merch items ordered in the same transaction will ship as normal.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nVaunted as a high honour among the Legio Custodes, the role of Custodian Venatari is reserved for a scant few – those with proven skill and mastery of the rare, sophisticated flight system and archeotech weapons they wield. The Venatari are specialists in hunting direct threats to the Emperor amidst the sprawl of the Palace walls and its spire-tops. While shield companies patrol the vast hallways and cavernous rooms of the Imperial Palace, the Venatari are elevated above, making their domain among the rooftops and spires, overseeing and assessing the threat of all who enter or leave. Their predatory instincts have earned the Venatari the nickname of ‘the Emperor’s Hunting Eagles’, standing as immobile and vigilant as the birds of prey of Old Earth atop the mountain peaks before swooping into a killing dive.\nThis highly detailed 1/18 scale Warhammer The Horus Heresy Legio Custodes action figure features 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n\n- 12.6cm Tall  (h12.6cm, w7.2cm, d6.4cm)\n- 1/18 Scale- Made of plastic- Based on Warhammer The Horus Heresy - Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\n\n\nThe manufacturers recommended age for this product is 15+.\n\n\n Warning! Not suitable for children under 12 years. This is not a toy.\n\n\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Custodian Venatari Squad, Venatari with Kenetic Destroyer 2 (1/18 Scale) Preorder",
+                "price": "288.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_1b11b8aa-4b6c-45cb-bccb-9d2689bc1e35_150x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_ef14782c-44c5-4120-b506-0434973f5afe_150x.jpg?v=1733232175"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_1b11b8aa-4b6c-45cb-bccb-9d2689bc1e35_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_ef14782c-44c5-4120-b506-0434973f5afe_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_300d6a7c-3ac9-4cb0-9565-1f897f7e4342_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_a84b9a27-1d22-4a2f-8477-db12761e12b2_1400x.jpg?v=1733232176",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_cd7b6539-4ece-43e5-a828-c4f878f1d744_1400x.jpg?v=1733232176",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_327c5147-7abf-4240-8261-4cfd36f3622f_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_b377f26f-ecb0-46b4-aafb-aa1fe69625d1_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1-Logo_97cbb77c-7e3d-4377-bd2e-5ed405d7bb8f_1400x.jpg?v=1733232175",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/9-Logo_ea420a48-030c-4eb8-980a-529c43366a86_1400x.jpg?v=1733232176"
+                ],
+                "description": "The expected shipping time for the Legio Custodes, Custodian Venatari Squad, Venatari with Kenetic Destroyer 2 JoyToy figure is from February 2025. Any other Warhammer Merch items ordered in the same transaction will ship as normal.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nVaunted as a high honour among the Legio Custodes, the role of Custodian Venatari is reserved for a scant few – those with proven skill and mastery of the rare, sophisticated flight system and archeotech weapons they wield. The Venatari are specialists in hunting direct threats to the Emperor amidst the sprawl of the Palace walls and its spire-tops. While shield companies patrol the vast hallways and cavernous rooms of the Imperial Palace, the Venatari are elevated above, making their domain among the rooftops and spires, overseeing and assessing the threat of all who enter or leave. Their predatory instincts have earned the Venatari the nickname of ‘the Emperor’s Hunting Eagles’, standing as immobile and vigilant as the birds of prey of Old Earth atop the mountain peaks before swooping into a killing dive.\nThis highly detailed 1/18 scale Warhammer The Horus Heresy Legio Custodes action figure features 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n\n- 12.6cm Tall  (h12.6cm, w7.2cm, d6.4cm)\n- 1/18 Scale- Made of plastic- Based on Warhammer The Horus Heresy - Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\n\n\nThe manufacturers recommended age for this product is 15+.\n\n\n Warning! Not suitable for children under 12 years. This is not a toy.\n\n\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
+                "name": "JoyToy Warhammer The Horus Heresy Action Figure - Legio Custodes, Custodian Venatari Squad, Venatari with Venatari Lance (1/18 Scale) Preorder",
+                "price": "288.00",
+                "images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_2db5343b-1955-44c6-8adb-f21e41c2ad0e_150x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_ca62da5a-a702-41db-a485-99db96aaee88_150x.jpg?v=1733232240"
+                ],
+                "detailed_images": [
+                    "https://merch-eur.warhammer.com/cdn/shop/files/4-Logo_2db5343b-1955-44c6-8adb-f21e41c2ad0e_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/7-Logo_ca62da5a-a702-41db-a485-99db96aaee88_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/2-Logo_b216036d-8348-4717-8aeb-6c952295cc30_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/3-Logo_85fc97e3-d1d9-46f2-8e8c-0daac3838a28_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/5-Logo_4be55aa3-af10-4ef0-99bf-2fbd3d0ec13a_1400x.jpg?v=1733232241",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/6-Logo_04da38e0-b423-481c-adf2-61eb7dc37997_1400x.jpg?v=1733232241",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/8-Logo_982067c6-b96f-4de4-b950-ebcb76d6bd5b_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/1-Logo_5b3a69fb-f105-4175-a39b-02dc0377bc86_1400x.jpg?v=1733232240",
+                    "https://merch-eur.warhammer.com/cdn/shop/files/9-Logo_c6af8896-1692-4285-aa94-7bd86e571daf_1400x.jpg?v=1733232240"
+                ],
+                "description": "The expected shipping time for the Legio Custodes, Custodian Venatari Squad, Venatari with Venatari Lance JoyToy figure is from February 2025. Any other Warhammer Merch items ordered in the same transaction will ship as normal.\nThis product will ship from the UK (UK Tax Included). Buy with confidence from the official Warhammer Merchandise Store and guarantee your order.\nVaunted as a high honour among the Legio Custodes, the role of Custodian Venatari is reserved for a scant few – those with proven skill and mastery of the rare, sophisticated flight system and archeotech weapons they wield. The Venatari are specialists in hunting direct threats to the Emperor amidst the sprawl of the Palace walls and its spire-tops. While shield companies patrol the vast hallways and cavernous rooms of the Imperial Palace, the Venatari are elevated above, making their domain among the rooftops and spires, overseeing and assessing the threat of all who enter or leave. Their predatory instincts have earned the Venatari the nickname of ‘the Emperor’s Hunting Eagles’, standing as immobile and vigilant as the birds of prey of Old Earth atop the mountain peaks before swooping into a killing dive.\nThis highly detailed 1/18 scale Warhammer The Horus Heresy Legio Custodes action figure features 26 points of articulation and comes with additional interchangeable parts.\nSpecs:\n\n- 12.6cm Tall  (h12.6cm, w7.2cm, d6.4cm)\n- 1/18 Scale- Made of plastic- Based on Warhammer The Horus Heresy - Packaging: h20cm, w18cm, d7.5cm- Packaging Weight: 350g\n\n\nThe manufacturers recommended age for this product is 15+.\n\n\n Warning! Not suitable for children under 12 years. This is not a toy.\n\n\nThis item is excluded from promotional offers.",
+                "details": null,
+                "sizes": [],
+                "colours_button": [],
+                "colours_dropdown": []
+            },
+            {
                 "name": "Warhammer 40,000: Space Marine 2 Looking Forward To It T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/68c1fde739dcf16eb7a2698a53fb4896c18bfc7c6e4ca201_150x.png?v=1731944068",
                     "https://merch-eur.warhammer.com/cdn/shop/files/68c1fde739dcf16eb7a2698a53fb4896c18bfc7c6e4ca201_8d3376c1-7937-4dc0-b1c9-2e84a3e36fb7_150x.png?v=1732637228"
@@ -20733,7 +20941,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Looking Forward To It Hoodie",
-                "price": "360.00",
+                "price": "359.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/6b6566430ad9d9d1a0c21007e83154e0f81390d8264fccd1_150x.png?v=1731944131",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6b6566430ad9d9d1a0c21007e83154e0f81390d8264fccd1_62f8a170-e958-405e-8b20-205089141ff8_150x.png?v=1732637171"
@@ -20762,7 +20970,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Contemptor-Incaendius Dreadnought (1/18 Scale) Preorder",
-                "price": "569.00",
+                "price": "568.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A6560_150x.jpg?v=1732024292",
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A6550_150x.jpg?v=1732024292"
@@ -20787,7 +20995,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Raldoron, First Captain of the Blood Angels (1/18 Scale) Preorder",
-                "price": "307.00",
+                "price": "306.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A6583_150x.jpg?v=1732024456",
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A6575_150x.jpg?v=1732024456"
@@ -20812,7 +21020,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Dawnbreaker Cohort, Dawnbreaker Champion (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5932_150x.jpg?v=1732024585",
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5939_150x.jpg?v=1732024586"
@@ -20835,7 +21043,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Dawnbreaker Cohort, Dawnbreaker 1 (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5941_150x.jpg?v=1732024736",
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5944_150x.jpg?v=1732024737"
@@ -20858,7 +21066,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Dawnbreaker Cohort, Dawnbreaker 2 (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5948_150x.jpg?v=1732024877",
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5958_150x.jpg?v=1732024877"
@@ -20881,7 +21089,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Dawnbreaker Cohort Collection Preorder",
-                "price": "613.00",
+                "price": "612.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5959_150x.jpg?v=1732024942",
                     "https://merch-eur.warhammer.com/cdn/shop/files/262A5960_150x.jpg?v=1732024942"
@@ -20969,7 +21177,7 @@
             },
             {
                 "name": "Red Gobbo Double Print T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/5518cf9aa0136c88e6ab51a08a24a35ec164981ec41fdbae_150x.png?v=1731418055",
                     "https://merch-eur.warhammer.com/cdn/shop/files/41b2c26bedfdb10b727a6d767294add32bf8208868cc5b21_150x.png?v=1731418058"
@@ -21043,234 +21251,6 @@
                 ],
                 "colours_button": [],
                 "colours_dropdown": []
-            },
-            {
-                "name": "Premium Red Gobbo Waaagh! Black Hoodie",
-                "price": "337.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/255bd15322e9df74c12970282a015c8bc41bf9d453b199ee_150x.png?v=1731419525"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/255bd15322e9df74c12970282a015c8bc41bf9d453b199ee_1400x.png?v=1731419525"
-                ],
-                "description": "Official Premium Red Gobbo Waaagh! Black Hoodie available in Small - 5XL.Our Premium hoodies are a slightly different fit to our standard hoodies. We recommend ordering one size bigger than you normally would. Please refer to the size guide for more info.Digitally printed design.Sizes: S - 5XLSuper soft for maximum comfort.100% Organic ringspun combed cotton.350gsm.Machine wash cold, with like colours.Machine wash inside out.Do not bleach.Do not dry clean.Do not tumble dry.Do not iron.",
-                "details": null,
-                "sizes": [
-                    "5XL",
-                    "4XL",
-                    "3XL",
-                    "2XL",
-                    "XXS",
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Red Gobbo Double Print Hoodie",
-                "price": "238.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/5f120c12ad7e931fad013e45a65cb5b5a105c43994e279a0_150x.png?v=1731667625",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/158dd8fa780e7568bbbb670cb9fe97b05a8bcbf55e7733c3_150x.png?v=1731667629"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/5f120c12ad7e931fad013e45a65cb5b5a105c43994e279a0_1400x.png?v=1731667625",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/158dd8fa780e7568bbbb670cb9fe97b05a8bcbf55e7733c3_1400x.png?v=1731667629"
-                ],
-                "description": "Official Red Gobbo Double Print Hoodie available in Small - 5XL.Our Premium hoodies are a slightly different fit to our standard hoodies. We recommend ordering one size bigger than you normally would. Please refer to the size guide for more info. Digitally printed design.Sizes: S - 5XLSuper soft for maximum comfort.100% Organic ringspun combed cotton.350gsm.Machine wash cold, with like colours.Machine wash inside out.Do not bleach.Do not dry clean.Do not tumble dry.Do not iron.",
-                "details": null,
-                "sizes": [
-                    "5XL",
-                    "4XL",
-                    "3XL",
-                    "2XL",
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Red Gobbo Merry Grotmas T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/93c61c46e47dc9e603d2c925b8cf8cbc4217ccd7a35b48a9_150x.png?v=1731420305"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/93c61c46e47dc9e603d2c925b8cf8cbc4217ccd7a35b48a9_1400x.png?v=1731420305"
-                ],
-                "description": "This Official Red Gobbo Merry Grotmas T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.Key Features:100% organic cottonOfficial Warhammer T-shirtPremium t-shirt with high quality design applicationCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": null,
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": []
-            },
-            {
-                "name": "Kill Team: Angels of Death Icon T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/ea9393c804e3647d25e0c1b74300cb204f2a8c90f463fc5f_150x.png?v=1730212413",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/3fa2a10358e7bb28ea651955b611020d4b5430c9964d5820_150x.png?v=1730212417"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/ea9393c804e3647d25e0c1b74300cb204f2a8c90f463fc5f_1400x.png?v=1730212413",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/3fa2a10358e7bb28ea651955b611020d4b5430c9964d5820_1400x.png?v=1730212417"
-                ],
-                "description": "This Official Kill Team: Angels of Death Icon T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.Key Features:100% organic cottonOfficial Warhammer T-shirtPremium t-shirt with high quality design applicationCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": null,
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": [
-                    "White",
-                    "Black"
-                ]
-            },
-            {
-                "name": "Kill Team: Blades of Khaine Icon T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/d37d4cafba48201cad8158d18f304cae078b769159d05cbf_150x.png?v=1730215169",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/7a7b784f16b0c07159c043770a7b5928d619f873910daecd_150x.png?v=1730215172"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/d37d4cafba48201cad8158d18f304cae078b769159d05cbf_1400x.png?v=1730215169",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/7a7b784f16b0c07159c043770a7b5928d619f873910daecd_1400x.png?v=1730215172"
-                ],
-                "description": "This Official Kill Team: Blades of Khaine Icon T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.Key Features:100% organic cottonOfficial Warhammer T-shirtPremium t-shirt with high quality design applicationCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": null,
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": [
-                    "White",
-                    "Black"
-                ]
-            },
-            {
-                "name": "Kill Team: Elucidian Starstriders Icon T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/f22b90ba6cfb482ad455109e165b7ef5946e34c2d36ceaf3_150x.png?v=1730215250",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/4dfc03d835e7f20cd3c5279bf64415cd80126da9d9ed595b_150x.png?v=1730215254"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/f22b90ba6cfb482ad455109e165b7ef5946e34c2d36ceaf3_1400x.png?v=1730215250",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/4dfc03d835e7f20cd3c5279bf64415cd80126da9d9ed595b_1400x.png?v=1730215254"
-                ],
-                "description": "This Official Kill Team: Elucidian Starstriders Icon T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.Key Features:100% organic cottonOfficial Warhammer T-shirtPremium t-shirt with high quality design applicationCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": null,
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": [
-                    "White",
-                    "Black"
-                ]
-            },
-            {
-                "name": "Kill Team: Exaction Squad Icon T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/01b23055e98a956cdf6e4942eaa2ae0ef5515159d18a518b_150x.png?v=1730215335",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/b3178e0a668c778c0479158dad710e96e429c3fb1cd97789_150x.png?v=1730215339"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/01b23055e98a956cdf6e4942eaa2ae0ef5515159d18a518b_1400x.png?v=1730215335",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/b3178e0a668c778c0479158dad710e96e429c3fb1cd97789_1400x.png?v=1730215339"
-                ],
-                "description": "This Official Kill Team: Exaction Squad Icon T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.Key Features:100% organic cottonOfficial Warhammer T-shirtPremium t-shirt with high quality design applicationCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": null,
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": [
-                    "White",
-                    "Black"
-                ]
-            },
-            {
-                "name": "Kill Team: Fellgor Ravagers Icon T Shirt",
-                "price": "144.00",
-                "images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/1e9f5655574434b84fc038b141f002f736e8cdbe8e10169e_150x.png?v=1730215465",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/3440a469d28f5cc7d46514de4fec48569ab631262a9abe38_150x.png?v=1730215469"
-                ],
-                "detailed_images": [
-                    "https://merch-eur.warhammer.com/cdn/shop/files/1e9f5655574434b84fc038b141f002f736e8cdbe8e10169e_1400x.png?v=1730215465",
-                    "https://merch-eur.warhammer.com/cdn/shop/files/3440a469d28f5cc7d46514de4fec48569ab631262a9abe38_1400x.png?v=1730215469"
-                ],
-                "description": "This Official Kill Team: Fellgor Ravagers Icon T Shirt is made from 100% pure organic cotton for premium quality and a super-soft feel, providing maximum comfort.Key Features:100% organic cottonOfficial Warhammer T-shirtPremium t-shirt with high quality design applicationCertified Organic Cotton t-shirt, 155g/m2. Wash cool, hang dry. GM free. Not tested on animals. Does not contain animal-derived products. Printed with low waste printing tech.",
-                "details": null,
-                "sizes": [
-                    "XS",
-                    "S",
-                    "M",
-                    "L",
-                    "XL",
-                    "XXL",
-                    "XXXL",
-                    "XXXXL",
-                    "XXXXXL"
-                ],
-                "colours_button": [],
-                "colours_dropdown": [
-                    "White",
-                    "Black"
-                ]
             }
         ],
         "2025 CALENDARS": [
@@ -21671,7 +21651,7 @@
         "GIFTS": [
             {
                 "name": "Warhammer 40,000: The Ultimate Guide",
-                "price": "158.00",
+                "price": "157.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/phkzptdtlxp08xwosx3ysuaw7bvpkyt64x1dmytcyfuho8zg_150x.jpg?v=1729863406",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Spread_1_150x.jpg?v=1729864210"
@@ -22055,7 +22035,7 @@
             },
             {
                 "name": "Warhammer 40,000: Red Gobbo Knitted Blanket",
-                "price": "270.00",
+                "price": "269.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/aihywg8wss7s2eymgkf1knjgdwukkp64pgughnpp4dt9ny5w_150x.jpg?v=1728297505",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Warhammer_Gobbo_Blanket_Samp_2_16_1716301400_150x.jpg?v=1729241700"
@@ -22119,7 +22099,7 @@
         "JOYTOY": [
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels Sanguinius, Primarch of the IXth Legion (1/18 Scale) & Exclusive T Shirt Preorder",
-                "price": "701.00",
+                "price": "699.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_8_150x.jpg?v=1728901251",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Sanguinus_001-v2_Vis_150x.jpg?v=1728904991"
@@ -22158,7 +22138,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure - Lieutenant Titus (1/18 Scale) Preorder",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_3_150x.jpg?v=1725365777",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6_caa6c247-fb86-425e-9688-e59e56973cf2_150x.jpg?v=1725286082"
@@ -22181,7 +22161,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure - Sergeant Gadriel (1/18 Scale) Preorder",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_3_5426ddbc-4ab1-4e5e-bcde-ddc07be718ec_150x.jpg?v=1725365882",
                     "https://merch-eur.warhammer.com/cdn/shop/files/3_cb8dfbdd-f0ca-4ea9-a21e-8df738ba6573_150x.jpg?v=1725286557"
@@ -22205,7 +22185,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure - Brother Chairon (1/18 Scale) Preorder",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_3_c3241c62-9346-422c-9416-b9c324e2d813_150x.jpg?v=1725365939",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6_789487d1-7a54-48c4-9492-006ceb3d01ac_150x.jpg?v=1725286433"
@@ -22254,7 +22234,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Imperial Fists Rogal Dorn, Primarch of the VIIth Legion, (1/18 Scale).",
-                "price": "679.00",
+                "price": "677.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/q8gzpuppbnavyxefrp1r2qfwjov1mnap3jaxlqwb7vdtkbci_150x.jpg?v=1722253670",
                     "https://merch-eur.warhammer.com/cdn/shop/files/vxykvemholf8sv9yspslhwc2znuknn9igg2prdnzzcfm1g64_150x.jpg?v=1722253670"
@@ -22280,7 +22260,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Sons of Horus, Ezekyle Abaddon, First Captain of the XVIth Legion (1/18 Scale)",
-                "price": "337.00",
+                "price": "336.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5074__0_150x.jpg?v=1722346877",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5074__0-preview_150x.jpg?v=1722346877"
@@ -22305,7 +22285,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Legion Praetor with Paragon Blade (1/18 Scale) Preorder",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_6_fdf4383f-a1b5-41fb-9fc2-bbd4cd30e4b8_150x.jpg?v=1728901329",
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_4_aa35b325-fc9b-40db-87a4-ab3044f24d0f_150x.jpg?v=1728901329"
@@ -22328,7 +22308,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Imperial Fists, Legion MkIII Tactical Squad Legionary with Bolter (1/18 Scale)",
-                "price": "215.00",
+                "price": "214.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH4972__0-back-model_1_150x.jpg?v=1713778315",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-_---POWH4972__0-zoomed_150x.jpg?v=1713778315"
@@ -22350,7 +22330,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Sons of Horus, Legion MKIV Tactical Squad Legionary with Bolter (1/18 Scale)",
-                "price": "193.00",
+                "price": "192.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5026__0_150x.jpg?v=1722343896",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5026__0-preview_150x.jpg?v=1722343895"
@@ -22373,7 +22353,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Crimson Paladin #2 (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/4_2785eb0d-a182-48da-a7dc-e1688dc73c74_150x.jpg?v=1728307404",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6_cdd088af-f4d4-4146-98fb-947dc82b5b5c_150x.jpg?v=1728307404"
@@ -22395,7 +22375,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Crimson Exemplar (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7_ea7179a9-a008-4550-83bf-471758f82b1b_150x.jpg?v=1728307337",
                     "https://merch-eur.warhammer.com/cdn/shop/files/2_ac194ca5-7540-4f99-a754-714ef4173f10_150x.jpg?v=1728307337"
@@ -22418,7 +22398,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Crimson Paladin with Iliastus Assault Cannon (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/3_29a76841-9b02-4a44-aec9-a07d0cafe0ab_150x.jpg?v=1728307456",
                     "https://merch-eur.warhammer.com/cdn/shop/files/4_bc7dd6a4-23e7-4590-888e-e7ffa8362f87_150x.jpg?v=1728307456"
@@ -22438,7 +22418,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Sons of Horus, Legion MKIV Tactical Squad Sergeant with Power Fist (1/18 Scale)",
-                "price": "215.00",
+                "price": "214.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5023__0_150x.jpg?v=1722344012",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5023__0-preview_150x.jpg?v=1722344012"
@@ -22461,7 +22441,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Crimson Paladin #1 (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/3_0a15fac6-09c7-4881-bcfd-aeb74ab50f49_150x.jpg?v=1728307371",
                     "https://merch-eur.warhammer.com/cdn/shop/files/4_02ed38be-d046-40c6-8f78-4d81e87f748d_150x.jpg?v=1728307371"
@@ -22481,7 +22461,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Sons of Horus, Legion MkVI Tactical Squad Legionary with Bolter & Chainblade (1/18 Scale)",
-                "price": "193.00",
+                "price": "192.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5019__0-model_3_150x.jpg?v=1722256452",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5019__0_150x.jpg?v=1722256452"
@@ -22504,7 +22484,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Thousand Sons, Magnus the Red, Primarch of the XVth Legion (1/18 Scale) & Exclusive T Shirt Preorder",
-                "price": "670.00",
+                "price": "668.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/10_-logo_150x.jpg?v=1720516289",
                     "https://merch-eur.warhammer.com/cdn/shop/files/MagnusTheRedCrimsonKing_CommercialinConfidence_150x.jpg?v=1720454086"
@@ -22540,7 +22520,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Legion Praetor with Tartaros Terminator Armour (1/18 Scale) Preorder",
-                "price": "285.00",
+                "price": "284.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7_c984c66f-dd58-4423-af53-9ecafda4e358_150x.jpg?v=1729517351",
                     "https://merch-eur.warhammer.com/cdn/shop/files/8_280baa39-5578-418c-b9c4-35647dafd234_150x.jpg?v=1729517351"
@@ -22565,7 +22545,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Blood Angels, Crimson Paladin #3 (1/18 Scale) Preorder",
-                "price": "241.00",
+                "price": "240.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/3_d290dd78-8983-4c67-bcf3-9e3c9bb3f8d7_150x.jpg?v=1728307430",
                     "https://merch-eur.warhammer.com/cdn/shop/files/4_8bdfee2d-ca26-4714-b5b6-fb76f42fae0d_150x.jpg?v=1728307430"
@@ -22585,7 +22565,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Imperial Fists, Legion Tactical Squad Sergeant with Power Sword (1/18 Scale)",
-                "price": "228.00",
+                "price": "227.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/22skgjilpn1cs6tfnnl2uilkeeqrukkaegex5dwlvsh2a2ry_150x.jpg?v=1713775940",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH4969__0-back-model_2_150x.jpg?v=1713775974"
@@ -22609,7 +22589,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Sons of Horus, Legion MKIV Tactical Squad Legionary with Flamer (1/18 Scale)",
-                "price": "193.00",
+                "price": "192.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5025__0_150x.jpg?v=1722343952",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5025__0-preview_150x.jpg?v=1722343952"
@@ -22632,7 +22612,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Imperial Fists, Legion MkIII Breacher Squad, Legion Breacher with Graviton Gun (1/18 Scale)",
-                "price": "228.00",
+                "price": "227.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH4987__0-model_2_150x.jpg?v=1713780992",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-_---POWH4987__0-zoomed_150x.jpg?v=1713780992"
@@ -22654,7 +22634,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Imperial Fists, Legion MkIII Tactical Squad Sergeant with Power Fist (1/18 Scale)",
-                "price": "215.00",
+                "price": "214.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH4971__0-back-model_2_150x.jpg?v=1713777063",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH4971__0-model_3_150x.jpg?v=1713777063"
@@ -22679,7 +22659,7 @@
             },
             {
                 "name": "JoyToy Warhammer The Horus Heresy Action Figure - Sons of Horus, Legion MKIV Tactical Squad Legionary with Legion Vexilla (1/18 Scale)",
-                "price": "193.00",
+                "price": "192.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5024__0_150x.jpg?v=1722344097",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SI-JTF-_---POWH5024__0-preview_150x.jpg?v=1722344096"
@@ -22704,7 +22684,7 @@
         "SPACE MARINE 2": [
             {
                 "name": "Warhammer 40,000: Space Marine 2 Looking Forward To It T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/68c1fde739dcf16eb7a2698a53fb4896c18bfc7c6e4ca201_150x.png?v=1731944068",
                     "https://merch-eur.warhammer.com/cdn/shop/files/68c1fde739dcf16eb7a2698a53fb4896c18bfc7c6e4ca201_8d3376c1-7937-4dc0-b1c9-2e84a3e36fb7_150x.png?v=1732637228"
@@ -22732,7 +22712,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Looking Forward To It Hoodie",
-                "price": "360.00",
+                "price": "359.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/6b6566430ad9d9d1a0c21007e83154e0f81390d8264fccd1_150x.png?v=1731944131",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6b6566430ad9d9d1a0c21007e83154e0f81390d8264fccd1_62f8a170-e958-405e-8b20-205089141ff8_150x.png?v=1732637171"
@@ -22822,7 +22802,7 @@
             },
             {
                 "name": "Exclusive Ultramarines Stainless Steel Water Bottle Preorder",
-                "price": "132.00",
+                "price": "131.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Wh5_6abd7fae-02b2-4c04-aa08-f9836c97e9d6_150x.jpg?v=1727343427",
                     "https://merch-eur.warhammer.com/cdn/shop/files/SM2_Water_Bottle___lifestyle_150x.jpg?v=1724928082"
@@ -22841,7 +22821,7 @@
             },
             {
                 "name": "Warhammer 40,000: Space Marine 2 Limited Edition Merch Collection",
-                "price": "744.00",
+                "price": "742.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/696A8987_150x.jpg?v=1725288259",
                     "https://merch-eur.warhammer.com/cdn/shop/files/Wh2_150x.jpg?v=1725289209"
@@ -22882,7 +22862,7 @@
             },
             {
                 "name": "Warhammer 40,000: Space Marine 2 Ultramarines Varsity Jacket Preorder",
-                "price": "569.00",
+                "price": "568.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/WH04_2_150x.jpg?v=1725015845",
                     "https://merch-eur.warhammer.com/cdn/shop/files/WH02_2_150x.jpg?v=1725015845"
@@ -22910,7 +22890,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure Collection Preorder",
-                "price": "692.00",
+                "price": "690.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/Battle_Brothers4_150x.jpg?v=1725365726",
                     "https://merch-eur.warhammer.com/cdn/shop/files/BattleBrothers1_150x.jpg?v=1725286182"
@@ -22935,7 +22915,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure - Lieutenant Titus (1/18 Scale) Preorder",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_3_150x.jpg?v=1725365777",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6_caa6c247-fb86-425e-9688-e59e56973cf2_150x.jpg?v=1725286082"
@@ -22958,7 +22938,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure - Sergeant Gadriel (1/18 Scale) Preorder",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_3_5426ddbc-4ab1-4e5e-bcde-ddc07be718ec_150x.jpg?v=1725365882",
                     "https://merch-eur.warhammer.com/cdn/shop/files/3_cb8dfbdd-f0ca-4ea9-a21e-8df738ba6573_150x.jpg?v=1725286557"
@@ -22982,7 +22962,7 @@
             },
             {
                 "name": "JoyToy Warhammer 40,000: Space Marine 2 Action Figure - Brother Chairon (1/18 Scale) Preorder",
-                "price": "263.00",
+                "price": "262.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/A_3_c3241c62-9346-422c-9416-b9c324e2d813_150x.jpg?v=1725365939",
                     "https://merch-eur.warhammer.com/cdn/shop/files/6_789487d1-7a54-48c4-9492-006ceb3d01ac_150x.jpg?v=1725286433"
@@ -23006,7 +22986,7 @@
             },
             {
                 "name": "Exclusive Warhammer 40,000: Space Marine 2 Triple Displate Set",
-                "price": "460.00",
+                "price": "459.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/08_2024_Warhammer_multiplate_set_vis_150x.jpg?v=1724743568",
                     "https://merch-eur.warhammer.com/cdn/shop/files/08_2024_Warhammer_multiplate_set_transparent_BG_150x.jpg?v=1724743567"
@@ -23026,7 +23006,7 @@
             },
             {
                 "name": "Warhammer 40,000: Space Marine 2 PlayStation 5 Custom Controller",
-                "price": "635.00",
+                "price": "633.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/696A8940_150x.jpg?v=1724920777",
                     "https://merch-eur.warhammer.com/cdn/shop/files/696A8944_150x.jpg?v=1724920776"
@@ -23049,7 +23029,7 @@
             },
             {
                 "name": "Warhammer 40,000: Space Marine 2 Xbox Custom Controller",
-                "price": "635.00",
+                "price": "633.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/696A8938_150x.jpg?v=1724920777",
                     "https://merch-eur.warhammer.com/cdn/shop/files/696A8941_150x.jpg?v=1724920776"
@@ -23072,7 +23052,7 @@
             },
             {
                 "name": "Warhammer 40,000: Space Marine 2 Skull Halo T Shirt",
-                "price": "167.00",
+                "price": "166.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/darkgreyfront_150x.png?v=1723557967",
                     "https://merch-eur.warhammer.com/cdn/shop/files/greyfront_150x.png?v=1723557967"
@@ -23103,7 +23083,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Skull Halo Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/grey_hood_front_150x.png?v=1723558317",
                     "https://merch-eur.warhammer.com/cdn/shop/files/grey_hood_back_150x.png?v=1723558318"
@@ -23208,7 +23188,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Space Marine 2 Eternal Service Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/fd34baad8e51a16b818f87292e5f0c200174834d52d80bc7_e8a38f70-928e-4a81-90d8-40449a8d3c93_150x.png?v=1721998069",
                     "https://merch-eur.warhammer.com/cdn/shop/files/f4eeffacdcdc7193b09bd42095d36994752bb48c55dbab71_b085ce1b-c688-4844-bda5-69f131115eb6_150x.png?v=1721998070"
@@ -23236,7 +23216,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Eternal Service White Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7b7bbd3547e108fc70b40f9c6a85586f20d90e64aa9e4cb0_a3796f03-e930-401f-bb1b-7627b17996b8_150x.png?v=1721998066",
                     "https://merch-eur.warhammer.com/cdn/shop/files/fac7dd40b266f26c96804b50b30306ad884daab126ccecd0_bbfadf7b-1dd4-465e-bfc3-42158a289fad_150x.png?v=1721998069"
@@ -23266,7 +23246,7 @@
             },
             {
                 "name": "Premium Warhammer 40,000: Space Marine 2 Only War Hoodie",
-                "price": "368.00",
+                "price": "367.00",
                 "images": [
                     "https://merch-eur.warhammer.com/cdn/shop/files/7hamzcozghzd4tahpgypldsk9halr7a2qxjh353dixsnjfaa_150x.png?v=1727427291",
                     "https://merch-eur.warhammer.com/cdn/shop/files/sp29w4w1e4dfvcqibnzgbha7eetmls0zps9bz1ef5kdhbay7_150x.png?v=1727427286"

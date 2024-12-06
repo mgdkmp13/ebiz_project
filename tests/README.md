@@ -1,4 +1,4 @@
-In order to execute tests install chrome on wsl run commands below:
+In order to execute tests install chrome on wsl with commands below in exact order:
 
 wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg
 

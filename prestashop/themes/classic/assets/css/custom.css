@@ -8,8 +8,8 @@ body {
 }
 
 .header-nav {
-    max-height: 11vh !important;
-    height: 11vh;
+    max-height: 100px !important;
+    height: 120px;
 }
 
 .header {
@@ -48,7 +48,7 @@ body {
 
 #_desktop_logo {
     position: absolute;
-    top: -10.5vh;
+    top: -90px;
     left: 2.5vw;
 }
 
@@ -58,7 +58,7 @@ body {
 
 #search_widget {
     position: absolute;
-    top: -10vh;
+    top: -80px;
     left: 66vw;
 }
 
@@ -124,6 +124,7 @@ body {
 
 .hidden-sm-down .right-nav {
     width: 54%;
+    margin-top: 15px;
 }
 
 #header .header-nav .blockcart .header{
@@ -159,13 +160,17 @@ body {
     height: fit-content !important;
 }
 
+.header-top {
+    height: 70px !important;
+}
+
 .fa-bag-shopping {
     color: #000000;
     font-size: 2.2rem;
 }
 
 #wrapper {
-    padding-top: 21vh !important;
+    padding-top: 170px !important;
 }
 
 .container {
@@ -566,6 +571,24 @@ span.dropdown-arrow {
 
 #feature1 {
     margin-bottom: 120vh;
+}
+
+#feature1,#feature2,#feature3,#feature4 {
+    height: 215vh;
+}
+
+@media (min-height:1250px) {
+    #feature1 {
+        margin-bottom: 90vh !important;
+    }
+    
+    #feature1,#feature2,#feature3,#feature4 {
+        height:110vh !important;
+    }
+
+    #carousel-2{
+        top: 200vh !important;
+    }
 }
 
 .new-collections {

@@ -7,10 +7,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
 
 product_file_path = "../Scrapper/scraping_results/warhammer_products.json"
-API_URL = "http://localhost:8080/api"
+API_URL = "https://localhost:8443/api"
 API_KEY = "FLMGUSUKA2JS1GMSJ5UE538HMSEN25BL"
-
-prestashop = PrestaShopWebServiceDict(API_URL, API_KEY)
+session = requests.Session()
+session.verify = False
+prestashop = PrestaShopWebServiceDict(API_URL, API_KEY, session=session)
 
 def get_blank_schemas():
     print("Fetching blank schemas")

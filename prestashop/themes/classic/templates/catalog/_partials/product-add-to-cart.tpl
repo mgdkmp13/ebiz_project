@@ -46,7 +46,8 @@
             aria-label="{l s='Quantity' d='Shop.Theme.Actions'}"
           >
         </div>
-
+      </div>
+      <div class="add-cart">
         <div class="add">
           <button
             class="btn btn-primary add-to-cart"

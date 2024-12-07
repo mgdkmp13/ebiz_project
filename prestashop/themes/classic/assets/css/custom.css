@@ -731,3 +731,22 @@ span.dropdown-arrow {
     margin: 0 auto;
     max-width: 100%;
 }
+
+.tabs .nav-tabs .nav-link.active{
+    color: black !important;
+    background-color: #d9d9d9;
+    border-bottom: none;
+}
+
+.product-description{
+    background-color: #d9d9d9;
+    
+}
+
+.tabs .tab-pane{
+    padding-top: 0.25rem !important;
+}
+
+.tabs {
+    margin-right: 2rem;
+}

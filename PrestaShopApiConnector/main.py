@@ -5,6 +5,11 @@ import copy
 import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import requests
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
+
+warnings.simplefilter('ignore', InsecureRequestWarning)
+
 
 product_file_path = "../Scrapper/scraping_results/warhammer_products.json"
 API_URL = "https://localhost:8443/api"
@@ -12,6 +17,24 @@ API_KEY = "FLMGUSUKA2JS1GMSJ5UE538HMSEN25BL"
 session = requests.Session()
 session.verify = False
 prestashop = PrestaShopWebServiceDict(API_URL, API_KEY, session=session)
+
+UPDATE_IMAGES = True
+
+def find_by_name(d, target_name):
+    if isinstance(d, dict):
+        for key, value in d.items():
+            if key == 'name' and value == target_name:
+                return d
+            elif isinstance(value, dict):
+                result = find_by_name(value, target_name)
+                if result:
+                    return result
+            elif isinstance(value, list):
+                for item in value:
+                    result = find_by_name(item, target_name)
+                    if result:
+                        return result
+    return None
 
 def get_blank_schemas():
     print("Fetching blank schemas")
@@ -122,17 +145,17 @@ def send_category(category_name, category_schema, parent_id='2'):
 
     category_data['category']['description'] = {
         'language': [
-            {'attrs': {'id': '1'}, 'value': f''}, 
-            {'attrs': {'id': '2'}, 'value': f''}, 
-            {'attrs': {'id': '3'}, 'value': f''}  
+            {'attrs': {'id': '1'}, 'value': f' '}, 
+            {'attrs': {'id': '2'}, 'value': f' '}, 
+            {'attrs': {'id': '3'}, 'value': f' '}  
         ]
     }
 
     category_data['category']['link_rewrite'] = {
         'language': [
-            {'attrs': {'id': '1'}, 'value': ''}, 
-            {'attrs': {'id': '2'}, 'value': ''}, 
-            {'attrs': {'id': '3'}, 'value': ''}  
+            {'attrs': {'id': '1'}, 'value': ' '}, 
+            {'attrs': {'id': '2'}, 'value': ' '}, 
+            {'attrs': {'id': '3'}, 'value': ' '}  
         ]
     }
 
@@ -163,22 +186,22 @@ def send_product(product_data, product_schema):
             {
                 'attrs': {'id': '1'},
                 'value': (
-                    f"{product_data.get('description', '')}<br><br>"
-                    f"{product_data.get('details', '')}<br><br>"
+                    f"{product_data.get('description', ' ')}<br><br>"
+                    f"{product_data.get('details', ' ')}<br><br>"
                 )
             },
             {
                 'attrs': {'id': '2'},
                 'value': (
-                    f"{product_data.get('description', '')}<br><br>"
-                    f"{product_data.get('details', '')}<br><br>"
+                    f"{product_data.get('description', ' ')}<br><br>"
+                    f"{product_data.get('details', ' ')}<br><br>"
                 )
             },
             {
                 'attrs': {'id': '3'},
                 'value': (
-                    f"{product_data.get('description', '')}<br><br>"
-                    f"{product_data.get('details', '')}<br><br>"
+                    f"{product_data.get('description', ' ')}<br><br>"
+                    f"{product_data.get('details', ' ')}<br><br>"
                 )
             }
         ]
@@ -315,5 +338,37 @@ def main():
             except Exception as e:
                 print(f"Error processing product: {e}")
 
+def process_update_img(product_id, prestashop, parsed_data):
+    try:
+        res = prestashop.get('products', product_id)
+        product_name = res['product']['name']['language']['value']
+        data = find_by_name(parsed_data, product_name)
+        images = data['detailed_images']
+
+        imgs_from_presta = prestashop.search(f"images/products", options={'filter[id_product]': product_id})
+
+        prestashop.delete(f"images/products/{product_id}", resource_ids=imgs_from_presta)
+
+        for img in images:
+            upload_image_to_prestashop(img, product_id)
+    except Exception as e:
+        print(f"Error processing product {product_id}: {e}")
+
+def update_images():
+    with open(product_file_path, 'r') as file:
+        parsed_data = json.load(file)
+
+    products = get_product_ids()
+
+    with ThreadPoolExecutor() as executor:
+        futures = [executor.submit(process_update_img, id, prestashop, parsed_data) for id in products]
+
+        for future in futures:
+            future.result()
+
+
 if __name__ == "__main__":
-    main()
+    if UPDATE_IMAGES:
+        update_images()
+    else:
+        main()

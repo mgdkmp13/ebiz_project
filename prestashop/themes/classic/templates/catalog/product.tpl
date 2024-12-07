@@ -110,9 +110,6 @@
               <a class="nav-link active" data-toggle="tab" href="#description" role="tab">{l s='Description' d='Shop.Theme.Catalog'}</a>
             </li>
           {/if}
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="tab" href="#product-details" role="tab">{l s='Product Details' d='Shop.Theme.Catalog'}</a>
-          </li>
           {if $product.attachments}
             <li class="nav-item">
               <a class="nav-link" data-toggle="tab" href="#attachments" role="tab">{l s='Attachments' d='Shop.Theme.Catalog'}</a>
@@ -121,7 +118,7 @@
         </ul>
 
         <div class="tab-content">
-          <div class="tab-pane fade show active" id="description" role="tabpanel">
+          <div class="tab-pane fade show js-product-tab-active active in" id="description" role="tabpanel">
             <div class="product-description">{$product.description nofilter}</div>
           </div>
           <div class="tab-pane fade" id="product-details" role="tabpanel">
@@ -146,4 +143,13 @@
     </div>
   </div>
 </section>
+{/block}
+
+{block name='scripts'}
+  <script>
+   window.onload = function() {
+    $('#description').tab('show'); // Ustawienie zakładki "Opis" jako aktywnej
+};
+
+  </script>
 {/block}

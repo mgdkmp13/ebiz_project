@@ -46,6 +46,10 @@ body {
     justify-content: center;
 }
 
+#header .header-nav .cart-preview.active a, #header .header-nav .cart-preview.active i {
+    color: black;
+}
+
 #_desktop_logo {
     position: absolute;
     top: -90px;
@@ -101,6 +105,10 @@ body {
     align-items: center;
 }
 
+#desktop_cart{
+    height: 90px;
+}
+
 #header .header-nav .user-info {
     margin: 0 !important;
 }
@@ -150,7 +158,7 @@ body {
 
 .cart-products-count {
     position: relative;
-    right: 1.2vw;
+    right: 1.5vw;
     font-size: 1rem;
     color: #fff;
 }
@@ -716,4 +724,10 @@ span.dropdown-arrow {
 
 .social-sharing li {
     background-color: #252525;
+}
+
+.product-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
 }

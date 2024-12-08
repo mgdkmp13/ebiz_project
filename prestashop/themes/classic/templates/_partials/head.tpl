@@ -78,11 +78,16 @@
 
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
+  <!-- Dodaj styl FancyBox -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/4.0.0/jquery.fancybox.min.css">
 {/block}
 
 {block name='javascript_head'}
   {include file="_partials/javascript.tpl" javascript=$javascript.head vars=$js_custom_vars}
+  <!-- Dodaj skrypt FancyBox -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/4.0.0/jquery.fancybox.min.js"></script>
 {/block}
+
 
 {block name='hook_header'}
   {$HOOK_HEADER nofilter}

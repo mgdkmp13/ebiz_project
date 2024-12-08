@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/29b4ba27-63a3-4a13-93a8-12a33cfb1bc2/armies_imperium.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20241204%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20241204T094417Z&X-Amz-Expires=86400&X-Amz-Signature=e4e294a58787f8ec1d912aaa53182aad7720c58d8eb62e99259dcbfb05d2e202&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22armies_imperium.png%22&response-content-type=image%2Fpng&x-id=GetObject

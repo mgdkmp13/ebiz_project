@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://cloudconvert.com/
+HostUrl=https://eu-central.storage.cloudconvert.com/tasks/d1e0dc83-adea-4cca-a02e-b0e8125d9489/xenos_armies.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=cloudconvert-production%2F20241204%2Ffra%2Fs3%2Faws4_request&X-Amz-Date=20241204T094445Z&X-Amz-Expires=86400&X-Amz-Signature=0cfdb088765fa8b629036aad3282b985eacd7b9060bf5c4e9317c92a3588db5d&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22xenos_armies.png%22&response-content-type=image%2Fpng&x-id=GetObject

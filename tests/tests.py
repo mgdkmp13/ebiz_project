@@ -258,7 +258,7 @@ def check_order_status():
         EC.presence_of_element_located((By.CSS_SELECTOR, 'tbody > tr > td > span.label.label-pill.bright')))
 
     try:
-        assert order_status.text.strip() == "Oczekiwanie na płatność przy odbiore"
+        assert order_status.text.strip() == "Oczekiwanie na płatność przy odbiorze"
     except AssertionError:
         print(f"Test failed: Expected 'Oczekiwanie na płatność przy odbiorze' but got '{order_status.text.strip()}'")
 

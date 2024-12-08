@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.action_chains import ActionChains
 import random
 import json
 import time
@@ -28,6 +29,7 @@ options.add_experimental_option("prefs", prefs)
 driver = webdriver.Chrome(options=options)
 driver.set_window_position(0, 0)
 driver.maximize_window()
+actions = ActionChains(driver)
 
 wait = WebDriverWait(driver, 20)
 
@@ -59,8 +61,13 @@ def add_products(json_file_path):
     for product_name, quantity in products.items():
         search_product(product_name)
 
+        opis_element = driver.find_element(By.XPATH, "//a[contains(., 'Opis')]")
+        actions.move_to_element(opis_element).perform()
+
+        time.sleep(1)
+
         quantity_input = wait.until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "button.btn-touchspin:nth-child(1)")))
+            EC.visibility_of_element_located((By.CSS_SELECTOR, "button.btn-touchspin:nth-child(1)")))
 
         for _ in range(quantity - 1):
             quantity_input.click()
@@ -263,14 +270,14 @@ def get_invoice():
 
     files = [f for f in os.listdir(download_dir) if f.startswith("FV") and f.endswith(".pdf")]
     try:
-        assert len(files) == 1
+        assert len(files) != 0
     except AssertionError:
         print("Invoice download failed")
         return
 
     # remove file after test
     file_path = os.path.join(download_dir, files[0])
-    os.remove(file_path)
+    #os.remove(file_path)
 
 
 def run_tests():

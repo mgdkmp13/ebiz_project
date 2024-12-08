@@ -93,7 +93,7 @@ class Ps_Shoppingcart extends Module implements WidgetInterface
         $cart = $this->getPresentedCart();
 
         $cartTotalPrice = $this->context->cart->getOrderTotal(true, Cart::BOTH_WITHOUT_SHIPPING);
-        $formattedCartTotalPrice = number_format($cartTotalPrice, 2, '.', '');
+        $formattedCartTotalPrice = number_format($cartTotalPrice, 2, ',', ''). ' zł';
 
         return [
             'cart' => $cart,

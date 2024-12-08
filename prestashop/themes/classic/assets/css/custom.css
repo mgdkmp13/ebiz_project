@@ -3,6 +3,11 @@ body {
     font-weight: 100;
 }
 
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .top-menu a[data-depth="0"] {
     font-weight: 100 !important;
 }
@@ -10,6 +15,7 @@ body {
 .header-nav {
     max-height: 100px !important;
     height: 120px;
+    width: 100vw;
 }
 
 .header {
@@ -21,11 +27,16 @@ body {
     position: fixed;
 }
 
+.header-top{
+    width: 100%;
+}
+
 #header .header-top {
     background-color: #252525 !important;
     color: white !important;
     position: fixed;
-    padding: 0.75rem !important;
+    padding: 0.75rem 0 !important;
+    width: 100%;
 }
 
 #header .header-top a[data-depth="0"] {
@@ -50,6 +61,10 @@ body {
     color: black;
 }
 
+.cart-total {
+    margin-right: 1vw;
+}
+
 #_desktop_logo {
     position: absolute;
     top: -90px;
@@ -63,7 +78,11 @@ body {
 #search_widget {
     position: absolute;
     top: -80px;
-    left: 66vw;
+    left: 64vw;
+}
+
+#_desktop_user_info {
+    margin-right: 1vw;
 }
 
 .right-nav {
@@ -182,7 +201,7 @@ body {
 }
 
 .container {
-    width: 100vw !important;
+    width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
 }
@@ -194,12 +213,12 @@ body {
 } */
 
 .carousel-item a {
-    width: 100vw !important;
+    width: 100% !important;
     display: block;
 }
 
 .carousel .carousel-item figure {
-    width: 100vw !important;
+    width: 100% !important;
 }
 
 .carousel .carousel-inner {
@@ -396,7 +415,7 @@ body {
 
 .info,
 .info h2 {
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     background-color: #d1d1d1;
     justify-content: center;
@@ -409,7 +428,7 @@ body {
 
 .info2,
 .info2 h2 {
-    width: 100vw;
+    width: 100%;
     height: 5vh;
     background-color: #ffcc00;
     justify-content: center;
@@ -445,11 +464,6 @@ span.dropdown-arrow {
     margin-bottom: 5px;
 }
 
-.menu-image img {
-    max-width: 80px;
-    /* lub inny rozmiar dopasowany do Twojego projektu */
-    border-radius: 5px;
-}
 
 .menu .dropdown-item {
     display: flex;
@@ -470,10 +484,8 @@ span.dropdown-arrow {
 }
 
 .menu-category-image {
-    width: 50px;
     /* Dopasuj rozmiar */
     height: auto;
-    margin-right: 10px;
     display: inline-block;
     /* Ustawienie obrazka obok tekstu */
 }
@@ -485,14 +497,8 @@ span.dropdown-arrow {
 }
 
 .menu-category-image {
-    width: 50px;
-    /* Dostosuj szerokość obrazka */
     height: auto;
-    /* Automatyczna wysokość */
-    margin-right: 10px;
-    /* Odstęp między obrazkiem a tekstem */
     display: inline-block;
-    /* Wyświetlanie obrazka w linii z tekstem */
 }
 
 .menu li {
@@ -508,13 +514,11 @@ span.dropdown-arrow {
 .category .popover {
     background-color: #252525;
     color: white;
-    width: 100vw;
+    width: 100%;
     margin: 0;
     left: -1vw;
     top: 7vh;
     padding-top: 25px;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
 .dropdown-separator span{
@@ -543,8 +547,7 @@ span.dropdown-arrow {
 }
 
 .category .popover .top-menu a { 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 0 !important;
 }
 
 .featured-products .products-section-title {
@@ -751,6 +754,106 @@ span.dropdown-arrow {
     margin-right: 2rem;
 }
 
-.cart-price:hover, #header .header-nav .cart-preview.active a, #header .header-nav .cart-preview.active a:hover {
+.cart-price:hover, #header .header-nav .cart-preview.active a, #header .header-nav .cart-preview.active a:hover  {
     color: #000;
+}
+
+
+
+
+/* #### MEGA PANEL MENU #### */
+
+#top_sub_menu_7 {
+    width: 100% !important;
+    left: 0;
+}
+
+#category-399{
+    display: block !important;
+    width: 42.6%;
+    margin: 0;
+}
+
+#category-403{
+    display: block !important;
+    width: 57.4%;
+    margin: 0;
+}
+
+#top_sub_menu_7 ul {
+    display: contents !important;
+}
+
+#category-399 #top_sub_menu_7 ul, #category-403 #top_sub_menu_8 ul {
+    display: flex !important;
+}
+
+#category-400, #category-401,#category-402 {
+    width: 33.3%;
+}
+
+#category-404,#category-405, #category-406,#category-407{
+    width: 25%;
+}
+
+#top_sub_menu_7 .top-menu .category  .dropdown-item, #top_sub_menu_8 .top-menu .category  .dropdown-item {
+    display: flex;
+}
+
+.menu-image img{
+    width: 100%;
+}
+
+.menu-image{
+    overflow: hidden;
+}
+
+#category-400:hover a .menu-image img,#category-401:hover a .menu-image img,#category-402:hover a .menu-image img,#category-404:hover a .menu-image img,#category-405:hover a .menu-image img,#category-406:hover a .menu-image img,#category-407:hover a .menu-image img{
+    width: 100%;
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
+
+#top_sub_menu_7 .top-menu .dropdown-separator {
+    display: none;
+}
+
+#top_sub_menu_7 .top-menu .category  .dropdown-item span, #top_sub_menu_8 .top-menu .category  .dropdown-item span{
+    font-size: 1rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#category-399 .collapse .top-menu .category,#category-403 .collapse .top-menu .category  {
+    margin:0 !important;
+}
+
+#category-399 .dropdown-submenu, #category-403 .dropdown-submenu {
+    background-color:#333;
+    color: white;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+}
+
+#category-400 a,#category-401 a,#category-402 a,#category-404 a, #category-405 a,#category-406 a,#category-407 a {
+    background-color: black;
+    color: white;    
+    border: 1px solid white;
+}
+
+#category-400 a:hover,#category-401 a:hover,#category-402 a:hover,#category-404 a:hover, #category-405 a:hover,#category-406 a:hover,#category-407 a:hover {
+    color: white !important;    
+}
+#top_sub_menu_7 .top-menu .category  .dropdown-item:hover span, #top_sub_menu_8 .top-menu .category  .dropdown-item:hover span{
+    font-size: 1rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white !important;
+}
+
+ #top_sub_menu_7 .top-menu .category  .dropdown-item:hover, #top_sub_menu_8 .top-menu .category  .dropdown-item:hover{
+    border-bottom: 2px solid #FFB800;
+
 }

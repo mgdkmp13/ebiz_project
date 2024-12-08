@@ -1,4 +1,5 @@
 {assign var=_counter value=0}
+
 {function name="menu" nodes=[] depth=0 parent=null}
     {if $nodes|count}
       <ul class="top-menu" {if $depth == 0}id="top-menu"{/if} data-depth="{$depth}">
@@ -9,17 +10,19 @@
                 href="{$node.url}" data-depth="{$depth}"
                 {if $node.open_in_new_window} target="_blank" {/if}
               >
-                {if isset($node.image) && $node.image}
-                  <div class="menu-image">
-                    <img src="{$node.image}" alt="{$node.label}" class="menu-category-image"/>
-                  </div>
-                {/if}
                 <span>
                   {$node.label}
-                  {if $depth == 0 && $node.children|count} <!-- Strzałka tylko dla głównych kategorii -->
-                    <i class="fas fa-chevron-down"></i> <!-- Ikona strzałki -->
+                  {if $depth == 0 && $node.children|count} <!-- Add arrow only for main categories -->
+                    <i class="fas fa-chevron-down"></i> <!-- Arrow icon -->
                   {/if}
                 </span>
+                {if isset($node.image_urls) && $node.image_urls|@count > 0} <!-- Check if image_urls is an array and has elements -->
+                  <div class="menu-image">
+                    <img src="{$node.image_urls[0]}" alt="{$node.label}" class="menu-category-image"/>
+                  </div>
+                {/if}
+
+                
               </a>
 
               {if $node.children|count}
@@ -29,13 +32,13 @@
               {/if}
             </li>
 
-            {if $depth == 1 && $node_key != count($nodes)-1} <!-- Separator tylko dla podkategorii i nie na końcu -->
+            {if $depth == 1 && $node_key != count($nodes)-1} <!-- Separator only for subcategories and not at the end -->
               <li class="dropdown-separator">
                 <span>|</span>
               </li>
             {/if}
 
-            {assign var=_counter value=$_counter+1} <!-- Zwiększenie licznika dla unikalnych ID -->
+            {assign var=_counter value=$_counter+1} <!-- Increment counter for unique IDs -->
         {/foreach}
       </ul>
     {/if}

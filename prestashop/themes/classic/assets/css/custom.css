@@ -671,6 +671,18 @@ span.dropdown-arrow {
     border: 1px solid black;
 }
 
+.btn-primary:hover{
+    background-color: #e69900;
+}
+
+.product-flags li.product-flag {
+    background-color: #FFB800   ;
+}
+
+.no-account a, .forgot-password a, .promo-code-button a {
+    color: #FFB800;
+}
+
 .product-actions .add-to-cart .material-icons{
     display: none;
 }

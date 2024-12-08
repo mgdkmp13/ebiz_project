@@ -750,3 +750,7 @@ span.dropdown-arrow {
 .tabs {
     margin-right: 2rem;
 }
+
+.cart-price:hover, #header .header-nav .cart-preview.active a, #header .header-nav .cart-preview.active a:hover {
+    color: #000;
+}

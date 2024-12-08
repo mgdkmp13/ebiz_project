@@ -28,13 +28,14 @@
       {if isset($cart) && $cart.products_count > 0}
         <a rel="nofollow" aria-label="{l s='Shopping cart link containing %nbProducts% product(s)' sprintf=['%nbProducts%' => $cart.products_count] d='Shop.Theme.Checkout'}" href="{$cart_url}">
       {/if}
-        <span class="cart-price">
-          {if isset($cartTotalPrice)}
-            {$cartTotalPrice}
-          {else}
-            {l s='0,00zł' d='Shop.Theme.Checkout'}
-          {/if}
-        </span>
+        <span class="cart-total">
+    {if isset($cartTotalPrice)}
+        {l s='' d='Modules.Shoppingcart.Shop'} {$formattedCartTotalPrice}
+
+    {else}
+        {l s='0.00' d='Modules.Shoppingcart.Shop'}
+    {/if}
+</span>
         <i class="fa-solid fa-bag-shopping"></i>
         <span class="cart-products-count">{if isset($cart)}{$cart.products_count}{else}0{/if}</span>
         <span class="hidden-sm-down">{l s='Cart' d='Shop.Theme.Checkout'}</span>

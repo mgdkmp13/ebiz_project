@@ -90,10 +90,17 @@ class Ps_Shoppingcart extends Module implements WidgetInterface
      */
     public function getWidgetVariables($hookName, array $params)
     {
+        $cart = $this->getPresentedCart();
+
+        $cartTotalPrice = $this->context->cart->getOrderTotal(true, Cart::BOTH_WITHOUT_SHIPPING);
+        $formattedCartTotalPrice = number_format($cartTotalPrice, 2, '.', '');
+
         return [
-            'cart' => $this->getPresentedCart(),
+            'cart' => $cart,
             'refresh_url' => $this->context->link->getModuleLink('ps_shoppingcart', 'ajax', [], null, null, null, true),
             'cart_url' => $this->getCartSummaryURL(),
+            'cartTotalPrice' => $cartTotalPrice,
+            'formattedCartTotalPrice' => $formattedCartTotalPrice,
         ];
     }
 
@@ -130,9 +137,10 @@ class Ps_Shoppingcart extends Module implements WidgetInterface
         if (Configuration::isCatalogMode()) {
             return '';
         }
-
-        $this->smarty->assign($this->getWidgetVariables($hookName, $params));
-
+    
+        $widgetVariables = $this->getWidgetVariables($hookName, $params);
+        $this->smarty->assign($widgetVariables);
+    
         return $this->fetch('module:ps_shoppingcart/ps_shoppingcart.tpl');
     }
 

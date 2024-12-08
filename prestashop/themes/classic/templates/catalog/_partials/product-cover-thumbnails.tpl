@@ -86,13 +86,14 @@
   {hook h='displayAfterProductThumbs' product=$product}
 </div>
 
-{* Dodaj skrypt FancyBox i stylizację *}
 {block name='javascript_head'}
-  {include file="_partials/javascript.tpl" javascript=$javascript.head vars=$js_custom_vars}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/4.0.0/jquery.fancybox.min.js"></script>
+  {if isset($javascript)}
+    {include file="_partials/javascript.tpl" javascript=$javascript.head vars=$js_custom_vars}
+  {/if}
 {/block}
 
 {block name='stylesheets'}
-  {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/4.0.0/jquery.fancybox.min.css">
+  {if isset($stylesheets)}
+    {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
+  {/if}
 {/block}

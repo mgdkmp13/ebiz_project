@@ -8,13 +8,13 @@ MYSQL_DATABASE="BE_193066"
 
 SQL_DUMP_FILE="/db_init/presta_init.sql"
 
-echo "Creating Database if not exists..."
+echo "Tworze db"
 mysql -h"$MYSQL_HOST" -P"$MYSQL_PORT" -u"$MYSQL_USER" -p"$MYSQL_PASSWORD" -e "CREATE DATABASE IF NOT EXISTS ${MYSQL_DATABASE};"
 
-echo "Applying SQL dump to initialize the database..."
+echo "Seeduje db"
 mysql -h"$MYSQL_HOST" -P"$MYSQL_PORT" -u"$MYSQL_USER" -p"$MYSQL_PASSWORD" "$MYSQL_DATABASE" < "$SQL_DUMP_FILE"
 
-echo "Removing install and config folders..."
+echo "Usuwam katalogi"
 if [ -d "install" ]; then
     rm -rf install
 fi
@@ -23,7 +23,7 @@ if [ -d "config" ]; then
     rm -rf config
 fi
 
-echo "Initialization complete."
+echo "Inizjalizacja zakonczona"
 
-echo "Starting the server..."
+echo "Server Start"
 exec apache2-foreground

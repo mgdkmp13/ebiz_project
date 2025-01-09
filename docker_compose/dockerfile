@@ -14,16 +14,16 @@ RUN openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
 
 RUN chown www-data:www-data /etc/apache2/private/selfKey.key /etc/apache2/certs/selfCert.crt
 
-COPY ./000-default.conf /etc/apache2/sites-available/000-default.conf
+COPY docker_compose/000-default.conf /etc/apache2/sites-available/000-default.conf
 
 RUN a2enmod ssl && a2ensite 000-default.conf
 
-COPY ./init_db.sh /init_db.sh
-COPY ../db_init /db_init
+COPY docker_compose/init_db.sh /init_db.sh
+COPY ./db_init /db_init
 
 RUN rm -rf /var/www/html/*
 
-COPY ../prestashop /var/www/html
+COPY ./prestashop /var/www/html
 
 RUN rm -rf /var/www/html/var/cache/* && \
     chown -R www-data:www-data /var/www/html && \

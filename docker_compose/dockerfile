@@ -19,6 +19,7 @@ COPY docker_compose/000-default.conf /etc/apache2/sites-available/000-default.co
 RUN a2enmod ssl && a2ensite 000-default.conf
 
 COPY docker_compose/init_db.sh /init_db.sh
+
 COPY ./db_init /db_init
 
 RUN rm -rf /var/www/html/*

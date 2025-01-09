@@ -1,0 +1,33 @@
+FROM prestashop/prestashop:1.7.8-apache
+
+RUN apt-get update && \
+    apt-get install -y openssl libmemcached-dev zlib1g-dev && \
+    pecl install memcached && \
+    docker-php-ext-enable memcached
+
+RUN mkdir -p /etc/apache2/private && mkdir -p /etc/apache2/certs
+
+RUN openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
+    -keyout /etc/apache2/private/selfKey.key \
+    -out /etc/apache2/certs/selfCert.crt \
+    -subj "/C=US/ST=State/L=City/O=Company/OU=Department/CN=localhost"
+
+RUN chown www-data:www-data /etc/apache2/private/selfKey.key /etc/apache2/certs/selfCert.crt
+
+COPY ./000-default.conf /etc/apache2/sites-available/000-default.conf
+
+RUN a2enmod ssl && a2ensite 000-default.conf
+
+COPY ./init_db.sh /init_db.sh
+COPY ../db_init /db_init
+
+RUN rm -rf /var/www/html/*
+
+COPY ../prestashop /var/www/html
+
+RUN rm -rf /var/www/html/var/cache/* && \
+    chown -R www-data:www-data /var/www/html && \
+    chmod -R 755 /var/www/html && \
+    chmod -R 777 /var/www/html/var/cache /var/www/html/var/logs
+
+RUN update-ca-certificates

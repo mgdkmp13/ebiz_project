@@ -1,57 +1,51 @@
-version: '3'
 services:
-  mysql:
-    container_name: ebiz-mysql
-    image: mysql:5.7
-    restart: unless-stopped
-    environment:
-      MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: prestashop
+  memcache:
+    container_name: memcached
+    image: memcached
+    user: 1000:1000
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 140s
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 256M
     networks:
-      - prestashop_network
-    volumes:
-      - ../db_init:/docker-entrypoint-initdb.d # Mapowanie lokalnego katalogu ze skryptami inicjalizacyjnymi
+      - prestashop_atom
 
   prestashop:
-    build:
-      context: ../ssl
-      dockerfile: Dockerfile
-    container_name: prestashop
-    image: prestashop/prestashop:1.7.8
-    restart: unless-stopped
-    depends_on:
-      - mysql
+    image: atomowkibe/prestashop:latest
+    user: root
     ports:
-      - 8080:80
-      - 8443:443
+      - 19319:443
+    deploy:
+      restart_policy:
+        condition: on-failure
+        delay: 10s
+        max_attempts: 3
+        window: 100s
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: 512M
     environment:
       ADMIN_MAIL: admin@prestashop.com 
       ADMIN_PASSWD: admin123
-      DB_SERVER: ebiz-mysql
-      DB_NAME: prestashop
+      DB_SERVER: db
       DB_USER: root
-      DB_PASSWD: admin
+      DB_NAME: BE_193066
+      DB_PASSWD: student
       PS_INSTALL_AUTO: 1
       PS_FOLDER_ADMIN: admin123
     networks:
-      - prestashop_network
-    volumes:
-      - ../prestashop:/var/www/html  # Dane PrestaShop, aby były trwałe
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
-    environment:
-      PMA_HOST: ebiz-mysql
-      PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: admin
-    ports:
-      - "8081:80"
-    networks:
-      - prestashop_network
+      - prestashop_atom
+      - admin-mysql_default
+    entrypoint: /init_db.sh
       
 networks:
-  prestashop_network:
-
-volumes:
-  prestashop:  # Wolumen na dane PrestaShop
+  prestashop_atom:
+  admin-mysql_default:
+    external: true

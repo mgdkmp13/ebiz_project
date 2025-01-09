@@ -14,8 +14,7 @@ services:
 
   prestashop:
     build:
-      context: ../ssl
-      dockerfile: Dockerfile
+      dockerfile: dockerfile
     container_name: prestashop
     image: prestashop/prestashop:1.7.8
     restart: unless-stopped

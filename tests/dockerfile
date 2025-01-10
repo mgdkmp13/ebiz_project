@@ -1,0 +1,21 @@
+# Dockerfile for MySQL Database
+
+FROM mysql:8.0
+
+# Set environment variables for MySQL
+ENV MYSQL_ROOT_PASSWORD=student
+ENV MYSQL_DATABASE=BE_193066
+ENV MYSQL_USER=root
+ENV MYSQL_PASSWORD=student
+
+# Copy initialization scripts
+COPY ./db_init/presta_init.sql /docker-entrypoint-initdb.d/presta_init.sql
+
+# Adjust permissions for initialization scripts
+RUN chmod 644 /docker-entrypoint-initdb.d/presta_init.sql
+
+# Expose the default MySQL port
+EXPOSE 3306
+
+# Set default command
+CMD ["mysqld"]

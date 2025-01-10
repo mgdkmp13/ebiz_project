@@ -19,9 +19,6 @@ if [ -d "install" ]; then
     rm -rf install
 fi
 
-if [ -d "config" ]; then
-    rm -rf config
-fi
 
 echo "Inizjalizacja zakonczona"
 

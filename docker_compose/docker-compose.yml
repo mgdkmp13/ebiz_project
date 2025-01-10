@@ -32,7 +32,7 @@ services:
           cpus: '0.5'
           memory: 512M
     environment:
-      PS_DEV_MODE: 0
+      PS_DEV_MODE: 1
       ADMIN_MAIL: admin@prestashop.com 
       ADMIN_PASSWD: admin123
       DB_SERVER: db
@@ -41,6 +41,7 @@ services:
       DB_PASSWD: student
       PS_INSTALL_AUTO: 1
       PS_FOLDER_ADMIN: admin123
+      PS_ENABLE_SSL: 1
     networks:
       - admin-mysql_default
     entrypoint: /init_db.sh

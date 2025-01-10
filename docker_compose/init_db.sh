@@ -15,10 +15,6 @@ echo "Seeduje db"
 mysql -h"$MYSQL_HOST" -P"$MYSQL_PORT" -u"$MYSQL_USER" -p"$MYSQL_PASSWORD" "$MYSQL_DATABASE" < "$SQL_DUMP_FILE"
 
 echo "Usuwam katalogi"
-if [ -d "install" ]; then
-    rm -rf install
-fi
-
 
 echo "Inizjalizacja zakonczona"
 

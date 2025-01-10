@@ -9,10 +9,6 @@ services:
         delay: 10s
         max_attempts: 3
         window: 140s
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 256M
     networks:
       - prestashop_atom
 
@@ -21,16 +17,13 @@ services:
     user: root
     ports:
       - 19319:443
+      - 8443:443
     deploy:
       restart_policy:
         condition: on-failure
         delay: 10s
         max_attempts: 3
         window: 100s
-      resources:
-        limits:
-          cpus: '0.5'
-          memory: 512M
     environment:
       PS_DEV_MODE: 0
       ADMIN_MAIL: admin@prestashop.com 

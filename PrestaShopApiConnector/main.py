@@ -12,7 +12,7 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 
 product_file_path = "../Scrapper/scraping_results/warhammer_products.json"
-API_URL = "https://localhost:8443/api"
+API_URL = "https://localhost:19360/api"
 API_KEY = "FLMGUSUKA2JS1GMSJ5UE538HMSEN25BL"
 session = requests.Session()
 session.verify = False
@@ -343,12 +343,11 @@ def process_update_img(product_id, prestashop, parsed_data):
         res = prestashop.get('products', product_id)
         product_name = res['product']['name']['language']['value']
         data = find_by_name(parsed_data, product_name)
-        images = data['detailed_images']
+        images = [image for image in data['detailed_images'] if '.jpg' in image or '.png' in image][:2]
 
-        imgs_from_presta = prestashop.search(f"images/products", options={'filter[id_product]': product_id})
+        #imgs_from_presta = prestashop.search(f"images/products", options={'filter[id_product]': product_id})
 
-        prestashop.delete(f"images/products/{product_id}", resource_ids=imgs_from_presta)
-
+        #prestashop.delete(f"images/products/{product_id}", resource_ids=imgs_from_presta)
         for img in images:
             upload_image_to_prestashop(img, product_id)
     except Exception as e:

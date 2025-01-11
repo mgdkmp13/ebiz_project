@@ -7,7 +7,7 @@ services:
       restart_policy:
         condition: on-failure
         delay: 10s
-        max_attempts: 3
+        max_attempts: 2
         window: 140s
       resources:
         limits:
@@ -20,26 +20,28 @@ services:
     image: atomowkibe/prestashop:latest
     user: root
     ports:
-      - 19319:443
+      - 19360:443
     deploy:
       restart_policy:
         condition: on-failure
         delay: 10s
-        max_attempts: 3
+        max_attempts: 2
         window: 100s
       resources:
         limits:
           cpus: '0.5'
           memory: 512M
     environment:
+      PS_DEV_MODE: 0
       ADMIN_MAIL: admin@prestashop.com 
       ADMIN_PASSWD: admin123
-      DB_SERVER: db
+      DB_SERVER: admin-mysql_default
       DB_USER: root
       DB_NAME: BE_193066
       DB_PASSWD: student
       PS_INSTALL_AUTO: 1
       PS_FOLDER_ADMIN: admin123
+      CACHE_SYSTEM: Memcached
     networks:
       - prestashop_atom
       - admin-mysql_default

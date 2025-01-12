@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MYSQL_HOST="db"
+MYSQL_HOST="admin-mysql_default"
 MYSQL_PORT="3306"
 MYSQL_USER="root"
 MYSQL_PASSWORD="student"
@@ -17,10 +17,6 @@ mysql -h"$MYSQL_HOST" -P"$MYSQL_PORT" -u"$MYSQL_USER" -p"$MYSQL_PASSWORD" "$MYSQ
 echo "Usuwam katalogi"
 if [ -d "install" ]; then
     rm -rf install
-fi
-
-if [ -d "config" ]; then
-    rm -rf config
 fi
 
 echo "Inizjalizacja zakonczona"

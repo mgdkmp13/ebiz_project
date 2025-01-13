@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Konfiguracja dla backupu
-DB_HOST="admin-mysql_default"        # Host bazy danych (nazwa kontenera)
+DB_HOST="admin-mysql_db"        # Host bazy danych (nazwa kontenera)
 DB_USER="root"              # Nazwa użytkownika bazy danych
 DB_PASS="student"             # Hasło do bazy danych
 DB_NAME="BE_193066"        # Nazwa bazy danych do zrzutu
@@ -21,4 +21,5 @@ if [ $? -eq 0 ]; then
     echo "Dump bazy danych został pomyślnie zapisany w: $BACKUP_FILE"
 else
     echo "Wystąpił błąd przy tworzeniu dumpa bazy danych."
+    exit 1
 fi

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MYSQL_HOST="admin-mysql_default"
+MYSQL_HOST="admin-mysql_db"
 MYSQL_PORT="3306"
 MYSQL_USER="root"
 MYSQL_PASSWORD="student"

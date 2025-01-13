@@ -35,7 +35,7 @@ services:
       PS_DEV_MODE: 0
       ADMIN_MAIL: admin@prestashop.com 
       ADMIN_PASSWD: admin123
-      DB_SERVER: admin-mysql_default
+      DB_SERVER: admin-mysql_db
       DB_USER: root
       DB_NAME: BE_193066
       DB_PASSWD: student

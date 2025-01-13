@@ -9,8 +9,8 @@ import json
 import time
 import os
 
-MAIN_PAGE_URL = "https://localhost:8443"
-CART_URL = "https://localhost:8443/koszyk?action=show"
+MAIN_PAGE_URL = "https://localhost:19360"
+CART_URL = "https://localhost:19360/koszyk?action=show"
 
 download_dir = os.path.abspath('./DownloadsFolder')
 if not os.path.exists(download_dir):
@@ -25,6 +25,7 @@ options = Options()
 options.add_argument('--ignore-certificate-errors')
 options.page_load_strategy = 'eager'
 options.add_experimental_option("prefs", prefs)
+options.add_argument('--no-sandbox')
 
 driver = webdriver.Chrome(options=options)
 driver.set_window_position(0, 0)

@@ -1,3 +1,5 @@
+{assign var="myArray" value=["https://localhost:19360/order/10624-stormcast-christmas-jumper-aos.html", "https://localhost:19360/394-gifts", "https://localhost:19360/393-2025-calendars"]}
+
 {if $homeslider.slides}
   <div class="info">
     <a href=".">
@@ -18,9 +20,14 @@
       {/foreach}
     </ol>
     <ul class="carousel-inner" role="listbox" aria-label="{l s='Carousel container' d='Shop.Theme.Global'}">
-      {foreach from=$homeslider.slides item=slide name='homeslider'}
+      {foreach from=$homeslider.slides item=slide key=idxSlide name='homeslider'}
+        {if isset($myArray[$idxSlide])}
+          {assign var="currentUrl" value=$myArray[$idxSlide]}
+        {else}
+          {assign var="currentUrl" value="#"}
+        {/if}
         <li class="carousel-item {if $smarty.foreach.homeslider.first}active{/if}" role="option" aria-hidden="{if $smarty.foreach.homeslider.first}false{else}true{/if}">
-          <a href="{$slide.url}">
+          <a href="{$currentUrl}">
             <figure>
               <img src="{$slide.image_url}" alt="{$slide.legend|escape}" loading="lazy" width="1110" height="340">
               {if $slide.title || $slide.description}
@@ -48,13 +55,13 @@
     </div>
   </div>
 
-  {assign var=imgUrl value=["https://localhost:8443/modules/ps_imageslider/images/slide2_1.webp", 
-                            "https://localhost:8443/modules/ps_imageslider/images/slide2_2.webp", 
-                            "https://localhost:8443/modules/ps_imageslider/images/slide2_3.webp"]}
+  {assign var=imgUrl value=["https://localhost:19360/modules/ps_imageslider/images/slide2_1.webp", 
+                            "https://localhost:19360/modules/ps_imageslider/images/slide2_2.webp", 
+                            "https://localhost:19360/modules/ps_imageslider/images/slide2_3.webp"]}
 
-{assign var=imgUrl value=["https://localhost:8443/modules/ps_imageslider/images/slide2_1.webp", 
-                            "https://localhost:8443/modules/ps_imageslider/images/slide2_2.webp", 
-                            "https://localhost:8443/modules/ps_imageslider/images/slide2_3.webp"]}
+{assign var=imgUrl value=["https://localhost:19360/modules/ps_imageslider/images/slide2_1.webp", 
+                            "https://localhost:19360/modules/ps_imageslider/images/slide2_2.webp", 
+                            "https://localhost:19360/modules/ps_imageslider/images/slide2_3.webp"]}
 
 <!-- Druga instancja slidera -->
 <div id="carousel-2" data-ride="carousel" class="carousel slide" data-interval="{$homeslider.speed}" data-wrap="{(string)$homeslider.wrap}" data-pause="{$homeslider.pause}" data-touch="true">

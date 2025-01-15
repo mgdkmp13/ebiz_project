@@ -1,3 +1,5 @@
+{assign var="myArray" value=["https://localhost:8443/order/10624-stormcast-christmas-jumper-aos.html", "https://localhost:8443/394-gifts", "https://localhost:8443/393-2025-calendars"]}
+
 {if $homeslider.slides}
   <div class="info">
     <a href=".">
@@ -18,9 +20,14 @@
       {/foreach}
     </ol>
     <ul class="carousel-inner" role="listbox" aria-label="{l s='Carousel container' d='Shop.Theme.Global'}">
-      {foreach from=$homeslider.slides item=slide name='homeslider'}
+      {foreach from=$homeslider.slides item=slide key=idxSlide name='homeslider'}
+        {if isset($myArray[$idxSlide])}
+          {assign var="currentUrl" value=$myArray[$idxSlide]}
+        {else}
+          {assign var="currentUrl" value="#"}
+        {/if}
         <li class="carousel-item {if $smarty.foreach.homeslider.first}active{/if}" role="option" aria-hidden="{if $smarty.foreach.homeslider.first}false{else}true{/if}">
-          <a href="{$slide.url}">
+          <a href="{$currentUrl}">
             <figure>
               <img src="{$slide.image_url}" alt="{$slide.legend|escape}" loading="lazy" width="1110" height="340">
               {if $slide.title || $slide.description}

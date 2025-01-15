@@ -4,13 +4,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
+from faker import Faker
 import random
 import json
 import time
 import os
 
-MAIN_PAGE_URL = "https://localhost:8443"
-CART_URL = "https://localhost:8443/koszyk?action=show"
+MAIN_PAGE_URL = "https://localhost:19360"
+CART_URL = "https://localhost:19360/koszyk?action=show"
 
 download_dir = os.path.abspath('./DownloadsFolder')
 if not os.path.exists(download_dir):
@@ -25,6 +26,7 @@ options = Options()
 options.add_argument('--ignore-certificate-errors')
 options.page_load_strategy = 'eager'
 options.add_experimental_option("prefs", prefs)
+options.add_argument('--no-sandbox')
 
 driver = webdriver.Chrome(options=options)
 driver.set_window_position(0, 0)
@@ -44,11 +46,9 @@ def parse_product_list(data):
 def search_product(name):
     search_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.ui-autocomplete-input")))
     search_input.send_keys(name)
-    time.sleep(0.4)
 
     first_result = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.ui-corner-all")))
     first_result.click()
-    time.sleep(0.4)
 
 
 def add_products(json_file_path):
@@ -64,44 +64,35 @@ def add_products(json_file_path):
         opis_element = driver.find_element(By.XPATH, "//a[contains(., 'Opis')]")
         actions.move_to_element(opis_element).perform()
 
-        time.sleep(1)
-
         quantity_input = wait.until(
             EC.visibility_of_element_located((By.CSS_SELECTOR, "button.btn-touchspin:nth-child(1)")))
 
         for _ in range(quantity - 1):
             quantity_input.click()
-            time.sleep(0.4)
 
         add_to_cart_button = wait.until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn.btn-primary.add-to-cart")))
         add_to_cart_button.click()
-        time.sleep(0.4)
 
         close_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.close")))
         close_button.click()
-        time.sleep(0.4)
 
 
 def add_random_products(name):
     search_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.ui-autocomplete-input")))
     search_input.clear()
     search_input.send_keys(name)
-    time.sleep(0.4)
 
     search_results = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a.ui-corner-all span")))
     random_result = random.choice(search_results)
     random_result.click()
-    time.sleep(0.4)
 
     add_to_cart_button = wait.until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "button.btn.btn-primary.add-to-cart")))
     add_to_cart_button.click()
-    time.sleep(0.4)
 
     close_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.close")))
     close_button.click()
-    time.sleep(0.4)
 
 
 def remove_from_cart(amount):
@@ -112,7 +103,6 @@ def remove_from_cart(amount):
     for i in range(amount):
         remove_button = cart_items[i].find_element(By.CSS_SELECTOR, "a.remove-from-cart")
         remove_button.click()
-        time.sleep(0.4)
 
         wait.until(EC.staleness_of(cart_items[i]))
 
@@ -123,60 +113,49 @@ def register_user():
     driver.get(MAIN_PAGE_URL)
     user_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.user-info > a")))
     user_button.click()
-    time.sleep(0.4)
 
     register_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "div.no-account > a")))
     register_button.click()
-    time.sleep(0.4)
 
     fill_registration()
-    time.sleep(0.4)
 
 
 def fill_registration():
+    fake = Faker()
+
     gender_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='field-id_gender-1']")))
     gender_button.click()
-    time.sleep(0.4)
 
     textbox_name = wait.until(EC.presence_of_element_located((By.ID, "field-firstname")))
-    textbox_name.send_keys("Name")
-    time.sleep(0.4)
+    textbox_name.send_keys(fake.first_name())
 
     textbox_surname = wait.until(EC.presence_of_element_located((By.ID, "field-lastname")))
-    textbox_surname.send_keys("Surname")
-    time.sleep(0.4)
+    textbox_surname.send_keys(fake.last_name())
 
     textbox_mail = wait.until(EC.presence_of_element_located((By.ID, "field-email")))
-    textbox_mail.send_keys("emaiil@email.com")
-    time.sleep(0.4)
+    textbox_mail.send_keys(fake.email())
 
     textbox_password = wait.until(EC.presence_of_element_located((By.ID, "field-password")))
-    textbox_password.send_keys("password")
-    time.sleep(0.4)
+    textbox_password.send_keys(fake.password())
 
     textbox_birthday = wait.until(EC.presence_of_element_located((By.ID, "field-birthday")))
     textbox_birthday.send_keys("2000-01-01")
-    time.sleep(0.4)
 
     checkbox_offer = wait.until(
         EC.element_to_be_clickable((By.XPATH, "//label[contains(., 'Otrzymuj oferty od naszych partnerów')]")))
     checkbox_offer.click()
-    time.sleep(0.4)
 
     checkbox_personal_data = wait.until(
         EC.element_to_be_clickable((By.XPATH, "//label[contains(., 'Wiadomość o przetwarzaniu danych osobowych')]")))
     checkbox_personal_data.click()
-    time.sleep(0.4)
 
     checkbox_newsletter = wait.until(
         EC.element_to_be_clickable((By.XPATH, "//label[contains(., 'Zapisz się do newslettera')]")))
     checkbox_newsletter.click()
-    time.sleep(0.4)
 
     checkbox_policy = wait.until(EC.element_to_be_clickable(
         (By.XPATH, "//label[contains(., 'Zgadzam się z regulaminem i polityką prywatności')]")))
     checkbox_policy.click()
-    time.sleep(0.4)
 
     save_button = wait.until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, "button.btn.btn-primary.form-control-submit.float-xs-right")))
@@ -194,65 +173,51 @@ def start_order():
     driver.get(CART_URL)
     finialize_order_button = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.btn.btn-primary")))
     finialize_order_button.click()
-    time.sleep(0.4)
 
 
 def fill_address():
     texbox_adress = wait.until(EC.element_to_be_clickable((By.ID, "field-address1")))
     texbox_adress.send_keys("adres")
-    time.sleep(0.4)
 
     textbox_postcode = wait.until(EC.presence_of_element_located((By.ID, "field-postcode")))
     textbox_postcode.send_keys("00-000")
-    time.sleep(0.4)
 
     textbox_city = wait.until(EC.presence_of_element_located((By.ID, "field-city")))
     textbox_city.send_keys("Gdansk")
-    time.sleep(0.4)
 
     textbox_phone = wait.until(EC.presence_of_element_located((By.ID, "field-phone")))
     textbox_phone.send_keys("000000000")
-    time.sleep(0.4)
 
     continue_button = wait.until(EC.element_to_be_clickable(
         (By.CSS_SELECTOR, "footer.form-footer.clearfix > button.continue.btn.btn-primary.float-xs-right")))
     continue_button.click()
-    time.sleep(0.4)
-
 
 def choose_delivery_method():
     delivery_method_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='delivery_option_9']")))
     delivery_method_button.click()
-    time.sleep(0.4)
 
     continue_button = wait.until(
         EC.element_to_be_clickable((By.CSS_SELECTOR, "form.clearfix > button.continue.btn.btn-primary.float-xs-right")))
     continue_button.click()
-    time.sleep(0.4)
 
 
 def choose_payment_method_and_finalize():
     payment_method_option = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='payment-option-2']")))
     payment_method_option.click()
-    time.sleep(0.4)
 
     checkbox_terms = wait.until(EC.presence_of_element_located((By.ID, "conditions_to_approve[terms-and-conditions]")))
     checkbox_terms.click()
-    time.sleep(0.4)
 
     continue_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'button.btn.btn-primary.center-block')))
     continue_button.click()
-    time.sleep(0.4)
 
 
 def check_order_status():
     my_account_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'div.user-info > a.account')))
     my_account_button.click()
-    time.sleep(0.4)
 
     history_button = wait.until(EC.element_to_be_clickable((By.ID, 'history-link')))
     history_button.click()
-    time.sleep(0.4)
 
     order_status = wait.until(
         EC.presence_of_element_located((By.CSS_SELECTOR, 'tbody > tr > td > span.label.label-pill.bright')))
@@ -266,7 +231,7 @@ def check_order_status():
 def get_invoice():
     invoice_download_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, 'tbody > tr > td.text-sm-center.hidden-md-down > a > i.material-icons')))
     invoice_download_button.click()
-    time.sleep(5)
+    time.sleep(5) # waiting for invoice to be downloaded
 
     files = [f for f in os.listdir(download_dir) if f.startswith("FV") and f.endswith(".pdf")]
     try:

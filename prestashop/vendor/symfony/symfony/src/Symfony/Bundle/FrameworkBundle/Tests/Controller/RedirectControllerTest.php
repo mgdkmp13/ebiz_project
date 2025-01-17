@@ -186,15 +186,15 @@ class RedirectControllerTest extends TestCase
             ['http',  4080,  null, 'http',  8080, ':4080'],
             ['http',  80,    null, 'http',  8080, ''],
             ['https', null,  null, 'http',  8080, ''],
-            ['https', null,  8443, 'http',  8080, ':8443'],
+            ['https', null,  19360, 'http',  8080, ':19360'],
             ['https', null,  443,  'http',  8080, ''],
 
-            ['https', null,  null, 'https', 8443, ':8443'],
-            ['https', null,  4443, 'https', 8443, ':4443'],
-            ['https', null,  443,  'https', 8443, ''],
-            ['http',  null,  null, 'https', 8443, ''],
-            ['http',  8080,  4443, 'https', 8443, ':8080'],
-            ['http',  80,    4443, 'https', 8443, ''],
+            ['https', null,  null, 'https', 19360, ':19360'],
+            ['https', null,  4443, 'https', 19360, ':4443'],
+            ['https', null,  443,  'https', 19360, ''],
+            ['http',  null,  null, 'https', 19360, ''],
+            ['http',  8080,  4443, 'https', 19360, ':8080'],
+            ['http',  80,    4443, 'https', 19360, ''],
         ];
     }
 

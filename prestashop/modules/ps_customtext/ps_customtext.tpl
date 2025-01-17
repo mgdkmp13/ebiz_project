@@ -28,22 +28,22 @@
     <h2>NEW COLLECTIONS</h2>
     <div class="product-row">
         <div class="product">
-            <img src="https://localhost:8443/modules/ps_customtext/images/1.webp" alt="Dwarfen Mountain Holds">
+            <img src="https://localhost:19360/modules/ps_customtext/images/1.webp" alt="Dwarfen Mountain Holds">
             <h3>Dwarfen Mountain Holds</h3>
             <button class="shop-now">SHOP NOW</button>
         </div>
         <div class="product">
-            <img src="https://localhost:8443/modules/ps_customtext/images/2.webp" alt="Warhammer 40,000: Space Marine 2">
+            <img src="https://localhost:19360/modules/ps_customtext/images/2.webp" alt="Warhammer 40,000: Space Marine 2">
             <h3>Warhammer 40,000: Space Marine 2</h3>
             <button class="shop-now">SHOP NOW</button>
         </div>
         <div class="product">
-            <img src="https://localhost:8443/modules/ps_customtext/images/3.webp" alt="Blood Bowl III">
+            <img src="https://localhost:19360/modules/ps_customtext/images/3.webp" alt="Blood Bowl III">
             <h3>Blood Bowl III</h3>
             <button class="shop-now">SHOP NOW</button>
         </div>
         <div class="product">
-            <img src="https://localhost:8443/modules/ps_customtext/images/4.webp" alt="Stormcast Eternals & Skaven">
+            <img src="https://localhost:19360/modules/ps_customtext/images/4.webp" alt="Stormcast Eternals & Skaven">
             <h3>Stormcast Eternals & Skaven</h3>
             <button class="shop-now">SHOP NOW</button>
         </div>

@@ -44,8 +44,11 @@ def parse_product_list(data):
 
 
 def search_product(name):
+    time.sleep(0.3)
     search_input = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input.ui-autocomplete-input")))
     search_input.send_keys(name)
+
+    wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "ul.ui-autocomplete > li")))
 
     first_result = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a.ui-corner-all")))
     first_result.click()
